@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/itayargi/willingapp.git/static/css/main.77862792.chunk.css",
+    "main.js": "/itayargi/willingapp.git/static/js/main.6ea01cb8.chunk.js",
+    "main.js.map": "/itayargi/willingapp.git/static/js/main.6ea01cb8.chunk.js.map",
+    "runtime-main.js": "/itayargi/willingapp.git/static/js/runtime-main.91565520.js",
+    "runtime-main.js.map": "/itayargi/willingapp.git/static/js/runtime-main.91565520.js.map",
+    "static/css/2.de424728.chunk.css": "/itayargi/willingapp.git/static/css/2.de424728.chunk.css",
+    "static/js/2.2dfbbd1a.chunk.js": "/itayargi/willingapp.git/static/js/2.2dfbbd1a.chunk.js",
+    "static/js/2.2dfbbd1a.chunk.js.map": "/itayargi/willingapp.git/static/js/2.2dfbbd1a.chunk.js.map",
+    "index.html": "/itayargi/willingapp.git/index.html",
+    "precache-manifest.8c974ffccbea065a70f393ff62090072.js": "/itayargi/willingapp.git/precache-manifest.8c974ffccbea065a70f393ff62090072.js",
+    "service-worker.js": "/itayargi/willingapp.git/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/itayargi/willingapp.git/static/css/2.de424728.chunk.css.map",
+    "static/css/main.77862792.chunk.css.map": "/itayargi/willingapp.git/static/css/main.77862792.chunk.css.map",
+    "static/js/2.2dfbbd1a.chunk.js.LICENSE.txt": "/itayargi/willingapp.git/static/js/2.2dfbbd1a.chunk.js.LICENSE.txt",
+    "static/media/Verify.css": "/itayargi/willingapp.git/static/media/willing.1fcdc4ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91565520.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.2dfbbd1a.chunk.js",
+    "static/css/main.77862792.chunk.css",
+    "static/js/main.6ea01cb8.chunk.js"
+  ]
+}
