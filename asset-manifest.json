@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/willingapp/static/css/main.777cc66e.chunk.css",
+    "main.css": "/willingapp/static/css/main.398452ea.chunk.css",
     "main.js": "/willingapp/static/js/main.13f427fb.chunk.js",
     "main.js.map": "/willingapp/static/js/main.13f427fb.chunk.js.map",
     "runtime-main.js": "/willingapp/static/js/runtime-main.6747bbdb.js",
@@ -9,10 +9,10 @@
     "static/js/2.2dfbbd1a.chunk.js": "/willingapp/static/js/2.2dfbbd1a.chunk.js",
     "static/js/2.2dfbbd1a.chunk.js.map": "/willingapp/static/js/2.2dfbbd1a.chunk.js.map",
     "index.html": "/willingapp/index.html",
-    "precache-manifest.4342010149efcedc372a2185cc78c789.js": "/willingapp/precache-manifest.4342010149efcedc372a2185cc78c789.js",
+    "precache-manifest.1e49276c7e0af4b047bc3730990e5861.js": "/willingapp/precache-manifest.1e49276c7e0af4b047bc3730990e5861.js",
     "service-worker.js": "/willingapp/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/willingapp/static/css/2.de424728.chunk.css.map",
-    "static/css/main.777cc66e.chunk.css.map": "/willingapp/static/css/main.777cc66e.chunk.css.map",
+    "static/css/main.398452ea.chunk.css.map": "/willingapp/static/css/main.398452ea.chunk.css.map",
     "static/js/2.2dfbbd1a.chunk.js.LICENSE.txt": "/willingapp/static/js/2.2dfbbd1a.chunk.js.LICENSE.txt",
     "static/media/Verify.css": "/willingapp/static/media/willing.1fcdc4ee.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.6747bbdb.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.2dfbbd1a.chunk.js",
-    "static/css/main.777cc66e.chunk.css",
+    "static/css/main.398452ea.chunk.css",
     "static/js/main.13f427fb.chunk.js"
   ]
 }
