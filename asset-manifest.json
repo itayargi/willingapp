@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/willingapp/static/css/main.60861f95.chunk.css",
-    "main.js": "/willingapp/static/js/main.d1c3fb30.chunk.js",
-    "main.js.map": "/willingapp/static/js/main.d1c3fb30.chunk.js.map",
+    "main.css": "/willingapp/static/css/main.777cc66e.chunk.css",
+    "main.js": "/willingapp/static/js/main.13f427fb.chunk.js",
+    "main.js.map": "/willingapp/static/js/main.13f427fb.chunk.js.map",
     "runtime-main.js": "/willingapp/static/js/runtime-main.6747bbdb.js",
     "runtime-main.js.map": "/willingapp/static/js/runtime-main.6747bbdb.js.map",
     "static/css/2.de424728.chunk.css": "/willingapp/static/css/2.de424728.chunk.css",
     "static/js/2.2dfbbd1a.chunk.js": "/willingapp/static/js/2.2dfbbd1a.chunk.js",
     "static/js/2.2dfbbd1a.chunk.js.map": "/willingapp/static/js/2.2dfbbd1a.chunk.js.map",
     "index.html": "/willingapp/index.html",
-    "precache-manifest.7e0e71411adee1d1eee6f57b3f415cfa.js": "/willingapp/precache-manifest.7e0e71411adee1d1eee6f57b3f415cfa.js",
+    "precache-manifest.4342010149efcedc372a2185cc78c789.js": "/willingapp/precache-manifest.4342010149efcedc372a2185cc78c789.js",
     "service-worker.js": "/willingapp/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/willingapp/static/css/2.de424728.chunk.css.map",
-    "static/css/main.60861f95.chunk.css.map": "/willingapp/static/css/main.60861f95.chunk.css.map",
+    "static/css/main.777cc66e.chunk.css.map": "/willingapp/static/css/main.777cc66e.chunk.css.map",
     "static/js/2.2dfbbd1a.chunk.js.LICENSE.txt": "/willingapp/static/js/2.2dfbbd1a.chunk.js.LICENSE.txt",
     "static/media/Verify.css": "/willingapp/static/media/willing.1fcdc4ee.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.6747bbdb.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.2dfbbd1a.chunk.js",
-    "static/css/main.60861f95.chunk.css",
-    "static/js/main.d1c3fb30.chunk.js"
+    "static/css/main.777cc66e.chunk.css",
+    "static/js/main.13f427fb.chunk.js"
   ]
 }
