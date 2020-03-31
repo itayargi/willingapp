@@ -5,7 +5,7 @@ import './Verify.css'
 export default class Verify extends Component {
     render() {
         return (
-            <div className="container">
+            <div style={{height:"100vh"}} className="container">
                 <div className="verifyUper">
                     <h4 style={{marginTop:20, color:"white"}}>VERIFY YOUR PHONE NUMBER</h4>
 

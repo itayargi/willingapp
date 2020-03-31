@@ -24,7 +24,7 @@ export default class VerifyComplete extends Component {
     var interval= setInterval(timeIt, 1000);
 
         return (
-            <div style={{marginTop:50, backgroundColor:"rgb(79, 146, 193)",height:"667pt",width:"375pt"}} className="container">
+            <div style={{backgroundColor:"rgb(79, 146, 193)",height:"100vh",width:"100%"}} className="container">
                 <div style={{ }} className="headers">
                     <h3>VERIFICATION CODE</h3>
                     <p>Please enter the SMS Verification code

@@ -1,0 +1,12 @@
+[
+ {
+   "command": "onboarding_01_head",
+   "hebrew": " ����",
+   "english": "HELP"
+ },
+ {
+   "command": "onboarding_01_body",
+   "hebrew": "��� �� ���� ���� ������� ���������� ������ �����.��������� ������ �����.",
+   "english": "Ask what you want"
+ }
+]

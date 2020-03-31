@@ -1,18 +1,27 @@
 {
   "name": "willingapp",
   "version": "0.1.0",
-  "homepage": "https://github.com/itayargi/willingapp.git",
+  "homepage": "https://itayargi.github.io/willingapp",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "fomantic-ui": "^2.8.4",
+    "fomantic-ui-css": "^2.8.4",
+    "jsonfile": "^6.0.1",
     "react": "^16.13.0",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-view-pager": "^0.6.0",
+    "semantic-ui-react": "^0.88.2",
+    "write-json-file": "^4.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

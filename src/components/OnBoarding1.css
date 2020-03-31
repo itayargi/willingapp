@@ -1,0 +1,24 @@
+.pictureUp{
+    height: 50vh;
+    object-fit: cover;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    max-height: 100vh;
+    display: grid;
+}
+.kituv{
+    max-width: 300pt;
+    min-height: 30vh;
+}
+
+.partUp{
+    max-height: 50vh;
+}
+.partDown{
+    max-height: 100vh;
+}
