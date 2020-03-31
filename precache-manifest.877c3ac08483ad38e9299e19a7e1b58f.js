@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dc5db36ba8d19dfc7a4acd64756288a",
+    "revision": "f63698a8630f764ba1f6309f56a70a81",
     "url": "/willingapp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/willingapp/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "6735fccd73d2101a4bf0",
+    "revision": "ffea77631f5e877a5344",
     "url": "/willingapp/static/css/main.7c43bba3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/willingapp/static/js/2.a38fc732.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6735fccd73d2101a4bf0",
-    "url": "/willingapp/static/js/main.6a7e96b2.chunk.js"
+    "revision": "ffea77631f5e877a5344",
+    "url": "/willingapp/static/js/main.dbc493a1.chunk.js"
   },
   {
     "revision": "35c3e7414cfe8985dccc",
