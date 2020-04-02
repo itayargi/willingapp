@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c1d63974c94a274208f2913f22dce9c",
+    "revision": "5498eaff0e95858a4f5ef5122e667b6d",
     "url": "/willingapp/index.html"
   },
   {
-    "revision": "b8700ba99dbe376a32bc",
+    "revision": "01986411f2f94b4a9d6c",
     "url": "/willingapp/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "681bb9277d9c3ae0530d",
-    "url": "/willingapp/static/css/main.7c43bba3.chunk.css"
+    "revision": "10bd2bd416c860f6037a",
+    "url": "/willingapp/static/css/main.e71985ac.chunk.css"
   },
   {
-    "revision": "b8700ba99dbe376a32bc",
-    "url": "/willingapp/static/js/2.c6e0e06e.chunk.js"
+    "revision": "01986411f2f94b4a9d6c",
+    "url": "/willingapp/static/js/2.b3b891f1.chunk.js"
   },
   {
     "revision": "0a80d11ce330483c52028ec8ef3dd64d",
-    "url": "/willingapp/static/js/2.c6e0e06e.chunk.js.LICENSE.txt"
+    "url": "/willingapp/static/js/2.b3b891f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "681bb9277d9c3ae0530d",
-    "url": "/willingapp/static/js/main.dce9d42a.chunk.js"
+    "revision": "10bd2bd416c860f6037a",
+    "url": "/willingapp/static/js/main.2e5db7c3.chunk.js"
   },
   {
     "revision": "35c3e7414cfe8985dccc",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "761208aee39682bfc3b41a10e7c61a2d",
     "url": "/willingapp/static/media/Onboarding_02.761208ae.png"
-  },
-  {
-    "revision": "ffd10a180d6599f897f2c5ed02497032",
-    "url": "/willingapp/static/media/Onboarding_03.ffd10a18.png"
   },
   {
     "revision": "088a34f78f530102fd9661173b4a4f26",

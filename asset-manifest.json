@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/willingapp/static/css/main.7c43bba3.chunk.css",
-    "main.js": "/willingapp/static/js/main.dce9d42a.chunk.js",
-    "main.js.map": "/willingapp/static/js/main.dce9d42a.chunk.js.map",
+    "main.css": "/willingapp/static/css/main.e71985ac.chunk.css",
+    "main.js": "/willingapp/static/js/main.2e5db7c3.chunk.js",
+    "main.js.map": "/willingapp/static/js/main.2e5db7c3.chunk.js.map",
     "runtime-main.js": "/willingapp/static/js/runtime-main.6747bbdb.js",
     "runtime-main.js.map": "/willingapp/static/js/runtime-main.6747bbdb.js.map",
     "static/css/2.de424728.chunk.css": "/willingapp/static/css/2.de424728.chunk.css",
-    "static/js/2.c6e0e06e.chunk.js": "/willingapp/static/js/2.c6e0e06e.chunk.js",
-    "static/js/2.c6e0e06e.chunk.js.map": "/willingapp/static/js/2.c6e0e06e.chunk.js.map",
+    "static/js/2.b3b891f1.chunk.js": "/willingapp/static/js/2.b3b891f1.chunk.js",
+    "static/js/2.b3b891f1.chunk.js.map": "/willingapp/static/js/2.b3b891f1.chunk.js.map",
     "index.html": "/willingapp/index.html",
-    "precache-manifest.266c6e8d9e5bc1865754a66917fb4b2d.js": "/willingapp/precache-manifest.266c6e8d9e5bc1865754a66917fb4b2d.js",
+    "precache-manifest.e0d1a87186c63fa337d3dc351521f626.js": "/willingapp/precache-manifest.e0d1a87186c63fa337d3dc351521f626.js",
     "service-worker.js": "/willingapp/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/willingapp/static/css/2.de424728.chunk.css.map",
-    "static/css/main.7c43bba3.chunk.css.map": "/willingapp/static/css/main.7c43bba3.chunk.css.map",
-    "static/js/2.c6e0e06e.chunk.js.LICENSE.txt": "/willingapp/static/js/2.c6e0e06e.chunk.js.LICENSE.txt",
+    "static/css/main.e71985ac.chunk.css.map": "/willingapp/static/css/main.e71985ac.chunk.css.map",
+    "static/js/2.b3b891f1.chunk.js.LICENSE.txt": "/willingapp/static/js/2.b3b891f1.chunk.js.LICENSE.txt",
     "static/media/Onboarding_01.png": "/willingapp/static/media/Onboarding_01.2f00ad42.png",
     "static/media/Onboarding_02.png": "/willingapp/static/media/Onboarding_02.761208ae.png",
-    "static/media/Onboarding_03.png": "/willingapp/static/media/Onboarding_03.ffd10a18.png",
     "static/media/semantic.css": "/willingapp/static/media/outline-icons.ece54318.ttf",
     "static/media/lamp.png": "/willingapp/static/media/lamp.0526ce76.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6747bbdb.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.c6e0e06e.chunk.js",
-    "static/css/main.7c43bba3.chunk.css",
-    "static/js/main.dce9d42a.chunk.js"
+    "static/js/2.b3b891f1.chunk.js",
+    "static/css/main.e71985ac.chunk.css",
+    "static/js/main.2e5db7c3.chunk.js"
   ]
 }
