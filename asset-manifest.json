@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/willingapp/static/css/main.42219fe4.chunk.css",
-    "main.js": "/willingapp/static/js/main.912725b0.chunk.js",
-    "main.js.map": "/willingapp/static/js/main.912725b0.chunk.js.map",
+    "main.js": "/willingapp/static/js/main.dc28c327.chunk.js",
+    "main.js.map": "/willingapp/static/js/main.dc28c327.chunk.js.map",
     "runtime-main.js": "/willingapp/static/js/runtime-main.6747bbdb.js",
     "runtime-main.js.map": "/willingapp/static/js/runtime-main.6747bbdb.js.map",
     "static/css/2.de424728.chunk.css": "/willingapp/static/css/2.de424728.chunk.css",
     "static/js/2.337bea20.chunk.js": "/willingapp/static/js/2.337bea20.chunk.js",
     "static/js/2.337bea20.chunk.js.map": "/willingapp/static/js/2.337bea20.chunk.js.map",
     "index.html": "/willingapp/index.html",
-    "precache-manifest.4baf3e451354bbe543f891606aed30d2.js": "/willingapp/precache-manifest.4baf3e451354bbe543f891606aed30d2.js",
+    "precache-manifest.1002ac4de826f8aca9676c5a88c98219.js": "/willingapp/precache-manifest.1002ac4de826f8aca9676c5a88c98219.js",
     "service-worker.js": "/willingapp/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/willingapp/static/css/2.de424728.chunk.css.map",
     "static/css/main.42219fe4.chunk.css.map": "/willingapp/static/css/main.42219fe4.chunk.css.map",
@@ -34,6 +34,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.337bea20.chunk.js",
     "static/css/main.42219fe4.chunk.css",
-    "static/js/main.912725b0.chunk.js"
+    "static/js/main.dc28c327.chunk.js"
   ]
 }
