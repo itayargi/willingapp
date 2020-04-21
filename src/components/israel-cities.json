@@ -1,0 +1,6165 @@
+[
+    {
+        "id": "1",
+        "name": "אבו גוש",
+        "english_name": "ABU GHOSH"
+    },
+    {
+        "id": "2",
+        "name": "אבו סנאן",
+        "english_name": "ABU SINAN"
+    },
+    {
+        "id": "3",
+        "name": "אבו תלול",
+        "english_name": "ABU TULUL"
+    },
+    {
+        "id": "4",
+        "name": "אבטין",
+        "english_name": "IBTIN"
+    },
+    {
+        "id": "5",
+        "name": "אבטליון",
+        "english_name": "AVTALYON"
+    },
+    {
+        "id": "6",
+        "name": "אביאל",
+        "english_name": "AVI'EL"
+    },
+    {
+        "id": "7",
+        "name": "אביבים",
+        "english_name": "AVIVIM"
+    },
+    {
+        "id": "8",
+        "name": "אביגדור",
+        "english_name": "AVIGEDOR"
+    },
+    {
+        "id": "9",
+        "name": "אביחיל",
+        "english_name": "AVIHAYIL"
+    },
+    {
+        "id": "10",
+        "name": "אביטל",
+        "english_name": "AVITAL"
+    },
+    {
+        "id": "11",
+        "name": "אביעזר",
+        "english_name": "AVI'EZER"
+    },
+    {
+        "id": "12",
+        "name": "אבירים",
+        "english_name": "ABBIRIM"
+    },
+    {
+        "id": "13",
+        "name": "אבן יהודה",
+        "english_name": "EVEN YEHUDA"
+    },
+    {
+        "id": "14",
+        "name": "אבן מנחם",
+        "english_name": "EVEN MENAHEM"
+    },
+    {
+        "id": "15",
+        "name": "אבן ספיר",
+        "english_name": "EVEN SAPPIR"
+    },
+    {
+        "id": "16",
+        "name": "אבן שמואל",
+        "english_name": "EVEN SHEMU'EL"
+    },
+    {
+        "id": "17",
+        "name": "אבני איתן",
+        "english_name": "AVNE ETAN"
+    },
+    {
+        "id": "18",
+        "name": "אבני חפץ",
+        "english_name": "AVNE HEFEZ"
+    },
+    {
+        "id": "19",
+        "name": "אבנת",
+        "english_name": "AVENAT"
+    },
+    {
+        "id": "20",
+        "name": "אבשלום",
+        "english_name": "AVSHALOM"
+    },
+    {
+        "id": "21",
+        "name": "אדורה",
+        "english_name": "ADORA"
+    },
+    {
+        "id": "22",
+        "name": "אדירים",
+        "english_name": "ADDIRIM"
+    },
+    {
+        "id": "23",
+        "name": "אדמית",
+        "english_name": "ADAMIT"
+    },
+    {
+        "id": "24",
+        "name": "אדרת",
+        "english_name": "ADDERET"
+    },
+    {
+        "id": "25",
+        "name": "אודים",
+        "english_name": "UDIM"
+    },
+    {
+        "id": "26",
+        "name": "אודם",
+        "english_name": "ODEM"
+    },
+    {
+        "id": "27",
+        "name": "אוהד",
+        "english_name": "OHAD"
+    },
+    {
+        "id": "28",
+        "name": "אום אל-פחם",
+        "english_name": "UMM AL-FAHM"
+    },
+    {
+        "id": "29",
+        "name": "אום אל-קוטוף",
+        "english_name": "UMM AL-QUTUF"
+    },
+    {
+        "id": "30",
+        "name": "אום בטין",
+        "english_name": ""
+    },
+    {
+        "id": "31",
+        "name": "אומן",
+        "english_name": "OMEN"
+    },
+    {
+        "id": "32",
+        "name": "אומץ",
+        "english_name": "OMEZ"
+    },
+    {
+        "id": "33",
+        "name": "אופקים",
+        "english_name": "OFAQIM"
+    },
+    {
+        "id": "34",
+        "name": "אור הגנוז",
+        "english_name": "OR HAGANUZ"
+    },
+    {
+        "id": "35",
+        "name": "אור הנר",
+        "english_name": "OR HANER"
+    },
+    {
+        "id": "36",
+        "name": "אור יהודה",
+        "english_name": "OR YEHUDA"
+    },
+    {
+        "id": "37",
+        "name": "אור עקיבא",
+        "english_name": "OR AQIVA"
+    },
+    {
+        "id": "38",
+        "name": "אורה",
+        "english_name": "ORA"
+    },
+    {
+        "id": "39",
+        "name": "אורות",
+        "english_name": "OROT"
+    },
+    {
+        "id": "40",
+        "name": "אורטל",
+        "english_name": "ORTAL"
+    },
+    {
+        "id": "41",
+        "name": "אורים",
+        "english_name": "URIM"
+    },
+    {
+        "id": "42",
+        "name": "אורנים",
+        "english_name": "ORANIM"
+    },
+    {
+        "id": "43",
+        "name": "אורנית",
+        "english_name": "ORANIT"
+    },
+    {
+        "id": "44",
+        "name": "אושה",
+        "english_name": "USHA"
+    },
+    {
+        "id": "45",
+        "name": "אזור",
+        "english_name": "AZOR"
+    },
+    {
+        "id": "46",
+        "name": "אחווה",
+        "english_name": "AHAWA"
+    },
+    {
+        "id": "47",
+        "name": "אחוזם",
+        "english_name": "AHUZZAM"
+    },
+    {
+        "id": "48",
+        "name": "אחוזת ברק",
+        "english_name": ""
+    },
+    {
+        "id": "49",
+        "name": "אחיהוד",
+        "english_name": "AHIHUD"
+    },
+    {
+        "id": "50",
+        "name": "אחיטוב",
+        "english_name": "AHITUV"
+    },
+    {
+        "id": "51",
+        "name": "אחיסמך",
+        "english_name": "AHISAMAKH"
+    },
+    {
+        "id": "52",
+        "name": "אחיעזר",
+        "english_name": "AHI'EZER"
+    },
+    {
+        "id": "53",
+        "name": "איבים",
+        "english_name": "IBBIM"
+    },
+    {
+        "id": "54",
+        "name": "אייל",
+        "english_name": "EYAL"
+    },
+    {
+        "id": "55",
+        "name": "איילת השחר",
+        "english_name": "AYYELET HASHAHAR"
+    },
+    {
+        "id": "56",
+        "name": "אילון",
+        "english_name": "ELON"
+    },
+    {
+        "id": "57",
+        "name": "אילות",
+        "english_name": "ELOT"
+    },
+    {
+        "id": "58",
+        "name": "אילניה",
+        "english_name": "ILANIYYA"
+    },
+    {
+        "id": "59",
+        "name": "אילת",
+        "english_name": "ELAT"
+    },
+    {
+        "id": "60",
+        "name": "אירוס",
+        "english_name": "IRUS"
+    },
+    {
+        "id": "61",
+        "name": "איתמר",
+        "english_name": "ITAMAR"
+    },
+    {
+        "id": "62",
+        "name": "איתן",
+        "english_name": "ETAN"
+    },
+    {
+        "id": "63",
+        "name": "איתנים",
+        "english_name": "ETANIM"
+    },
+    {
+        "id": "64",
+        "name": "אכסאל",
+        "english_name": "IKSAL"
+    },
+    {
+        "id": "65",
+        "name": "אל סייד",
+        "english_name": ""
+    },
+    {
+        "id": "66",
+        "name": "אל-עזי",
+        "english_name": ""
+    },
+    {
+        "id": "67",
+        "name": "אל-עריאן",
+        "english_name": "AL-ARYAN"
+    },
+    {
+        "id": "68",
+        "name": "אל-רום",
+        "english_name": "EL-ROM"
+    },
+    {
+        "id": "69",
+        "name": "אלומה",
+        "english_name": "ALUMMA"
+    },
+    {
+        "id": "70",
+        "name": "אלומות",
+        "english_name": "ALUMMOT"
+    },
+    {
+        "id": "71",
+        "name": "אלון הגליל",
+        "english_name": "ALLON HAGALIL"
+    },
+    {
+        "id": "72",
+        "name": "אלון מורה",
+        "english_name": "ELON MORE"
+    },
+    {
+        "id": "73",
+        "name": "אלון שבות",
+        "english_name": "ALLON SHEVUT"
+    },
+    {
+        "id": "74",
+        "name": "אלוני אבא",
+        "english_name": "ALLONE ABBA"
+    },
+    {
+        "id": "75",
+        "name": "אלוני הבשן",
+        "english_name": "ALLONE HABASHAN"
+    },
+    {
+        "id": "76",
+        "name": "אלוני יצחק",
+        "english_name": "ALLONE YIZHAQ"
+    },
+    {
+        "id": "77",
+        "name": "אלונים",
+        "english_name": "ALLONIM"
+    },
+    {
+        "id": "78",
+        "name": "אלי-עד",
+        "english_name": "ELI AL"
+    },
+    {
+        "id": "79",
+        "name": "אליאב",
+        "english_name": "ELIAV"
+    },
+    {
+        "id": "80",
+        "name": "אליכין",
+        "english_name": "ELYAKHIN"
+    },
+    {
+        "id": "81",
+        "name": "אליפז",
+        "english_name": "ELIFAZ"
+    },
+    {
+        "id": "82",
+        "name": "אליפלט",
+        "english_name": "ELIFELET"
+    },
+    {
+        "id": "83",
+        "name": "אליקים",
+        "english_name": "ELYAQIM"
+    },
+    {
+        "id": "84",
+        "name": "אלישיב",
+        "english_name": "ELYASHIV"
+    },
+    {
+        "id": "85",
+        "name": "אלישמע",
+        "english_name": "ELISHAMA"
+    },
+    {
+        "id": "86",
+        "name": "אלמגור",
+        "english_name": "ALMAGOR"
+    },
+    {
+        "id": "87",
+        "name": "אלמוג",
+        "english_name": "ALMOG"
+    },
+    {
+        "id": "88",
+        "name": "אלעד",
+        "english_name": ""
+    },
+    {
+        "id": "89",
+        "name": "אלעזר",
+        "english_name": "EL'AZAR"
+    },
+    {
+        "id": "90",
+        "name": "אלפי מנשה",
+        "english_name": "ALFE MENASHE"
+    },
+    {
+        "id": "91",
+        "name": "אלקוש",
+        "english_name": "ELQOSH"
+    },
+    {
+        "id": "92",
+        "name": "אלקנה",
+        "english_name": "ELQANA"
+    },
+    {
+        "id": "93",
+        "name": "אמונים",
+        "english_name": "EMUNIM"
+    },
+    {
+        "id": "94",
+        "name": "אמירים",
+        "english_name": "AMIRIM"
+    },
+    {
+        "id": "95",
+        "name": "אמנון",
+        "english_name": "AMNUN"
+    },
+    {
+        "id": "96",
+        "name": "אמציה",
+        "english_name": "AMAZYA"
+    },
+    {
+        "id": "97",
+        "name": "אניעם",
+        "english_name": "ANI'AM"
+    },
+    {
+        "id": "98",
+        "name": "אספר",
+        "english_name": "ASEFAR"
+    },
+    {
+        "id": "99",
+        "name": "אעבלין",
+        "english_name": "I'BILLIN"
+    },
+    {
+        "id": "100",
+        "name": "אפיק",
+        "english_name": "AFIQ"
+    },
+    {
+        "id": "101",
+        "name": "אפיקים",
+        "english_name": "AFIQIM"
+    },
+    {
+        "id": "102",
+        "name": "אפק",
+        "english_name": "AFEQ"
+    },
+    {
+        "id": "103",
+        "name": "אפרת",
+        "english_name": "EFRAT"
+    },
+    {
+        "id": "104",
+        "name": "ארבל",
+        "english_name": "ARBEL"
+    },
+    {
+        "id": "105",
+        "name": "ארגמן",
+        "english_name": "ARGAMAN"
+    },
+    {
+        "id": "106",
+        "name": "ארז",
+        "english_name": "EREZ"
+    },
+    {
+        "id": "107",
+        "name": "אריאל",
+        "english_name": "ARI'EL"
+    },
+    {
+        "id": "108",
+        "name": "ארסוף",
+        "english_name": "ARSUF"
+    },
+    {
+        "id": "109",
+        "name": "אשבול",
+        "english_name": "ESHBOL"
+    },
+    {
+        "id": "110",
+        "name": "אשבל",
+        "english_name": "NAHAL ESHBAL"
+    },
+    {
+        "id": "111",
+        "name": "אשדוד",
+        "english_name": "ASHDOD"
+    },
+    {
+        "id": "112",
+        "name": "אשדות יעקב",
+        "english_name": "ASHDOT YA'AQOV"
+    },
+    {
+        "id": "113",
+        "name": "אשחר",
+        "english_name": "ESHHAR"
+    },
+    {
+        "id": "114",
+        "name": "אשכולות",
+        "english_name": "ESHKOLOT"
+    },
+    {
+        "id": "115",
+        "name": "אשל הנשיא",
+        "english_name": "ESHEL HANASI"
+    },
+    {
+        "id": "116",
+        "name": "אשלים",
+        "english_name": "ASHALIM"
+    },
+    {
+        "id": "117",
+        "name": "אשקלון",
+        "english_name": "ASHQELON"
+    },
+    {
+        "id": "118",
+        "name": "אשרת",
+        "english_name": "ASHERAT"
+    },
+    {
+        "id": "119",
+        "name": "אשתאול",
+        "english_name": "ESHTA'OL"
+    },
+    {
+        "id": "120",
+        "name": "אתגר",
+        "english_name": "ETGAR"
+    },
+    {
+        "id": "121",
+        "name": "באקה אל-גרביה",
+        "english_name": ""
+    },
+    {
+        "id": "122",
+        "name": "באר אורה",
+        "english_name": "BE'ER ORA"
+    },
+    {
+        "id": "123",
+        "name": "באר גנים",
+        "english_name": "BEER GANNIM"
+    },
+    {
+        "id": "124",
+        "name": "באר טוביה",
+        "english_name": "BE'ER TUVEYA"
+    },
+    {
+        "id": "125",
+        "name": "באר יעקב",
+        "english_name": "BE'ER YA'AQOV"
+    },
+    {
+        "id": "126",
+        "name": "באר מילכה",
+        "english_name": ""
+    },
+    {
+        "id": "127",
+        "name": "באר שבע",
+        "english_name": "BE'ER SHEVA"
+    },
+    {
+        "id": "128",
+        "name": "בארות יצחק",
+        "english_name": "BE'EROT YIZHAQ"
+    },
+    {
+        "id": "129",
+        "name": "בארותיים",
+        "english_name": "BE'EROTAYIM"
+    },
+    {
+        "id": "130",
+        "name": "בארי",
+        "english_name": "BE'ERI"
+    },
+    {
+        "id": "131",
+        "name": "בוסתן הגליל",
+        "english_name": "BUSTAN HAGALIL"
+    },
+    {
+        "id": "132",
+        "name": "בועיינה-נוג'ידאת",
+        "english_name": "BU'EINE-NUJEIDAT"
+    },
+    {
+        "id": "133",
+        "name": "בוקעאתא",
+        "english_name": "BUQ'ATA"
+    },
+    {
+        "id": "134",
+        "name": "בורגתה",
+        "english_name": "BURGETA"
+    },
+    {
+        "id": "135",
+        "name": "בחן",
+        "english_name": "BAHAN"
+    },
+    {
+        "id": "136",
+        "name": "בטחה",
+        "english_name": "BITHA"
+    },
+    {
+        "id": "137",
+        "name": "ביצרון",
+        "english_name": "BIZZARON"
+    },
+    {
+        "id": "138",
+        "name": "ביר אל-מכסור",
+        "english_name": "BIR EL-MAKSUR"
+    },
+    {
+        "id": "139",
+        "name": "ביר הדאג'",
+        "english_name": ""
+    },
+    {
+        "id": "140",
+        "name": "ביריה",
+        "english_name": "BIRIYYA"
+    },
+    {
+        "id": "141",
+        "name": "בית אורן",
+        "english_name": "BET OREN"
+    },
+    {
+        "id": "142",
+        "name": "בית אל",
+        "english_name": "BET EL"
+    },
+    {
+        "id": "143",
+        "name": "בית אלעזרי",
+        "english_name": "BET EL'AZARI"
+    },
+    {
+        "id": "144",
+        "name": "בית אלפא",
+        "english_name": "BET ALFA"
+    },
+    {
+        "id": "145",
+        "name": "בית אריה",
+        "english_name": "BET ARYE"
+    },
+    {
+        "id": "146",
+        "name": "בית ברל",
+        "english_name": "BET BERL"
+    },
+    {
+        "id": "147",
+        "name": "בית ג'ן",
+        "english_name": "BEIT JANN"
+    },
+    {
+        "id": "148",
+        "name": "בית גוברין",
+        "english_name": "BET GUVRIN"
+    },
+    {
+        "id": "149",
+        "name": "בית גמליאל",
+        "english_name": "BET GAMLI'EL"
+    },
+    {
+        "id": "150",
+        "name": "בית דגן",
+        "english_name": "BET DAGAN"
+    },
+    {
+        "id": "151",
+        "name": "בית הגדי",
+        "english_name": "BET HAGADDI"
+    },
+    {
+        "id": "152",
+        "name": "בית הלוי",
+        "english_name": "BET HALEVI"
+    },
+    {
+        "id": "153",
+        "name": "בית הלל",
+        "english_name": "BET HILLEL"
+    },
+    {
+        "id": "154",
+        "name": "בית העמק",
+        "english_name": "BET HAEMEQ"
+    },
+    {
+        "id": "155",
+        "name": "בית הערבה",
+        "english_name": "BET HAARAVA"
+    },
+    {
+        "id": "156",
+        "name": "בית השיטה",
+        "english_name": "BET HASHITTA"
+    },
+    {
+        "id": "157",
+        "name": "בית זיד",
+        "english_name": "BET ZEID"
+    },
+    {
+        "id": "158",
+        "name": "בית זית",
+        "english_name": "BET ZAYIT"
+    },
+    {
+        "id": "159",
+        "name": "בית זרע",
+        "english_name": "BET ZERA"
+    },
+    {
+        "id": "160",
+        "name": "בית חורון",
+        "english_name": "BET HORON"
+    },
+    {
+        "id": "161",
+        "name": "בית חירות",
+        "english_name": "BET HERUT"
+    },
+    {
+        "id": "162",
+        "name": "בית חלקיה",
+        "english_name": "BET HILQIYYA"
+    },
+    {
+        "id": "163",
+        "name": "בית חנן",
+        "english_name": "BET HANAN"
+    },
+    {
+        "id": "164",
+        "name": "בית חנניה",
+        "english_name": "BET HANANYA"
+    },
+    {
+        "id": "165",
+        "name": "בית חשמונאי",
+        "english_name": "BET HASHMONAY"
+    },
+    {
+        "id": "166",
+        "name": "בית יהושע",
+        "english_name": "BET YEHOSHUA"
+    },
+    {
+        "id": "167",
+        "name": "בית יוסף",
+        "english_name": "BET YOSEF"
+    },
+    {
+        "id": "168",
+        "name": "בית ינאי",
+        "english_name": "BET YANNAY"
+    },
+    {
+        "id": "169",
+        "name": "בית יצחק-שער חפר",
+        "english_name": "BET YIZHAQ-SH. HEFER"
+    },
+    {
+        "id": "170",
+        "name": "בית לחם הגלילית",
+        "english_name": "BET LEHEM HAGELILIT"
+    },
+    {
+        "id": "171",
+        "name": "בית מאיר",
+        "english_name": "BET ME'IR"
+    },
+    {
+        "id": "172",
+        "name": "בית נחמיה",
+        "english_name": "BET NEHEMYA"
+    },
+    {
+        "id": "173",
+        "name": "בית ניר",
+        "english_name": "BET NIR"
+    },
+    {
+        "id": "174",
+        "name": "בית נקופה",
+        "english_name": "BET NEQOFA"
+    },
+    {
+        "id": "175",
+        "name": "בית עובד",
+        "english_name": "BET OVED"
+    },
+    {
+        "id": "176",
+        "name": "בית עוזיאל",
+        "english_name": "BET UZZI'EL"
+    },
+    {
+        "id": "177",
+        "name": "בית עזרא",
+        "english_name": "BET EZRA"
+    },
+    {
+        "id": "178",
+        "name": "בית עריף",
+        "english_name": "BET ARIF"
+    },
+    {
+        "id": "179",
+        "name": "בית צבי",
+        "english_name": "BET ZEVI"
+    },
+    {
+        "id": "180",
+        "name": "בית קמה",
+        "english_name": "BET QAMA"
+    },
+    {
+        "id": "181",
+        "name": "בית קשת",
+        "english_name": "BET QESHET"
+    },
+    {
+        "id": "182",
+        "name": "בית רבן",
+        "english_name": "BET RABBAN"
+    },
+    {
+        "id": "183",
+        "name": "בית רימון",
+        "english_name": "BET RIMMON"
+    },
+    {
+        "id": "184",
+        "name": "בית שאן",
+        "english_name": "BET SHE'AN"
+    },
+    {
+        "id": "185",
+        "name": "בית שמש",
+        "english_name": "BET SHEMESH"
+    },
+    {
+        "id": "186",
+        "name": "בית שערים",
+        "english_name": "BET SHE'ARIM"
+    },
+    {
+        "id": "187",
+        "name": "בית שקמה",
+        "english_name": "BET SHIQMA"
+    },
+    {
+        "id": "188",
+        "name": "ביתן אהרן",
+        "english_name": "BITAN AHARON"
+    },
+    {
+        "id": "189",
+        "name": "ביתר עילית",
+        "english_name": "BETAR ILLIT"
+    },
+    {
+        "id": "190",
+        "name": "בלפוריה",
+        "english_name": "BALFURIYYA"
+    },
+    {
+        "id": "191",
+        "name": "בן זכאי",
+        "english_name": "BEN ZAKKAY"
+    },
+    {
+        "id": "192",
+        "name": "בן עמי",
+        "english_name": "BEN AMMI"
+    },
+    {
+        "id": "193",
+        "name": "בן שמן",
+        "english_name": "BEN SHEMEN"
+    },
+    {
+        "id": "194",
+        "name": "בני ברק",
+        "english_name": "BENE BERAQ"
+    },
+    {
+        "id": "195",
+        "name": "בני דקלים",
+        "english_name": "BNE DKALIM"
+    },
+    {
+        "id": "196",
+        "name": "בני דרום",
+        "english_name": "BENE DAROM"
+    },
+    {
+        "id": "197",
+        "name": "בני דרור",
+        "english_name": "BENE DEROR"
+    },
+    {
+        "id": "198",
+        "name": "בני יהודה",
+        "english_name": "BENE YEHUDA"
+    },
+    {
+        "id": "199",
+        "name": "בני נצרים",
+        "english_name": "BENE NEZARIM"
+    },
+    {
+        "id": "200",
+        "name": "בני עטרות",
+        "english_name": "BENE ATAROT"
+    },
+    {
+        "id": "201",
+        "name": "בני עי",
+        "english_name": "BENE AYISH"
+    },
+    {
+        "id": "202",
+        "name": "בני ציון",
+        "english_name": "BENE ZIYYON"
+    },
+    {
+        "id": "203",
+        "name": "בני ראם",
+        "english_name": "BENE RE'EM"
+    },
+    {
+        "id": "204",
+        "name": "בניה",
+        "english_name": "BENAYA"
+    },
+    {
+        "id": "205",
+        "name": "בנימינה-גבעת עדה",
+        "english_name": "BINYAMINA"
+    },
+    {
+        "id": "206",
+        "name": "בסמ",
+        "english_name": "BASMA"
+    },
+    {
+        "id": "207",
+        "name": "בסמת טבעון",
+        "english_name": "BASMAT TAB'UN"
+    },
+    {
+        "id": "208",
+        "name": "בענה",
+        "english_name": "BI NE"
+    },
+    {
+        "id": "209",
+        "name": "בצרה",
+        "english_name": "BAZRA"
+    },
+    {
+        "id": "210",
+        "name": "בצת",
+        "english_name": "BEZET"
+    },
+    {
+        "id": "211",
+        "name": "בקוע",
+        "english_name": "BEQOA"
+    },
+    {
+        "id": "212",
+        "name": "בקעות",
+        "english_name": "BEQA'OT"
+    },
+    {
+        "id": "213",
+        "name": "בר גיורא",
+        "english_name": "BAR GIYYORA"
+    },
+    {
+        "id": "214",
+        "name": "בר יוחאי",
+        "english_name": "BAR YOHAY"
+    },
+    {
+        "id": "215",
+        "name": "ברוכין",
+        "english_name": "BRUKHIN"
+    },
+    {
+        "id": "216",
+        "name": "ברור חיל",
+        "english_name": "BEROR HAYIL"
+    },
+    {
+        "id": "217",
+        "name": "ברוש",
+        "english_name": "BEROSH"
+    },
+    {
+        "id": "218",
+        "name": "ברכה",
+        "english_name": "BERAKHA"
+    },
+    {
+        "id": "219",
+        "name": "ברכיה",
+        "english_name": "BEREKHYA"
+    },
+    {
+        "id": "220",
+        "name": "ברעם",
+        "english_name": "BAR'AM"
+    },
+    {
+        "id": "221",
+        "name": "ברק",
+        "english_name": "BARAQ"
+    },
+    {
+        "id": "222",
+        "name": "ברקאי",
+        "english_name": "BARQAY"
+    },
+    {
+        "id": "223",
+        "name": "ברקן",
+        "english_name": "BARQAN"
+    },
+    {
+        "id": "224",
+        "name": "ברקת",
+        "english_name": "BAREQET"
+    },
+    {
+        "id": "225",
+        "name": "בת הדר",
+        "english_name": "BAT HADAR"
+    },
+    {
+        "id": "226",
+        "name": "בת חן",
+        "english_name": "BAT HEN"
+    },
+    {
+        "id": "227",
+        "name": "בת חפר",
+        "english_name": "BAT HEFER"
+    },
+    {
+        "id": "228",
+        "name": "בת חצור",
+        "english_name": "BAT HAZOR"
+    },
+    {
+        "id": "229",
+        "name": "בת ים",
+        "english_name": "BAT YAM"
+    },
+    {
+        "id": "230",
+        "name": "בת עין",
+        "english_name": "BAT AYIN"
+    },
+    {
+        "id": "231",
+        "name": "בת שלמה",
+        "english_name": "BAT SHELOMO"
+    },
+    {
+        "id": "232",
+        "name": "ג'דיידה-מכר",
+        "english_name": "JUDEIDE-MAKER"
+    },
+    {
+        "id": "233",
+        "name": "ג'ולס",
+        "english_name": "JULIS"
+    },
+    {
+        "id": "234",
+        "name": "ג'לג'וליה",
+        "english_name": "JALJULYE"
+    },
+    {
+        "id": "235",
+        "name": "ג'סר א-זרקא",
+        "english_name": "JISR AZ-ZARQA"
+    },
+    {
+        "id": "236",
+        "name": "ג'ש (גוש חלב)",
+        "english_name": "JISH(GUSH HALAV)"
+    },
+    {
+        "id": "237",
+        "name": "ג'ת",
+        "english_name": "JAAT"
+    },
+    {
+        "id": "238",
+        "name": "גאולי תימן",
+        "english_name": "GE'ULE TEMAN"
+    },
+    {
+        "id": "239",
+        "name": "גאולים",
+        "english_name": "GE'ULIM"
+    },
+    {
+        "id": "240",
+        "name": "גאליה",
+        "english_name": "GE'ALYA"
+    },
+    {
+        "id": "241",
+        "name": "גבולות",
+        "english_name": "GEVULOT"
+    },
+    {
+        "id": "242",
+        "name": "גבים",
+        "english_name": "GEVIM"
+    },
+    {
+        "id": "243",
+        "name": "גבע",
+        "english_name": "GEVA"
+    },
+    {
+        "id": "244",
+        "name": "גבע בנימין",
+        "english_name": "GEVA BINYAMIN"
+    },
+    {
+        "id": "245",
+        "name": "גבע כרמל",
+        "english_name": "GEVA KARMEL"
+    },
+    {
+        "id": "246",
+        "name": "גבעולים",
+        "english_name": "GIV'OLIM"
+    },
+    {
+        "id": "247",
+        "name": "גבעון החדשה",
+        "english_name": "GIV'ON HAHADASHA"
+    },
+    {
+        "id": "248",
+        "name": "גבעות בר",
+        "english_name": ""
+    },
+    {
+        "id": "249",
+        "name": "גבעת אבני",
+        "english_name": "GIV'AT AVNI"
+    },
+    {
+        "id": "250",
+        "name": "גבעת אלה",
+        "english_name": "GIV'AT ELA"
+    },
+    {
+        "id": "251",
+        "name": "גבעת ברנר",
+        "english_name": "GIV'AT BRENNER"
+    },
+    {
+        "id": "252",
+        "name": "גבעת השלושה",
+        "english_name": "GIV'AT HASHELOSHA"
+    },
+    {
+        "id": "253",
+        "name": "גבעת זאב",
+        "english_name": "GIV'AT ZE'EV"
+    },
+    {
+        "id": "254",
+        "name": "גבעת ח",
+        "english_name": "GIV'AT HEN"
+    },
+    {
+        "id": "255",
+        "name": "גבעת חיים",
+        "english_name": "GIV'AT HAYYIM"
+    },
+    {
+        "id": "256",
+        "name": "גבעת יואב",
+        "english_name": "GIV'AT YO'AV"
+    },
+    {
+        "id": "257",
+        "name": "גבעת יערים",
+        "english_name": "GIV'AT YE'ARIM"
+    },
+    {
+        "id": "258",
+        "name": "גבעת ישעיהו",
+        "english_name": "GIV'AT YESHA'YAHU"
+    },
+    {
+        "id": "259",
+        "name": "גבעת כ",
+        "english_name": "GIV'AT KOAH"
+    },
+    {
+        "id": "260",
+        "name": "גבעת ניל",
+        "english_name": "GIV'AT NILI"
+    },
+    {
+        "id": "261",
+        "name": "גבעת עוז",
+        "english_name": "GIV'AT OZ"
+    },
+    {
+        "id": "262",
+        "name": "גבעת שמואל",
+        "english_name": "GIV'AT SHEMU'EL"
+    },
+    {
+        "id": "263",
+        "name": "גבעת שמש",
+        "english_name": "GIV'AT SHEMESH"
+    },
+    {
+        "id": "264",
+        "name": "גבעת שפירא",
+        "english_name": "GIV'AT SHAPPIRA"
+    },
+    {
+        "id": "265",
+        "name": "גבעתי",
+        "english_name": "GIV'ATI"
+    },
+    {
+        "id": "266",
+        "name": "גבעתיים",
+        "english_name": "GIV'ATAYIM"
+    },
+    {
+        "id": "267",
+        "name": "גברעם",
+        "english_name": "GEVAR'AM"
+    },
+    {
+        "id": "268",
+        "name": "גבת",
+        "english_name": "GEVAT"
+    },
+    {
+        "id": "269",
+        "name": "גדות",
+        "english_name": "GADOT"
+    },
+    {
+        "id": "270",
+        "name": "גדיש",
+        "english_name": "GADISH"
+    },
+    {
+        "id": "271",
+        "name": "גדעונה",
+        "english_name": "GID'ONA"
+    },
+    {
+        "id": "272",
+        "name": "גדרה",
+        "english_name": "GEDERA"
+    },
+    {
+        "id": "273",
+        "name": "גונן",
+        "english_name": "GONEN"
+    },
+    {
+        "id": "274",
+        "name": "גורן",
+        "english_name": "GOREN"
+    },
+    {
+        "id": "275",
+        "name": "גורנות הגליל",
+        "english_name": "GORNOT HAGALIL"
+    },
+    {
+        "id": "276",
+        "name": "גזית",
+        "english_name": "GAZIT"
+    },
+    {
+        "id": "277",
+        "name": "גזר",
+        "english_name": "GEZER"
+    },
+    {
+        "id": "278",
+        "name": "גיאה",
+        "english_name": "GE'A"
+    },
+    {
+        "id": "279",
+        "name": "גיבתון",
+        "english_name": "GIBBETON"
+    },
+    {
+        "id": "280",
+        "name": "גיזו",
+        "english_name": "GIZO"
+    },
+    {
+        "id": "281",
+        "name": "גילון",
+        "english_name": "GILON"
+    },
+    {
+        "id": "282",
+        "name": "גילת",
+        "english_name": "GILAT"
+    },
+    {
+        "id": "283",
+        "name": "גינוסר",
+        "english_name": "GINNOSAR"
+    },
+    {
+        "id": "284",
+        "name": "גיניגר",
+        "english_name": "GINNEGAR"
+    },
+    {
+        "id": "285",
+        "name": "גינתון",
+        "english_name": "GINNATON"
+    },
+    {
+        "id": "286",
+        "name": "גיתה",
+        "english_name": "GITTA"
+    },
+    {
+        "id": "287",
+        "name": "גיתית",
+        "english_name": "GITTIT"
+    },
+    {
+        "id": "288",
+        "name": "גלאון",
+        "english_name": "GAL'ON"
+    },
+    {
+        "id": "289",
+        "name": "גלגל",
+        "english_name": "GILGAL"
+    },
+    {
+        "id": "290",
+        "name": "גליל ים",
+        "english_name": "GELIL YAM"
+    },
+    {
+        "id": "291",
+        "name": "גלעד",
+        "english_name": "EVEN YIZHAQ(GAL'ED)"
+    },
+    {
+        "id": "292",
+        "name": "גמזו",
+        "english_name": "GIMZO"
+    },
+    {
+        "id": "293",
+        "name": "גן הדרום",
+        "english_name": "GAN HADAROM"
+    },
+    {
+        "id": "294",
+        "name": "גן השומרון",
+        "english_name": "GAN HASHOMERON"
+    },
+    {
+        "id": "295",
+        "name": "גן חיים",
+        "english_name": "GAN HAYYIM"
+    },
+    {
+        "id": "296",
+        "name": "גן יאשיה",
+        "english_name": "GAN YOSHIYYA"
+    },
+    {
+        "id": "297",
+        "name": "גן יבנה",
+        "english_name": "GAN YAVNE"
+    },
+    {
+        "id": "298",
+        "name": "גן נר",
+        "english_name": "GAN NER"
+    },
+    {
+        "id": "299",
+        "name": "גן שורק",
+        "english_name": "GAN SOREQ"
+    },
+    {
+        "id": "300",
+        "name": "גן שלמה",
+        "english_name": "GAN SHELOMO"
+    },
+    {
+        "id": "301",
+        "name": "גן שמואל",
+        "english_name": "GAN SHEMU'EL"
+    },
+    {
+        "id": "302",
+        "name": "גנות",
+        "english_name": "GANNOT"
+    },
+    {
+        "id": "303",
+        "name": "גנות הדר",
+        "english_name": "GANNOT HADAR"
+    },
+    {
+        "id": "304",
+        "name": "גני הדר",
+        "english_name": "GANNE HADAR"
+    },
+    {
+        "id": "305",
+        "name": "גני טל",
+        "english_name": ""
+    },
+    {
+        "id": "306",
+        "name": "גני יוחנן",
+        "english_name": "GANNE YOHANAN"
+    },
+    {
+        "id": "307",
+        "name": "גני מודיעין",
+        "english_name": "GANNE MODIIN"
+    },
+    {
+        "id": "308",
+        "name": "גני עם",
+        "english_name": "GANNE AM"
+    },
+    {
+        "id": "309",
+        "name": "גני תקווה",
+        "english_name": "GANNE TIQWA"
+    },
+    {
+        "id": "310",
+        "name": "געש",
+        "english_name": "GA'ASH"
+    },
+    {
+        "id": "311",
+        "name": "געתון",
+        "english_name": "GA'TON"
+    },
+    {
+        "id": "312",
+        "name": "גפן",
+        "english_name": "GEFEN"
+    },
+    {
+        "id": "313",
+        "name": "גרופית",
+        "english_name": "GEROFIT"
+    },
+    {
+        "id": "314",
+        "name": "גשור",
+        "english_name": "GESHUR"
+    },
+    {
+        "id": "315",
+        "name": "גשר",
+        "english_name": "GESHER"
+    },
+    {
+        "id": "316",
+        "name": "גשר הזיו",
+        "english_name": "GESHER HAZIW"
+    },
+    {
+        "id": "317",
+        "name": "גת",
+        "english_name": "GAT(QIBBUZ)"
+    },
+    {
+        "id": "318",
+        "name": "גת רימון",
+        "english_name": "GAT RIMMON"
+    },
+    {
+        "id": "319",
+        "name": "דאלית אל-כרמל",
+        "english_name": "DALIYAT AL-KARMEL"
+    },
+    {
+        "id": "320",
+        "name": "דבורה",
+        "english_name": "DEVORA"
+    },
+    {
+        "id": "321",
+        "name": "דבוריה",
+        "english_name": "DABBURYE"
+    },
+    {
+        "id": "322",
+        "name": "דבירה",
+        "english_name": "DEVIRA"
+    },
+    {
+        "id": "323",
+        "name": "דברת",
+        "english_name": "DAVERAT"
+    },
+    {
+        "id": "324",
+        "name": "דגניה א'",
+        "english_name": "DEGANYA ALEF"
+    },
+    {
+        "id": "325",
+        "name": "דגניה ב'",
+        "english_name": "DEGANYA BET"
+    },
+    {
+        "id": "326",
+        "name": "דוב",
+        "english_name": "DOVEV"
+    },
+    {
+        "id": "327",
+        "name": "דולב",
+        "english_name": "DOLEV"
+    },
+    {
+        "id": "328",
+        "name": "דור",
+        "english_name": "DOR"
+    },
+    {
+        "id": "329",
+        "name": "דורות",
+        "english_name": "DOROT"
+    },
+    {
+        "id": "330",
+        "name": "דחי",
+        "english_name": "DAHI"
+    },
+    {
+        "id": "331",
+        "name": "דייר אל-אסד",
+        "english_name": "DEIR AL-ASAD"
+    },
+    {
+        "id": "332",
+        "name": "דייר חנא",
+        "english_name": "DEIR HANNA"
+    },
+    {
+        "id": "333",
+        "name": "דייר ראפאת",
+        "english_name": "DEIR RAFAT"
+    },
+    {
+        "id": "334",
+        "name": "דימונה",
+        "english_name": "DIMONA"
+    },
+    {
+        "id": "335",
+        "name": "דישון",
+        "english_name": "DISHON"
+    },
+    {
+        "id": "336",
+        "name": "דליה",
+        "english_name": "DALIYYA"
+    },
+    {
+        "id": "337",
+        "name": "דלתון",
+        "english_name": "DALTON"
+    },
+    {
+        "id": "338",
+        "name": "דמיידה",
+        "english_name": "DEMEIDE"
+    },
+    {
+        "id": "339",
+        "name": "דן",
+        "english_name": "DAN"
+    },
+    {
+        "id": "340",
+        "name": "דפנה",
+        "english_name": "DAFNA"
+    },
+    {
+        "id": "341",
+        "name": "דקל",
+        "english_name": "DEQEL"
+    },
+    {
+        "id": "342",
+        "name": "דריג'את",
+        "english_name": ""
+    },
+    {
+        "id": "343",
+        "name": "האון",
+        "english_name": "HAON"
+    },
+    {
+        "id": "344",
+        "name": "הבונים",
+        "english_name": "HABONIM"
+    },
+    {
+        "id": "345",
+        "name": "הגושרים",
+        "english_name": "HAGOSHERIM"
+    },
+    {
+        "id": "346",
+        "name": "הדר עם",
+        "english_name": "HADAR AM"
+    },
+    {
+        "id": "347",
+        "name": "הוד השרון",
+        "english_name": "HOD HASHARON"
+    },
+    {
+        "id": "348",
+        "name": "הודיה",
+        "english_name": "HODIYYA"
+    },
+    {
+        "id": "349",
+        "name": "הודיות",
+        "english_name": "HODAYOT"
+    },
+    {
+        "id": "350",
+        "name": "הושעיה",
+        "english_name": "HOSHA'AYA"
+    },
+    {
+        "id": "351",
+        "name": "הזורע",
+        "english_name": "HAZOREA"
+    },
+    {
+        "id": "352",
+        "name": "הזורעים",
+        "english_name": "HAZORE'IM"
+    },
+    {
+        "id": "353",
+        "name": "החותרים",
+        "english_name": "HAHOTERIM"
+    },
+    {
+        "id": "354",
+        "name": "היוגב",
+        "english_name": "HAYOGEV"
+    },
+    {
+        "id": "355",
+        "name": "הילה",
+        "english_name": "HILLA"
+    },
+    {
+        "id": "356",
+        "name": "המעפיל",
+        "english_name": "HAMA'PIL"
+    },
+    {
+        "id": "357",
+        "name": "הסוללים",
+        "english_name": "HASOLELIM"
+    },
+    {
+        "id": "358",
+        "name": "העוגן",
+        "english_name": "HAOGEN"
+    },
+    {
+        "id": "359",
+        "name": "הר אדר",
+        "english_name": "HAR ADAR"
+    },
+    {
+        "id": "360",
+        "name": "הר גילה",
+        "english_name": "HAR GILLO"
+    },
+    {
+        "id": "361",
+        "name": "הר עמשא",
+        "english_name": "HAR AMASA"
+    },
+    {
+        "id": "362",
+        "name": "הראל",
+        "english_name": "HAR'EL"
+    },
+    {
+        "id": "363",
+        "name": "הרדוף",
+        "english_name": "HARDUF"
+    },
+    {
+        "id": "364",
+        "name": "הרצליה",
+        "english_name": "HERZELIYYA"
+    },
+    {
+        "id": "365",
+        "name": "הררית",
+        "english_name": "HARARIT"
+    },
+    {
+        "id": "366",
+        "name": "ורד יריחו",
+        "english_name": "WERED YERIHO"
+    },
+    {
+        "id": "367",
+        "name": "ורדון",
+        "english_name": "WARDON"
+    },
+    {
+        "id": "368",
+        "name": "זבדיאל",
+        "english_name": "ZAVDI'EL"
+    },
+    {
+        "id": "369",
+        "name": "זוהר",
+        "english_name": "ZOHAR"
+    },
+    {
+        "id": "370",
+        "name": "זיקים",
+        "english_name": "ZIQIM"
+    },
+    {
+        "id": "371",
+        "name": "זיתן",
+        "english_name": "ZETAN"
+    },
+    {
+        "id": "372",
+        "name": "זכרון יעקב",
+        "english_name": "ZIKHRON YA'AQOV"
+    },
+    {
+        "id": "373",
+        "name": "זכריה",
+        "english_name": "ZEKHARYA"
+    },
+    {
+        "id": "374",
+        "name": "זמר",
+        "english_name": "ZEMER"
+    },
+    {
+        "id": "375",
+        "name": "זמרת",
+        "english_name": "ZIMRAT"
+    },
+    {
+        "id": "376",
+        "name": "זנוח",
+        "english_name": "ZANOAH"
+    },
+    {
+        "id": "377",
+        "name": "זרועה",
+        "english_name": "ZERU'A"
+    },
+    {
+        "id": "378",
+        "name": "זרזיר",
+        "english_name": "ZARZIR"
+    },
+    {
+        "id": "379",
+        "name": "זרחיה",
+        "english_name": "ZERAHYA"
+    },
+    {
+        "id": "380",
+        "name": "ח'ואלד",
+        "english_name": ""
+    },
+    {
+        "id": "381",
+        "name": "חבצלת השרון",
+        "english_name": "HAVAZZELET HASHARON"
+    },
+    {
+        "id": "382",
+        "name": "חבר",
+        "english_name": "HEVER"
+    },
+    {
+        "id": "383",
+        "name": "חברון",
+        "english_name": ""
+    },
+    {
+        "id": "384",
+        "name": "חגור",
+        "english_name": "HAGOR"
+    },
+    {
+        "id": "385",
+        "name": "חגי",
+        "english_name": "HAGGAI"
+    },
+    {
+        "id": "386",
+        "name": "חגלה",
+        "english_name": "HOGLA"
+    },
+    {
+        "id": "387",
+        "name": "חד-נס",
+        "english_name": "HAD-NES"
+    },
+    {
+        "id": "388",
+        "name": "חדיד",
+        "english_name": "HADID"
+    },
+    {
+        "id": "389",
+        "name": "חדרה",
+        "english_name": "HADERA"
+    },
+    {
+        "id": "390",
+        "name": "חולדה",
+        "english_name": "HULDA"
+    },
+    {
+        "id": "391",
+        "name": "חולון",
+        "english_name": "HOLON"
+    },
+    {
+        "id": "392",
+        "name": "חולית",
+        "english_name": "HOLIT"
+    },
+    {
+        "id": "393",
+        "name": "חולתה",
+        "english_name": "HULATA"
+    },
+    {
+        "id": "394",
+        "name": "חוסן",
+        "english_name": "HOSEN"
+    },
+    {
+        "id": "395",
+        "name": "חוסנייה",
+        "english_name": "HUSSNIYYA"
+    },
+    {
+        "id": "396",
+        "name": "חופית",
+        "english_name": "HOFIT"
+    },
+    {
+        "id": "397",
+        "name": "חוקוק",
+        "english_name": "HUQOQ"
+    },
+    {
+        "id": "398",
+        "name": "חורה",
+        "english_name": "HURA"
+    },
+    {
+        "id": "399",
+        "name": "חורפיש",
+        "english_name": "HURFEISH"
+    },
+    {
+        "id": "400",
+        "name": "חורשים",
+        "english_name": "HORESHIM"
+    },
+    {
+        "id": "401",
+        "name": "חזון",
+        "english_name": "HAZON"
+    },
+    {
+        "id": "402",
+        "name": "חיבת ציון",
+        "english_name": "HIBBAT ZIYYON"
+    },
+    {
+        "id": "403",
+        "name": "חיננית",
+        "english_name": "HINNANIT"
+    },
+    {
+        "id": "404",
+        "name": "חיפה",
+        "english_name": "HAIFA"
+    },
+    {
+        "id": "405",
+        "name": "חירות",
+        "english_name": "HERUT"
+    },
+    {
+        "id": "406",
+        "name": "חלוץ",
+        "english_name": "HALUZ"
+    },
+    {
+        "id": "407",
+        "name": "חלמיש",
+        "english_name": "HALLAMISH"
+    },
+    {
+        "id": "408",
+        "name": "חלץ",
+        "english_name": "HELEZ"
+    },
+    {
+        "id": "409",
+        "name": "חמאם",
+        "english_name": "HAMAM"
+    },
+    {
+        "id": "410",
+        "name": "חמד",
+        "english_name": "HEMED"
+    },
+    {
+        "id": "411",
+        "name": "חמדיה",
+        "english_name": "HAMADYA"
+    },
+    {
+        "id": "412",
+        "name": "חמדת",
+        "english_name": "NAHAL HEMDAT"
+    },
+    {
+        "id": "413",
+        "name": "חמרה",
+        "english_name": "HAMRA"
+    },
+    {
+        "id": "414",
+        "name": "חניאל",
+        "english_name": "HANNI'EL"
+    },
+    {
+        "id": "415",
+        "name": "חניתה",
+        "english_name": "HANITA"
+    },
+    {
+        "id": "416",
+        "name": "חנתון",
+        "english_name": "HANNATON"
+    },
+    {
+        "id": "417",
+        "name": "חספין",
+        "english_name": "HASPIN"
+    },
+    {
+        "id": "418",
+        "name": "חפץ חיים",
+        "english_name": "HAFEZ HAYYIM"
+    },
+    {
+        "id": "419",
+        "name": "חפצי-בה",
+        "english_name": "HEFZI-BAH"
+    },
+    {
+        "id": "420",
+        "name": "חצב",
+        "english_name": "HAZAV"
+    },
+    {
+        "id": "421",
+        "name": "חצבה",
+        "english_name": "HAZEVA"
+    },
+    {
+        "id": "422",
+        "name": "חצור הגלילית",
+        "english_name": "HAZOR HAGELILIT"
+    },
+    {
+        "id": "423",
+        "name": "חצור-אשדוד",
+        "english_name": "HAZOR-ASHDOD"
+    },
+    {
+        "id": "424",
+        "name": "חצר בארותיים",
+        "english_name": "HAZAR BE'EROTAYIM"
+    },
+    {
+        "id": "425",
+        "name": "חצרות חולדה",
+        "english_name": "HAZROT HULDA"
+    },
+    {
+        "id": "426",
+        "name": "חצרות יסף",
+        "english_name": "HAZROT YASAF"
+    },
+    {
+        "id": "427",
+        "name": "חצרות כ",
+        "english_name": "HAZROT KOAH"
+    },
+    {
+        "id": "428",
+        "name": "חצרים",
+        "english_name": "HAZERIM"
+    },
+    {
+        "id": "429",
+        "name": "חרב לאת",
+        "english_name": "HEREV LE'ET"
+    },
+    {
+        "id": "430",
+        "name": "חרוצים",
+        "english_name": "HARUZIM"
+    },
+    {
+        "id": "431",
+        "name": "חריש",
+        "english_name": "HARISH"
+    },
+    {
+        "id": "432",
+        "name": "חרמש",
+        "english_name": "HERMESH"
+    },
+    {
+        "id": "433",
+        "name": "חרשים",
+        "english_name": "HARASHIM"
+    },
+    {
+        "id": "434",
+        "name": "חשמונאים",
+        "english_name": "HASHMONA'IM"
+    },
+    {
+        "id": "435",
+        "name": "טבריה",
+        "english_name": "TIBERIAS"
+    },
+    {
+        "id": "436",
+        "name": "טובא-זנגריה",
+        "english_name": "TUBA-ZANGARIYYE"
+    },
+    {
+        "id": "437",
+        "name": "טורעאן",
+        "english_name": "TUR'AN"
+    },
+    {
+        "id": "438",
+        "name": "טייבה",
+        "english_name": "TAYIBE"
+    },
+    {
+        "id": "439",
+        "name": "טייבה",
+        "english_name": "TAYIBE(BAEMEQ)"
+    },
+    {
+        "id": "440",
+        "name": "טירה",
+        "english_name": "TIRE"
+    },
+    {
+        "id": "441",
+        "name": "טירת יהודה",
+        "english_name": "TIRAT YEHUDA"
+    },
+    {
+        "id": "442",
+        "name": "טירת כרמל",
+        "english_name": "TIRAT KARMEL"
+    },
+    {
+        "id": "443",
+        "name": "טירת צבי",
+        "english_name": "TIRAT ZEVI"
+    },
+    {
+        "id": "444",
+        "name": "טל שחר",
+        "english_name": "TAL SHAHAR"
+    },
+    {
+        "id": "445",
+        "name": "טל-אל",
+        "english_name": "TAL-EL"
+    },
+    {
+        "id": "446",
+        "name": "טללים",
+        "english_name": "TELALIM"
+    },
+    {
+        "id": "447",
+        "name": "טלמון",
+        "english_name": "TALMON"
+    },
+    {
+        "id": "448",
+        "name": "טמרה",
+        "english_name": "TAMRA"
+    },
+    {
+        "id": "449",
+        "name": "טמרה",
+        "english_name": "TAMRA"
+    },
+    {
+        "id": "450",
+        "name": "טנא",
+        "english_name": "TENE"
+    },
+    {
+        "id": "451",
+        "name": "טפחות",
+        "english_name": "TEFAHOT"
+    },
+    {
+        "id": "452",
+        "name": "יאנוח-ג'ת",
+        "english_name": "YANUH-JAT"
+    },
+    {
+        "id": "453",
+        "name": "יבול",
+        "english_name": "YEVUL"
+    },
+    {
+        "id": "454",
+        "name": "יבנאל",
+        "english_name": "YAVNE'EL"
+    },
+    {
+        "id": "455",
+        "name": "יבנה",
+        "english_name": "YAVNE"
+    },
+    {
+        "id": "456",
+        "name": "יגור",
+        "english_name": "YAGUR"
+    },
+    {
+        "id": "457",
+        "name": "יגל",
+        "english_name": "YAGEL"
+    },
+    {
+        "id": "458",
+        "name": "יד בנימין",
+        "english_name": "YAD BINYAMIN"
+    },
+    {
+        "id": "459",
+        "name": "יד השמונה",
+        "english_name": "YAD HASHEMONA"
+    },
+    {
+        "id": "460",
+        "name": "יד חנה",
+        "english_name": "YAD HANNA"
+    },
+    {
+        "id": "461",
+        "name": "יד מרדכי",
+        "english_name": "YAD MORDEKHAY"
+    },
+    {
+        "id": "462",
+        "name": "יד נתן",
+        "english_name": "YAD NATAN"
+    },
+    {
+        "id": "463",
+        "name": "יד רמב",
+        "english_name": "YAD RAMBAM"
+    },
+    {
+        "id": "464",
+        "name": "ידידה",
+        "english_name": "YEDIDA"
+    },
+    {
+        "id": "465",
+        "name": "יהוד-מונוסון",
+        "english_name": "YEHUD-MONOSON"
+    },
+    {
+        "id": "466",
+        "name": "יהל",
+        "english_name": "YAHEL"
+    },
+    {
+        "id": "467",
+        "name": "יובל",
+        "english_name": "YUVAL"
+    },
+    {
+        "id": "468",
+        "name": "יובלים",
+        "english_name": "YUVALIM"
+    },
+    {
+        "id": "469",
+        "name": "יודפת",
+        "english_name": "YODEFAT"
+    },
+    {
+        "id": "470",
+        "name": "יונתן",
+        "english_name": "YONATAN"
+    },
+    {
+        "id": "471",
+        "name": "יושיביה",
+        "english_name": "YOSHIVYA"
+    },
+    {
+        "id": "472",
+        "name": "יזרעאל",
+        "english_name": "YIZRE'EL"
+    },
+    {
+        "id": "473",
+        "name": "יחיעם",
+        "english_name": "YEHI'AM"
+    },
+    {
+        "id": "474",
+        "name": "יטבתה",
+        "english_name": "YOTVATA"
+    },
+    {
+        "id": "475",
+        "name": "ייט",
+        "english_name": "YITAV"
+    },
+    {
+        "id": "476",
+        "name": "יכיני",
+        "english_name": "YAKHINI"
+    },
+    {
+        "id": "477",
+        "name": "ינוב",
+        "english_name": "YANUV"
+    },
+    {
+        "id": "478",
+        "name": "ינון",
+        "english_name": "YINNON"
+    },
+    {
+        "id": "479",
+        "name": "יסוד המעלה",
+        "english_name": "YESUD HAMA'ALA"
+    },
+    {
+        "id": "480",
+        "name": "יסודות",
+        "english_name": "YESODOT"
+    },
+    {
+        "id": "481",
+        "name": "יסעור",
+        "english_name": "YAS'UR"
+    },
+    {
+        "id": "482",
+        "name": "יעד",
+        "english_name": "YA'AD"
+    },
+    {
+        "id": "483",
+        "name": "יעל",
+        "english_name": "YA'EL"
+    },
+    {
+        "id": "484",
+        "name": "יעף",
+        "english_name": "YE'AF"
+    },
+    {
+        "id": "485",
+        "name": "יערה",
+        "english_name": "YA'ARA"
+    },
+    {
+        "id": "486",
+        "name": "יפיע",
+        "english_name": "YAFI"
+    },
+    {
+        "id": "487",
+        "name": "יפית",
+        "english_name": "YAFIT"
+    },
+    {
+        "id": "488",
+        "name": "יפעת",
+        "english_name": "YIF'AT"
+    },
+    {
+        "id": "489",
+        "name": "יפתח",
+        "english_name": "YIFTAH"
+    },
+    {
+        "id": "490",
+        "name": "יצהר",
+        "english_name": "YIZHAR"
+    },
+    {
+        "id": "491",
+        "name": "יציץ",
+        "english_name": "YAZIZ"
+    },
+    {
+        "id": "492",
+        "name": "יקום",
+        "english_name": "YAQUM"
+    },
+    {
+        "id": "493",
+        "name": "יקיר",
+        "english_name": "YAQIR"
+    },
+    {
+        "id": "494",
+        "name": "יקנעם (מושבה)",
+        "english_name": "YOQNE'AM(MOSHAVA)"
+    },
+    {
+        "id": "495",
+        "name": "יקנעם עילית",
+        "english_name": "YOQNE'AM ILLIT"
+    },
+    {
+        "id": "496",
+        "name": "יראון",
+        "english_name": "YIR'ON"
+    },
+    {
+        "id": "497",
+        "name": "ירדנה",
+        "english_name": "YARDENA"
+    },
+    {
+        "id": "498",
+        "name": "ירוחם",
+        "english_name": "YEROHAM"
+    },
+    {
+        "id": "499",
+        "name": "ירושלים",
+        "english_name": "JERUSALEM"
+    },
+    {
+        "id": "500",
+        "name": "ירחיב",
+        "english_name": "YARHIV"
+    },
+    {
+        "id": "501",
+        "name": "ירכא",
+        "english_name": "YIRKA"
+    },
+    {
+        "id": "502",
+        "name": "ירקונה",
+        "english_name": "YARQONA"
+    },
+    {
+        "id": "503",
+        "name": "ישע",
+        "english_name": "YESHA"
+    },
+    {
+        "id": "504",
+        "name": "ישעי",
+        "english_name": "YISH'I"
+    },
+    {
+        "id": "505",
+        "name": "ישרש",
+        "english_name": "YASHRESH"
+    },
+    {
+        "id": "506",
+        "name": "יתד",
+        "english_name": "YATED"
+    },
+    {
+        "id": "507",
+        "name": "יתיר",
+        "english_name": ""
+    },
+    {
+        "id": "508",
+        "name": "כאבול",
+        "english_name": "KABUL"
+    },
+    {
+        "id": "509",
+        "name": "כאוכב אבו אל-היג'א",
+        "english_name": "KAOKAB ABU AL-HIJA"
+    },
+    {
+        "id": "510",
+        "name": "כברי",
+        "english_name": "KABRI"
+    },
+    {
+        "id": "511",
+        "name": "כדורי",
+        "english_name": "KADOORIE"
+    },
+    {
+        "id": "512",
+        "name": "כדיתה",
+        "english_name": ""
+    },
+    {
+        "id": "513",
+        "name": "כוכב השחר",
+        "english_name": "KOKHAV HASHAHAR"
+    },
+    {
+        "id": "514",
+        "name": "כוכב יאיר",
+        "english_name": "KOKHAV YA'IR"
+    },
+    {
+        "id": "515",
+        "name": "כוכב יעקב",
+        "english_name": "KOKHAV YA'AQOV"
+    },
+    {
+        "id": "516",
+        "name": "כוכב מיכאל",
+        "english_name": "KOKHAV MIKHA'EL"
+    },
+    {
+        "id": "517",
+        "name": "כורזים",
+        "english_name": "KORAZIM"
+    },
+    {
+        "id": "518",
+        "name": "כחל",
+        "english_name": "KAHAL"
+    },
+    {
+        "id": "519",
+        "name": "כחלה",
+        "english_name": ""
+    },
+    {
+        "id": "520",
+        "name": "כיסופים",
+        "english_name": "KISSUFIM"
+    },
+    {
+        "id": "521",
+        "name": "כישור",
+        "english_name": "KISHOR"
+    },
+    {
+        "id": "522",
+        "name": "כליל",
+        "english_name": "KELIL"
+    },
+    {
+        "id": "523",
+        "name": "כלנית",
+        "english_name": "KALLANIT"
+    },
+    {
+        "id": "524",
+        "name": "כמאנה",
+        "english_name": ""
+    },
+    {
+        "id": "525",
+        "name": "כמהין",
+        "english_name": "KEMEHIN"
+    },
+    {
+        "id": "526",
+        "name": "כמון",
+        "english_name": "KAMMON"
+    },
+    {
+        "id": "527",
+        "name": "כנות",
+        "english_name": "KANNOT"
+    },
+    {
+        "id": "528",
+        "name": "כנף",
+        "english_name": "KANAF"
+    },
+    {
+        "id": "529",
+        "name": "כנרת",
+        "english_name": "KINNERET"
+    },
+    {
+        "id": "530",
+        "name": "כסיפה",
+        "english_name": "KUSEIFE"
+    },
+    {
+        "id": "531",
+        "name": "כסלון",
+        "english_name": "KESALON"
+    },
+    {
+        "id": "532",
+        "name": "כסרא-סמיע",
+        "english_name": "KISRA-SUMEI"
+    },
+    {
+        "id": "533",
+        "name": "כעביה-טבאש-חג'אג'רה",
+        "english_name": "KA'ABIYYE-TABBASH-HA"
+    },
+    {
+        "id": "534",
+        "name": "כפר אביב",
+        "english_name": "KEFAR AVIV"
+    },
+    {
+        "id": "535",
+        "name": "כפר אדומים",
+        "english_name": "KEFAR ADUMMIM"
+    },
+    {
+        "id": "536",
+        "name": "כפר אוריה",
+        "english_name": "KEFAR URIYYA"
+    },
+    {
+        "id": "537",
+        "name": "כפר אחים",
+        "english_name": "KEFAR AHIM"
+    },
+    {
+        "id": "538",
+        "name": "כפר ביאליק",
+        "english_name": "KEFAR BIALIK"
+    },
+    {
+        "id": "539",
+        "name": "כפר ביל",
+        "english_name": "KEFAR BILU"
+    },
+    {
+        "id": "540",
+        "name": "כפר בלום",
+        "english_name": "KEFAR BLUM"
+    },
+    {
+        "id": "541",
+        "name": "כפר בן נון",
+        "english_name": "KEFAR BIN NUN"
+    },
+    {
+        "id": "542",
+        "name": "כפר ברא",
+        "english_name": "KAFAR BARA"
+    },
+    {
+        "id": "543",
+        "name": "כפר ברוך",
+        "english_name": "KEFAR BARUKH"
+    },
+    {
+        "id": "544",
+        "name": "כפר גדעון",
+        "english_name": "KEFAR GID'ON"
+    },
+    {
+        "id": "545",
+        "name": "כפר גלים",
+        "english_name": "KEFAR GALLIM"
+    },
+    {
+        "id": "546",
+        "name": "כפר גליקסון",
+        "english_name": "KEFAR GLIKSON"
+    },
+    {
+        "id": "547",
+        "name": "כפר גלעדי",
+        "english_name": "KEFAR GIL'ADI"
+    },
+    {
+        "id": "548",
+        "name": "כפר דניאל",
+        "english_name": "KEFAR DANIYYEL"
+    },
+    {
+        "id": "549",
+        "name": "כפר האורנים",
+        "english_name": "KEFAR HAORANIM"
+    },
+    {
+        "id": "550",
+        "name": "כפר החורש",
+        "english_name": "KEFAR HAHORESH"
+    },
+    {
+        "id": "551",
+        "name": "כפר המכבי",
+        "english_name": "KEFAR HAMAKKABI"
+    },
+    {
+        "id": "552",
+        "name": "כפר הנגיד",
+        "english_name": "KEFAR HANAGID"
+    },
+    {
+        "id": "553",
+        "name": "כפר הנוער הדתי",
+        "english_name": "KEFAR HANO'AR HADATI"
+    },
+    {
+        "id": "554",
+        "name": "כפר הנשיא",
+        "english_name": "KEFAR HANASI"
+    },
+    {
+        "id": "555",
+        "name": "כפר הס",
+        "english_name": "KEFAR HESS"
+    },
+    {
+        "id": "556",
+        "name": "כפר הרא",
+        "english_name": "KEFAR HARO'E"
+    },
+    {
+        "id": "557",
+        "name": "כפר הרי",
+        "english_name": "KEFAR HARIF"
+    },
+    {
+        "id": "558",
+        "name": "כפר ויתקין",
+        "english_name": "KEFAR VITKIN"
+    },
+    {
+        "id": "559",
+        "name": "כפר ורבורג",
+        "english_name": "KEFAR WARBURG"
+    },
+    {
+        "id": "560",
+        "name": "כפר ורדים",
+        "english_name": "KEFAR WERADIM"
+    },
+    {
+        "id": "561",
+        "name": "כפר זוהרים",
+        "english_name": "KEFAR ZOHARIM"
+    },
+    {
+        "id": "562",
+        "name": "כפר זיתים",
+        "english_name": "KEFAR ZETIM"
+    },
+    {
+        "id": "563",
+        "name": "כפר חב\"ד",
+        "english_name": "KEFAR HABAD"
+    },
+    {
+        "id": "564",
+        "name": "כפר חושן",
+        "english_name": "KEFAR HOSHEN"
+    },
+    {
+        "id": "565",
+        "name": "כפר חיטים",
+        "english_name": "KEFAR HITTIM"
+    },
+    {
+        "id": "566",
+        "name": "כפר חיים",
+        "english_name": "KEFAR HAYYIM"
+    },
+    {
+        "id": "567",
+        "name": "כפר חנניה",
+        "english_name": "KEFAR HANANYA"
+    },
+    {
+        "id": "568",
+        "name": "כפר חסידים א'",
+        "english_name": "KEFAR HASIDIM ALEF"
+    },
+    {
+        "id": "569",
+        "name": "כפר חסידים ב'",
+        "english_name": "KEFAR HASIDIM BET"
+    },
+    {
+        "id": "570",
+        "name": "כפר חרוב",
+        "english_name": "KEFAR HARUV"
+    },
+    {
+        "id": "571",
+        "name": "כפר טרומן",
+        "english_name": "KEFAR TRUMAN"
+    },
+    {
+        "id": "572",
+        "name": "כפר יאסיף",
+        "english_name": "KAFAR YASIF"
+    },
+    {
+        "id": "573",
+        "name": "כפר ידידיה",
+        "english_name": "YEDIDYA"
+    },
+    {
+        "id": "574",
+        "name": "כפר יהושע",
+        "english_name": "KEFAR YEHOSHUA"
+    },
+    {
+        "id": "575",
+        "name": "כפר יונה",
+        "english_name": "KEFAR YONA"
+    },
+    {
+        "id": "576",
+        "name": "כפר יחזקאל",
+        "english_name": "KEFAR YEHEZQEL"
+    },
+    {
+        "id": "577",
+        "name": "כפר יעבץ",
+        "english_name": "KEFAR YA'BEZ"
+    },
+    {
+        "id": "578",
+        "name": "כפר כמא",
+        "english_name": "KAFAR KAMA"
+    },
+    {
+        "id": "579",
+        "name": "כפר כנא",
+        "english_name": "KAFAR KANNA"
+    },
+    {
+        "id": "580",
+        "name": "כפר מונש",
+        "english_name": "KEFAR MONASH"
+    },
+    {
+        "id": "581",
+        "name": "כפר מימון",
+        "english_name": "KEFAR MAYMON"
+    },
+    {
+        "id": "582",
+        "name": "כפר מל",
+        "english_name": "KEFAR MALAL"
+    },
+    {
+        "id": "583",
+        "name": "כפר מנדא",
+        "english_name": "KAFAR MANDA"
+    },
+    {
+        "id": "584",
+        "name": "כפר מנחם",
+        "english_name": "KEFAR MENAHEM"
+    },
+    {
+        "id": "585",
+        "name": "כפר מסריק",
+        "english_name": "KEFAR MASARYK"
+    },
+    {
+        "id": "586",
+        "name": "כפר מצר",
+        "english_name": "KAFAR MISR"
+    },
+    {
+        "id": "587",
+        "name": "כפר מרדכי",
+        "english_name": "KEFAR MORDEKHAY"
+    },
+    {
+        "id": "588",
+        "name": "כפר נטר",
+        "english_name": "KEFAR NETTER"
+    },
+    {
+        "id": "589",
+        "name": "כפר סאלד",
+        "english_name": "KEFAR SZOLD"
+    },
+    {
+        "id": "590",
+        "name": "כפר סבא",
+        "english_name": "KEFAR SAVA"
+    },
+    {
+        "id": "591",
+        "name": "כפר סילבר",
+        "english_name": "KEFAR SILVER"
+    },
+    {
+        "id": "592",
+        "name": "כפר סירקין",
+        "english_name": "KEFAR SIRKIN"
+    },
+    {
+        "id": "593",
+        "name": "כפר עבודה",
+        "english_name": "KEFAR AVODA"
+    },
+    {
+        "id": "594",
+        "name": "כפר עזה",
+        "english_name": "KEFAR AZZA"
+    },
+    {
+        "id": "595",
+        "name": "כפר עציון",
+        "english_name": "KEFAR EZYON"
+    },
+    {
+        "id": "596",
+        "name": "כפר פינס",
+        "english_name": "KEFAR PINES"
+    },
+    {
+        "id": "597",
+        "name": "כפר קאסם",
+        "english_name": "KAFAR QASEM"
+    },
+    {
+        "id": "598",
+        "name": "כפר קיש",
+        "english_name": "KEFAR KISH"
+    },
+    {
+        "id": "599",
+        "name": "כפר קרע",
+        "english_name": "KAFAR QARA"
+    },
+    {
+        "id": "600",
+        "name": "כפר ראש הנקרה",
+        "english_name": "KEFAR ROSH HANIQRA"
+    },
+    {
+        "id": "601",
+        "name": "כפר רופין",
+        "english_name": "KEFAR RUPPIN"
+    },
+    {
+        "id": "602",
+        "name": "כפר רות",
+        "english_name": "KEFAR RUT"
+    },
+    {
+        "id": "603",
+        "name": "כפר שמאי",
+        "english_name": "KEFAR SHAMMAY"
+    },
+    {
+        "id": "604",
+        "name": "כפר שמואל",
+        "english_name": "KEFAR SHEMU'EL"
+    },
+    {
+        "id": "605",
+        "name": "כפר שמריהו",
+        "english_name": "KEFAR SHEMARYAHU"
+    },
+    {
+        "id": "606",
+        "name": "כפר תבור",
+        "english_name": "KEFAR TAVOR"
+    },
+    {
+        "id": "607",
+        "name": "כפר תפוח",
+        "english_name": "KEFAR TAPPUAH"
+    },
+    {
+        "id": "608",
+        "name": "כרי דשא",
+        "english_name": "KARE DESHE"
+    },
+    {
+        "id": "609",
+        "name": "כרכום",
+        "english_name": "KARKOM"
+    },
+    {
+        "id": "610",
+        "name": "כרם בן זמרה",
+        "english_name": "KEREM BEN ZIMRA"
+    },
+    {
+        "id": "611",
+        "name": "כרם בן שמן",
+        "english_name": "KEREM BEN SHEMEN"
+    },
+    {
+        "id": "612",
+        "name": "כרם יבנה",
+        "english_name": "KEREM YAVNE"
+    },
+    {
+        "id": "613",
+        "name": "כרם מהר",
+        "english_name": "KEREM MAHARAL"
+    },
+    {
+        "id": "614",
+        "name": "כרם שלום",
+        "english_name": "KEREM SHALOM"
+    },
+    {
+        "id": "615",
+        "name": "כרמי יוסף",
+        "english_name": "KARME YOSEF"
+    },
+    {
+        "id": "616",
+        "name": "כרמי צור",
+        "english_name": "KARME ZUR"
+    },
+    {
+        "id": "617",
+        "name": "כרמי קטיף",
+        "english_name": "KARME QATIF"
+    },
+    {
+        "id": "618",
+        "name": "כרמיאל",
+        "english_name": "KARMI'EL"
+    },
+    {
+        "id": "619",
+        "name": "כרמיה",
+        "english_name": "KARMIYYA"
+    },
+    {
+        "id": "620",
+        "name": "כרמים",
+        "english_name": "KERAMIM"
+    },
+    {
+        "id": "621",
+        "name": "כרמל",
+        "english_name": "KARMEL"
+    },
+    {
+        "id": "622",
+        "name": "לא רשום",
+        "english_name": ""
+    },
+    {
+        "id": "623",
+        "name": "לבון",
+        "english_name": "LAVON"
+    },
+    {
+        "id": "624",
+        "name": "לביא",
+        "english_name": "LAVI"
+    },
+    {
+        "id": "625",
+        "name": "לבנים",
+        "english_name": "LIVNIM"
+    },
+    {
+        "id": "626",
+        "name": "להב",
+        "english_name": "LAHAV"
+    },
+    {
+        "id": "627",
+        "name": "להבות הבשן",
+        "english_name": "LAHAVOT HABASHAN"
+    },
+    {
+        "id": "628",
+        "name": "להבות חביבה",
+        "english_name": "LAHAVOT HAVIVA"
+    },
+    {
+        "id": "629",
+        "name": "להבים",
+        "english_name": "LEHAVIM"
+    },
+    {
+        "id": "630",
+        "name": "לוד",
+        "english_name": "LOD"
+    },
+    {
+        "id": "631",
+        "name": "לוזית",
+        "english_name": "LUZIT"
+    },
+    {
+        "id": "632",
+        "name": "לוחמי הגיטאות",
+        "english_name": "LOHAME HAGETA'OT"
+    },
+    {
+        "id": "633",
+        "name": "לוטם",
+        "english_name": "LOTEM"
+    },
+    {
+        "id": "634",
+        "name": "לוטן",
+        "english_name": "LOTAN"
+    },
+    {
+        "id": "635",
+        "name": "לימן",
+        "english_name": "LIMAN"
+    },
+    {
+        "id": "636",
+        "name": "לכיש",
+        "english_name": "LAKHISH"
+    },
+    {
+        "id": "637",
+        "name": "לפיד",
+        "english_name": "LAPPID"
+    },
+    {
+        "id": "638",
+        "name": "לפידות",
+        "english_name": "LAPPIDOT"
+    },
+    {
+        "id": "639",
+        "name": "לקיה",
+        "english_name": "LAQYE"
+    },
+    {
+        "id": "640",
+        "name": "מאור",
+        "english_name": "MA'OR"
+    },
+    {
+        "id": "641",
+        "name": "מאיר שפיה",
+        "english_name": "ME'IR SHEFEYA"
+    },
+    {
+        "id": "642",
+        "name": "מבוא ביתר",
+        "english_name": "MEVO BETAR"
+    },
+    {
+        "id": "643",
+        "name": "מבוא דותן",
+        "english_name": "MEVO DOTAN"
+    },
+    {
+        "id": "644",
+        "name": "מבוא חורון",
+        "english_name": "MEVO HORON"
+    },
+    {
+        "id": "645",
+        "name": "מבוא חמה",
+        "english_name": "MEVO HAMMA"
+    },
+    {
+        "id": "646",
+        "name": "מבוא מודיעים",
+        "english_name": "MEVO MODI'IM"
+    },
+    {
+        "id": "647",
+        "name": "מבואות ים",
+        "english_name": "MEVO'OT YAM"
+    },
+    {
+        "id": "648",
+        "name": "מבועים",
+        "english_name": "MABBU'IM"
+    },
+    {
+        "id": "649",
+        "name": "מבטחים",
+        "english_name": "MIVTAHIM"
+    },
+    {
+        "id": "650",
+        "name": "מבקיעים",
+        "english_name": "MAVQI'IM"
+    },
+    {
+        "id": "651",
+        "name": "מבשרת ציון",
+        "english_name": "MEVASSERET ZIYYON"
+    },
+    {
+        "id": "652",
+        "name": "מג'ד אל-כרום",
+        "english_name": "MAJD AL-KURUM"
+    },
+    {
+        "id": "653",
+        "name": "מג'דל שמס",
+        "english_name": "MAJDAL SHAMS"
+    },
+    {
+        "id": "654",
+        "name": "מגאר",
+        "english_name": "MUGHAR"
+    },
+    {
+        "id": "655",
+        "name": "מגדים",
+        "english_name": "MEGADIM"
+    },
+    {
+        "id": "656",
+        "name": "מגדל",
+        "english_name": "MIGDAL"
+    },
+    {
+        "id": "657",
+        "name": "מגדל העמק",
+        "english_name": "MIGDAL HAEMEQ"
+    },
+    {
+        "id": "658",
+        "name": "מגדל עוז",
+        "english_name": "MIGDAL OZ"
+    },
+    {
+        "id": "659",
+        "name": "מגדלים",
+        "english_name": "MIGDALIM"
+    },
+    {
+        "id": "660",
+        "name": "מגידו",
+        "english_name": "MEGIDDO"
+    },
+    {
+        "id": "661",
+        "name": "מגל",
+        "english_name": "MAGGAL"
+    },
+    {
+        "id": "662",
+        "name": "מגן",
+        "english_name": "MAGEN"
+    },
+    {
+        "id": "663",
+        "name": "מגן שאול",
+        "english_name": "MAGEN SHA'UL"
+    },
+    {
+        "id": "664",
+        "name": "מגשימים",
+        "english_name": "MAGSHIMIM"
+    },
+    {
+        "id": "665",
+        "name": "מדרך עוז",
+        "english_name": "MIDRAKH OZ"
+    },
+    {
+        "id": "666",
+        "name": "מדרשת בן גוריון",
+        "english_name": "MIDRESHET BEN GURION"
+    },
+    {
+        "id": "667",
+        "name": "מדרשת רופין",
+        "english_name": "MIDRESHET RUPPIN"
+    },
+    {
+        "id": "668",
+        "name": "מודיעין עילית",
+        "english_name": "MODI'IN ILLIT"
+    },
+    {
+        "id": "669",
+        "name": "מודיעין-מכבים-רעות",
+        "english_name": "MODI'IN-MAKKABBIM-RE"
+    },
+    {
+        "id": "670",
+        "name": "מולדה",
+        "english_name": ""
+    },
+    {
+        "id": "671",
+        "name": "מולדת",
+        "english_name": "MOLEDET"
+    },
+    {
+        "id": "672",
+        "name": "מוצא עילית",
+        "english_name": "MOZA ILLIT"
+    },
+    {
+        "id": "673",
+        "name": "מוקייבלה",
+        "english_name": "MUQEIBLE"
+    },
+    {
+        "id": "674",
+        "name": "מורן",
+        "english_name": "MORAN"
+    },
+    {
+        "id": "675",
+        "name": "מורשת",
+        "english_name": "MORESHET"
+    },
+    {
+        "id": "676",
+        "name": "מזור",
+        "english_name": "MAZOR"
+    },
+    {
+        "id": "677",
+        "name": "מזכרת בתיה",
+        "english_name": "MAZKERET BATYA"
+    },
+    {
+        "id": "678",
+        "name": "מזרע",
+        "english_name": "MIZRA"
+    },
+    {
+        "id": "679",
+        "name": "מזרעה",
+        "english_name": "MAZRA'A"
+    },
+    {
+        "id": "680",
+        "name": "מחולה",
+        "english_name": "MEHOLA"
+    },
+    {
+        "id": "681",
+        "name": "מחנה הילה",
+        "english_name": ""
+    },
+    {
+        "id": "682",
+        "name": "מחנה טלי",
+        "english_name": ""
+    },
+    {
+        "id": "683",
+        "name": "מחנה יהודית",
+        "english_name": ""
+    },
+    {
+        "id": "684",
+        "name": "מחנה יוכבד",
+        "english_name": ""
+    },
+    {
+        "id": "685",
+        "name": "מחנה יפה",
+        "english_name": ""
+    },
+    {
+        "id": "686",
+        "name": "מחנה יתיר",
+        "english_name": "MAHANE YATTIR"
+    },
+    {
+        "id": "687",
+        "name": "מחנה מרים",
+        "english_name": ""
+    },
+    {
+        "id": "688",
+        "name": "מחנה עדי",
+        "english_name": ""
+    },
+    {
+        "id": "689",
+        "name": "מחנה תל נוף",
+        "english_name": ""
+    },
+    {
+        "id": "690",
+        "name": "מחניים",
+        "english_name": "MAHANAYIM"
+    },
+    {
+        "id": "691",
+        "name": "מחסיה",
+        "english_name": "MAHSEYA"
+    },
+    {
+        "id": "692",
+        "name": "מטולה",
+        "english_name": "METULA"
+    },
+    {
+        "id": "693",
+        "name": "מטע",
+        "english_name": "MATTA"
+    },
+    {
+        "id": "694",
+        "name": "מי עמי",
+        "english_name": "ME AMMI"
+    },
+    {
+        "id": "695",
+        "name": "מיטב",
+        "english_name": "METAV"
+    },
+    {
+        "id": "696",
+        "name": "מייסר",
+        "english_name": "MEISER"
+    },
+    {
+        "id": "697",
+        "name": "מיצר",
+        "english_name": "MEZAR"
+    },
+    {
+        "id": "698",
+        "name": "מירב",
+        "english_name": "MERAV"
+    },
+    {
+        "id": "699",
+        "name": "מירון",
+        "english_name": "MERON"
+    },
+    {
+        "id": "700",
+        "name": "מישר",
+        "english_name": "MESHAR"
+    },
+    {
+        "id": "701",
+        "name": "מיתר",
+        "english_name": "METAR"
+    },
+    {
+        "id": "702",
+        "name": "מכורה",
+        "english_name": "MEKHORA"
+    },
+    {
+        "id": "703",
+        "name": "מכחול",
+        "english_name": "MAKCHUL"
+    },
+    {
+        "id": "704",
+        "name": "מכמורת",
+        "english_name": "MIKHMORET"
+    },
+    {
+        "id": "705",
+        "name": "מכמנים",
+        "english_name": "MIKHMANNIM"
+    },
+    {
+        "id": "706",
+        "name": "מלאה",
+        "english_name": "MELE'A"
+    },
+    {
+        "id": "707",
+        "name": "מלילות",
+        "english_name": "MELILOT"
+    },
+    {
+        "id": "708",
+        "name": "מלכיה",
+        "english_name": "MALKIYYA"
+    },
+    {
+        "id": "709",
+        "name": "מלכישוע",
+        "english_name": "MALKISHUA"
+    },
+    {
+        "id": "710",
+        "name": "מנוחה",
+        "english_name": "MENUHA"
+    },
+    {
+        "id": "711",
+        "name": "מנוף",
+        "english_name": "MANOF"
+    },
+    {
+        "id": "712",
+        "name": "מנות",
+        "english_name": "MANOT"
+    },
+    {
+        "id": "713",
+        "name": "מנחמיה",
+        "english_name": "MENAHEMYA"
+    },
+    {
+        "id": "714",
+        "name": "מנרה",
+        "english_name": "MENNARA"
+    },
+    {
+        "id": "715",
+        "name": "מנשית זבדה",
+        "english_name": "MANSHIYYET ZABDA"
+    },
+    {
+        "id": "716",
+        "name": "מסד",
+        "english_name": "MASSAD"
+    },
+    {
+        "id": "717",
+        "name": "מסדה",
+        "english_name": "MASSADA"
+    },
+    {
+        "id": "718",
+        "name": "מסילות",
+        "english_name": "MESILLOT"
+    },
+    {
+        "id": "719",
+        "name": "מסילת ציון",
+        "english_name": "MESILLAT ZIYYON"
+    },
+    {
+        "id": "720",
+        "name": "מסלול",
+        "english_name": "MASLUL"
+    },
+    {
+        "id": "721",
+        "name": "מסעדה",
+        "english_name": "MAS'ADE"
+    },
+    {
+        "id": "722",
+        "name": "מסעודין אל-עזאזמה",
+        "english_name": "MAS'UDIN AL-'AZAZME"
+    },
+    {
+        "id": "723",
+        "name": "מעברות",
+        "english_name": "MA'BAROT"
+    },
+    {
+        "id": "724",
+        "name": "מעגלים",
+        "english_name": "MA'GALIM"
+    },
+    {
+        "id": "725",
+        "name": "מעגן",
+        "english_name": "MA'AGAN"
+    },
+    {
+        "id": "726",
+        "name": "מעגן מיכאל",
+        "english_name": "MA'AGAN MIKHA'EL"
+    },
+    {
+        "id": "727",
+        "name": "מעוז חיים",
+        "english_name": "MA'OZ HAYYIM"
+    },
+    {
+        "id": "728",
+        "name": "מעון",
+        "english_name": "MA'ON"
+    },
+    {
+        "id": "729",
+        "name": "מעונה",
+        "english_name": "ME'ONA"
+    },
+    {
+        "id": "730",
+        "name": "מעיליא",
+        "english_name": "MI'ELYA"
+    },
+    {
+        "id": "731",
+        "name": "מעין ברוך",
+        "english_name": "MA'YAN BARUKH"
+    },
+    {
+        "id": "732",
+        "name": "מעין צבי",
+        "english_name": "MA'YAN ZEVI"
+    },
+    {
+        "id": "733",
+        "name": "מעלה אדומים",
+        "english_name": "MA'ALE ADUMMIM"
+    },
+    {
+        "id": "734",
+        "name": "מעלה אפרים",
+        "english_name": "MA'ALE EFRAYIM"
+    },
+    {
+        "id": "735",
+        "name": "מעלה גלבוע",
+        "english_name": "MA'ALE GILBOA"
+    },
+    {
+        "id": "736",
+        "name": "מעלה גמלא",
+        "english_name": "MA'ALE GAMLA"
+    },
+    {
+        "id": "737",
+        "name": "מעלה החמישה",
+        "english_name": "MA'ALE HAHAMISHA"
+    },
+    {
+        "id": "738",
+        "name": "מעלה לבונה",
+        "english_name": "MA'ALE LEVONA"
+    },
+    {
+        "id": "739",
+        "name": "מעלה מכמש",
+        "english_name": "MA'ALE MIKHMAS"
+    },
+    {
+        "id": "740",
+        "name": "מעלה עירון",
+        "english_name": "MA'ALE IRON"
+    },
+    {
+        "id": "741",
+        "name": "מעלה עמוס",
+        "english_name": "MA'ALE AMOS"
+    },
+    {
+        "id": "742",
+        "name": "מעלה שומרון",
+        "english_name": "MA'ALE SHOMERON"
+    },
+    {
+        "id": "743",
+        "name": "מעלות-תרשיחא",
+        "english_name": "MA'ALOT-TARSHIHA"
+    },
+    {
+        "id": "744",
+        "name": "מענית",
+        "english_name": "MA'ANIT"
+    },
+    {
+        "id": "745",
+        "name": "מעש",
+        "english_name": "MA'AS"
+    },
+    {
+        "id": "746",
+        "name": "מפלסים",
+        "english_name": "MEFALLESIM"
+    },
+    {
+        "id": "747",
+        "name": "מצדות יהודה",
+        "english_name": "MEZADOT YEHUDA"
+    },
+    {
+        "id": "748",
+        "name": "מצובה",
+        "english_name": "MAZZUVA"
+    },
+    {
+        "id": "749",
+        "name": "מצליח",
+        "english_name": "MAZLIAH"
+    },
+    {
+        "id": "750",
+        "name": "מצפה",
+        "english_name": "MIZPA"
+    },
+    {
+        "id": "751",
+        "name": "מצפה אבי",
+        "english_name": "MIZPE AVIV"
+    },
+    {
+        "id": "752",
+        "name": "מצפה אילן",
+        "english_name": ""
+    },
+    {
+        "id": "753",
+        "name": "מצפה יריחו",
+        "english_name": "MIZPE YERIHO"
+    },
+    {
+        "id": "754",
+        "name": "מצפה נטופה",
+        "english_name": "MIZPE NETOFA"
+    },
+    {
+        "id": "755",
+        "name": "מצפה רמון",
+        "english_name": "MIZPE RAMON"
+    },
+    {
+        "id": "756",
+        "name": "מצפה שלם",
+        "english_name": "MIZPE SHALEM"
+    },
+    {
+        "id": "757",
+        "name": "מצר",
+        "english_name": "MEZER"
+    },
+    {
+        "id": "758",
+        "name": "מקווה ישראל",
+        "english_name": "MIQWE YISRA'EL"
+    },
+    {
+        "id": "759",
+        "name": "מרגליות",
+        "english_name": "MARGALIYYOT"
+    },
+    {
+        "id": "760",
+        "name": "מרום גולן",
+        "english_name": "MEROM GOLAN"
+    },
+    {
+        "id": "761",
+        "name": "מרחב עם",
+        "english_name": ""
+    },
+    {
+        "id": "762",
+        "name": "מרחביה",
+        "english_name": "MERHAVYA"
+    },
+    {
+        "id": "763",
+        "name": "מרכז שפירא",
+        "english_name": "MERKAZ SHAPPIRA"
+    },
+    {
+        "id": "764",
+        "name": "משאבי שדה",
+        "english_name": "MASH'ABBE SADE"
+    },
+    {
+        "id": "765",
+        "name": "משגב דב",
+        "english_name": "MISGAV DOV"
+    },
+    {
+        "id": "766",
+        "name": "משגב עם",
+        "english_name": "MISGAV AM"
+    },
+    {
+        "id": "767",
+        "name": "משהד",
+        "english_name": "MESHHED"
+    },
+    {
+        "id": "768",
+        "name": "משואה",
+        "english_name": "MASSU'A"
+    },
+    {
+        "id": "769",
+        "name": "משואות יצחק",
+        "english_name": "MASSUOT YIZHAQ"
+    },
+    {
+        "id": "770",
+        "name": "משכיות",
+        "english_name": "MASKIYYOT"
+    },
+    {
+        "id": "771",
+        "name": "משמר איילון",
+        "english_name": "MISHMAR AYYALON"
+    },
+    {
+        "id": "772",
+        "name": "משמר דוד",
+        "english_name": "MISHMAR DAWID"
+    },
+    {
+        "id": "773",
+        "name": "משמר הירדן",
+        "english_name": "MISHMAR HAYARDEN"
+    },
+    {
+        "id": "774",
+        "name": "משמר הנגב",
+        "english_name": "MISHMAR HANEGEV"
+    },
+    {
+        "id": "775",
+        "name": "משמר העמק",
+        "english_name": "MISHMAR HAEMEQ"
+    },
+    {
+        "id": "776",
+        "name": "משמר השבעה",
+        "english_name": "MISHMAR HASHIV'A"
+    },
+    {
+        "id": "777",
+        "name": "משמר השרון",
+        "english_name": "MISHMAR HASHARON"
+    },
+    {
+        "id": "778",
+        "name": "משמרות",
+        "english_name": "MISHMAROT"
+    },
+    {
+        "id": "779",
+        "name": "משמרת",
+        "english_name": "MISHMERET"
+    },
+    {
+        "id": "780",
+        "name": "משען",
+        "english_name": "MASH'EN"
+    },
+    {
+        "id": "781",
+        "name": "מתן",
+        "english_name": "MATTAN"
+    },
+    {
+        "id": "782",
+        "name": "מתת",
+        "english_name": "MATTAT"
+    },
+    {
+        "id": "783",
+        "name": "מתתיהו",
+        "english_name": "MATTITYAHU"
+    },
+    {
+        "id": "784",
+        "name": "נאות גולן",
+        "english_name": "NE'OT GOLAN"
+    },
+    {
+        "id": "785",
+        "name": "נאות הכיכר",
+        "english_name": "NE'OT HAKIKKAR"
+    },
+    {
+        "id": "786",
+        "name": "נאות מרדכי",
+        "english_name": "NE'OT MORDEKHAY"
+    },
+    {
+        "id": "787",
+        "name": "נאות סמדר",
+        "english_name": "SHIZZAFON"
+    },
+    {
+        "id": "788",
+        "name": "נאעורה",
+        "english_name": "NA'URA"
+    },
+    {
+        "id": "789",
+        "name": "נבטים",
+        "english_name": "NEVATIM"
+    },
+    {
+        "id": "790",
+        "name": "נגבה",
+        "english_name": "NEGBA"
+    },
+    {
+        "id": "791",
+        "name": "נגוהות",
+        "english_name": ""
+    },
+    {
+        "id": "792",
+        "name": "נהורה",
+        "english_name": "NEHORA"
+    },
+    {
+        "id": "793",
+        "name": "נהלל",
+        "english_name": "NAHALAL"
+    },
+    {
+        "id": "794",
+        "name": "נהריה",
+        "english_name": "NAHARIYYA"
+    },
+    {
+        "id": "795",
+        "name": "נוב",
+        "english_name": "NOV"
+    },
+    {
+        "id": "796",
+        "name": "נוגה",
+        "english_name": "NOGAH"
+    },
+    {
+        "id": "797",
+        "name": "נווה",
+        "english_name": "NAVE"
+    },
+    {
+        "id": "798",
+        "name": "נווה אבות",
+        "english_name": "NEWE AVOT"
+    },
+    {
+        "id": "799",
+        "name": "נווה אור",
+        "english_name": "NEWE UR"
+    },
+    {
+        "id": "800",
+        "name": "נווה אטי",
+        "english_name": "NEWE ATIV"
+    },
+    {
+        "id": "801",
+        "name": "נווה אילן",
+        "english_name": "NEWE ILAN"
+    },
+    {
+        "id": "802",
+        "name": "נווה איתן",
+        "english_name": "NEWE ETAN"
+    },
+    {
+        "id": "803",
+        "name": "נווה דניאל",
+        "english_name": "NEWE DANIYYEL"
+    },
+    {
+        "id": "804",
+        "name": "נווה זוהר",
+        "english_name": "NEWE ZOHAR"
+    },
+    {
+        "id": "805",
+        "name": "נווה זיו",
+        "english_name": ""
+    },
+    {
+        "id": "806",
+        "name": "נווה חריף",
+        "english_name": "NEWE HARIF"
+    },
+    {
+        "id": "807",
+        "name": "נווה ים",
+        "english_name": "NEWE YAM"
+    },
+    {
+        "id": "808",
+        "name": "נווה ימין",
+        "english_name": "NEWE YAMIN"
+    },
+    {
+        "id": "809",
+        "name": "נווה ירק",
+        "english_name": "NEWE YARAQ"
+    },
+    {
+        "id": "810",
+        "name": "נווה מבטח",
+        "english_name": "NEWE MIVTAH"
+    },
+    {
+        "id": "811",
+        "name": "נווה מיכאל",
+        "english_name": "NEWE MIKHA'EL"
+    },
+    {
+        "id": "812",
+        "name": "נווה שלום",
+        "english_name": "NEWE SHALOM"
+    },
+    {
+        "id": "813",
+        "name": "נועם",
+        "english_name": "NO'AM"
+    },
+    {
+        "id": "814",
+        "name": "נוף איילון",
+        "english_name": ""
+    },
+    {
+        "id": "815",
+        "name": "נופים",
+        "english_name": "NOFIM"
+    },
+    {
+        "id": "816",
+        "name": "נופית",
+        "english_name": "NOFIT"
+    },
+    {
+        "id": "817",
+        "name": "נופך",
+        "english_name": "NOFEKH"
+    },
+    {
+        "id": "818",
+        "name": "נוקדים",
+        "english_name": "NOQEDIM"
+    },
+    {
+        "id": "819",
+        "name": "נורדיה",
+        "english_name": "NORDIYYA"
+    },
+    {
+        "id": "820",
+        "name": "נורית",
+        "english_name": "NURIT"
+    },
+    {
+        "id": "821",
+        "name": "נחושה",
+        "english_name": "NEHUSHA"
+    },
+    {
+        "id": "822",
+        "name": "נחל עוז",
+        "english_name": "NAHAL OZ"
+    },
+    {
+        "id": "823",
+        "name": "נחלה",
+        "english_name": "NAHALA"
+    },
+    {
+        "id": "824",
+        "name": "נחליאל",
+        "english_name": "NAHALI'EL"
+    },
+    {
+        "id": "825",
+        "name": "נחלים",
+        "english_name": "NEHALIM"
+    },
+    {
+        "id": "826",
+        "name": "נחם",
+        "english_name": "NAHAM"
+    },
+    {
+        "id": "827",
+        "name": "נחף",
+        "english_name": "NAHEF"
+    },
+    {
+        "id": "828",
+        "name": "נחשולים",
+        "english_name": "NAHSHOLIM"
+    },
+    {
+        "id": "829",
+        "name": "נחשון",
+        "english_name": "NAHSHON"
+    },
+    {
+        "id": "830",
+        "name": "נחשונים",
+        "english_name": "NAHSHONIM"
+    },
+    {
+        "id": "831",
+        "name": "נטועה",
+        "english_name": "NETU'A"
+    },
+    {
+        "id": "832",
+        "name": "נטור",
+        "english_name": "NATUR"
+    },
+    {
+        "id": "833",
+        "name": "נטע",
+        "english_name": "NETA"
+    },
+    {
+        "id": "834",
+        "name": "נטעים",
+        "english_name": "NETA'IM"
+    },
+    {
+        "id": "835",
+        "name": "נטף",
+        "english_name": "NATAF"
+    },
+    {
+        "id": "836",
+        "name": "ניין",
+        "english_name": "NEIN"
+    },
+    {
+        "id": "837",
+        "name": "ניל",
+        "english_name": "NILI"
+    },
+    {
+        "id": "838",
+        "name": "ניצן",
+        "english_name": "NIZZAN"
+    },
+    {
+        "id": "839",
+        "name": "ניצן ב'",
+        "english_name": "NIZZAN B"
+    },
+    {
+        "id": "840",
+        "name": "ניצנה",
+        "english_name": "NIZZANA"
+    },
+    {
+        "id": "841",
+        "name": "ניצני סיני",
+        "english_name": "NIZZANE SINAY"
+    },
+    {
+        "id": "842",
+        "name": "ניצני עוז",
+        "english_name": "NIZZANE OZ"
+    },
+    {
+        "id": "843",
+        "name": "ניצנים",
+        "english_name": "NIZZANIM"
+    },
+    {
+        "id": "844",
+        "name": "ניר אליהו",
+        "english_name": "NIR ELIYYAHU"
+    },
+    {
+        "id": "845",
+        "name": "ניר בנים",
+        "english_name": "NIR BANIM"
+    },
+    {
+        "id": "846",
+        "name": "ניר גלים",
+        "english_name": "NIR GALLIM"
+    },
+    {
+        "id": "847",
+        "name": "ניר דוד",
+        "english_name": "NIR DAWID"
+    },
+    {
+        "id": "848",
+        "name": "ניר ח",
+        "english_name": "NIR HEN"
+    },
+    {
+        "id": "849",
+        "name": "ניר יפה",
+        "english_name": "NIR YAFE"
+    },
+    {
+        "id": "850",
+        "name": "ניר יצחק",
+        "english_name": "NIR YIZHAQ"
+    },
+    {
+        "id": "851",
+        "name": "ניר ישראל",
+        "english_name": "NIR YISRA'EL"
+    },
+    {
+        "id": "852",
+        "name": "ניר משה",
+        "english_name": "NIR MOSHE"
+    },
+    {
+        "id": "853",
+        "name": "ניר עוז",
+        "english_name": "NIR OZ"
+    },
+    {
+        "id": "854",
+        "name": "ניר עם",
+        "english_name": "NIR AM"
+    },
+    {
+        "id": "855",
+        "name": "ניר עציון",
+        "english_name": "NIR EZYON"
+    },
+    {
+        "id": "856",
+        "name": "ניר עקיבא",
+        "english_name": "NIR AQIVA"
+    },
+    {
+        "id": "857",
+        "name": "ניר צבי",
+        "english_name": "NIR ZEVI"
+    },
+    {
+        "id": "858",
+        "name": "נירים",
+        "english_name": "NIRIM"
+    },
+    {
+        "id": "859",
+        "name": "נירית",
+        "english_name": "NIRIT"
+    },
+    {
+        "id": "860",
+        "name": "נירן",
+        "english_name": "NIRAN"
+    },
+    {
+        "id": "861",
+        "name": "נמרוד",
+        "english_name": "NIMROD"
+    },
+    {
+        "id": "862",
+        "name": "נס הרים",
+        "english_name": "NES HARIM"
+    },
+    {
+        "id": "863",
+        "name": "נס עמים",
+        "english_name": "NES AMMIM"
+    },
+    {
+        "id": "864",
+        "name": "נס ציונה",
+        "english_name": "NES ZIYYONA"
+    },
+    {
+        "id": "865",
+        "name": "נעורים",
+        "english_name": "NE'URIM"
+    },
+    {
+        "id": "866",
+        "name": "נעלה",
+        "english_name": "NA'ALE"
+    },
+    {
+        "id": "867",
+        "name": "נעמ",
+        "english_name": "NAAMA"
+    },
+    {
+        "id": "868",
+        "name": "נען",
+        "english_name": "NA'AN"
+    },
+    {
+        "id": "869",
+        "name": "נצר חזני",
+        "english_name": ""
+    },
+    {
+        "id": "870",
+        "name": "נצר סרני",
+        "english_name": "NEZER SERENI"
+    },
+    {
+        "id": "871",
+        "name": "נצרת",
+        "english_name": "NAZARETH"
+    },
+    {
+        "id": "872",
+        "name": "נצרת עילית",
+        "english_name": "NAZERAT ILLIT"
+    },
+    {
+        "id": "873",
+        "name": "נשר",
+        "english_name": "NESHER"
+    },
+    {
+        "id": "874",
+        "name": "נתיב הגדוד",
+        "english_name": "NETIV HAGEDUD"
+    },
+    {
+        "id": "875",
+        "name": "נתיב הל",
+        "english_name": "NETIV HALAMED-HE"
+    },
+    {
+        "id": "876",
+        "name": "נתיב העשרה",
+        "english_name": "NETIV HAASARA"
+    },
+    {
+        "id": "877",
+        "name": "נתיב השיירה",
+        "english_name": "NETIV HASHAYYARA"
+    },
+    {
+        "id": "878",
+        "name": "נתיבות",
+        "english_name": "NETIVOT"
+    },
+    {
+        "id": "879",
+        "name": "נתניה",
+        "english_name": "NETANYA"
+    },
+    {
+        "id": "880",
+        "name": "סאג'ור",
+        "english_name": "SAJUR"
+    },
+    {
+        "id": "881",
+        "name": "סאסא",
+        "english_name": "SASA"
+    },
+    {
+        "id": "882",
+        "name": "סביון",
+        "english_name": "SAVYON"
+    },
+    {
+        "id": "883",
+        "name": "סגולה",
+        "english_name": "SEGULA"
+    },
+    {
+        "id": "884",
+        "name": "סולם",
+        "english_name": "SULAM"
+    },
+    {
+        "id": "885",
+        "name": "סוסיה",
+        "english_name": "SUSEYA"
+    },
+    {
+        "id": "886",
+        "name": "סופה",
+        "english_name": "SUFA"
+    },
+    {
+        "id": "887",
+        "name": "סח'נין",
+        "english_name": "SAKHNIN"
+    },
+    {
+        "id": "888",
+        "name": "סלמה",
+        "english_name": "SALLAMA"
+    },
+    {
+        "id": "889",
+        "name": "סלעית",
+        "english_name": "SAL'IT"
+    },
+    {
+        "id": "890",
+        "name": "סמר",
+        "english_name": "SAMAR"
+    },
+    {
+        "id": "891",
+        "name": "סנסנה",
+        "english_name": ""
+    },
+    {
+        "id": "892",
+        "name": "סעד",
+        "english_name": "SA'AD"
+    },
+    {
+        "id": "893",
+        "name": "סער",
+        "english_name": "SA'AR"
+    },
+    {
+        "id": "894",
+        "name": "ספיר",
+        "english_name": "SAPPIR"
+    },
+    {
+        "id": "895",
+        "name": "סתריה",
+        "english_name": "SITRIYYA"
+    },
+    {
+        "id": "896",
+        "name": "ע'ג'ר",
+        "english_name": "GHAJAR"
+    },
+    {
+        "id": "897",
+        "name": "עבדון",
+        "english_name": "AVDON"
+    },
+    {
+        "id": "898",
+        "name": "עברון",
+        "english_name": "EVRON"
+    },
+    {
+        "id": "899",
+        "name": "עגור",
+        "english_name": "AGUR"
+    },
+    {
+        "id": "900",
+        "name": "עדי",
+        "english_name": "ADI"
+    },
+    {
+        "id": "901",
+        "name": "עדנים",
+        "english_name": "ADANIM"
+    },
+    {
+        "id": "902",
+        "name": "עוזה",
+        "english_name": "UZA"
+    },
+    {
+        "id": "903",
+        "name": "עוזייר",
+        "english_name": "UZEIR"
+    },
+    {
+        "id": "904",
+        "name": "עולש",
+        "english_name": "OLESH"
+    },
+    {
+        "id": "905",
+        "name": "עומר",
+        "english_name": "OMER"
+    },
+    {
+        "id": "906",
+        "name": "עופר",
+        "english_name": "OFER"
+    },
+    {
+        "id": "907",
+        "name": "עופרה",
+        "english_name": "OFRA"
+    },
+    {
+        "id": "908",
+        "name": "עוצם",
+        "english_name": "OZEM"
+    },
+    {
+        "id": "909",
+        "name": "עזוז",
+        "english_name": "EZUZ"
+    },
+    {
+        "id": "910",
+        "name": "עזר",
+        "english_name": "EZER"
+    },
+    {
+        "id": "911",
+        "name": "עזריאל",
+        "english_name": "AZRI'EL"
+    },
+    {
+        "id": "912",
+        "name": "עזריה",
+        "english_name": "AZARYA"
+    },
+    {
+        "id": "913",
+        "name": "עזריקם",
+        "english_name": "AZRIQAM"
+    },
+    {
+        "id": "914",
+        "name": "עטרת",
+        "english_name": "ATERET"
+    },
+    {
+        "id": "915",
+        "name": "עידן",
+        "english_name": "IDDAN"
+    },
+    {
+        "id": "916",
+        "name": "עיילבון",
+        "english_name": "EILABUN"
+    },
+    {
+        "id": "917",
+        "name": "עיינות",
+        "english_name": "AYANOT"
+    },
+    {
+        "id": "918",
+        "name": "עילוט",
+        "english_name": "ILUT"
+    },
+    {
+        "id": "919",
+        "name": "עין איילה",
+        "english_name": "EN AYYALA"
+    },
+    {
+        "id": "920",
+        "name": "עין אל-אסד",
+        "english_name": "EIN AL-ASAD"
+    },
+    {
+        "id": "921",
+        "name": "עין גב",
+        "english_name": "EN GEV"
+    },
+    {
+        "id": "922",
+        "name": "עין גדי",
+        "english_name": "EN GEDI"
+    },
+    {
+        "id": "923",
+        "name": "עין דור",
+        "english_name": "EN DOR"
+    },
+    {
+        "id": "924",
+        "name": "עין הבשור",
+        "english_name": "EN HABESOR"
+    },
+    {
+        "id": "925",
+        "name": "עין הוד",
+        "english_name": "EN HOD"
+    },
+    {
+        "id": "926",
+        "name": "עין החורש",
+        "english_name": "EN HAHORESH"
+    },
+    {
+        "id": "927",
+        "name": "עין המפרץ",
+        "english_name": "EN HAMIFRAZ"
+    },
+    {
+        "id": "928",
+        "name": "עין הנצי",
+        "english_name": "EN HANAZIV"
+    },
+    {
+        "id": "929",
+        "name": "עין העמק",
+        "english_name": "EN HAEMEQ"
+    },
+    {
+        "id": "930",
+        "name": "עין השופט",
+        "english_name": "EN HASHOFET"
+    },
+    {
+        "id": "931",
+        "name": "עין השלושה",
+        "english_name": "EN HASHELOSHA"
+    },
+    {
+        "id": "932",
+        "name": "עין ורד",
+        "english_name": "EN WERED"
+    },
+    {
+        "id": "933",
+        "name": "עין זיוון",
+        "english_name": "EN ZIWAN"
+    },
+    {
+        "id": "934",
+        "name": "עין חוד",
+        "english_name": ""
+    },
+    {
+        "id": "935",
+        "name": "עין חצבה",
+        "english_name": "EN HAZEVA"
+    },
+    {
+        "id": "936",
+        "name": "עין חרוד",
+        "english_name": "EN HAROD"
+    },
+    {
+        "id": "937",
+        "name": "עין יהב",
+        "english_name": "EN YAHAV"
+    },
+    {
+        "id": "938",
+        "name": "עין יעקב",
+        "english_name": "EN YA'AQOV"
+    },
+    {
+        "id": "939",
+        "name": "עין כרם-בי",
+        "english_name": "EN KAREM-B.S.HAQLA'I"
+    },
+    {
+        "id": "940",
+        "name": "עין כרמל",
+        "english_name": "EN KARMEL"
+    },
+    {
+        "id": "941",
+        "name": "עין מאהל",
+        "english_name": "EIN MAHEL"
+    },
+    {
+        "id": "942",
+        "name": "עין נקובא",
+        "english_name": "EIN NAQQUBA"
+    },
+    {
+        "id": "943",
+        "name": "עין עירון",
+        "english_name": "EN IRON"
+    },
+    {
+        "id": "944",
+        "name": "עין צורים",
+        "english_name": "EN ZURIM"
+    },
+    {
+        "id": "945",
+        "name": "עין קנייא",
+        "english_name": "EIN QINIYYE"
+    },
+    {
+        "id": "946",
+        "name": "עין ראפה",
+        "english_name": "EIN RAFA"
+    },
+    {
+        "id": "947",
+        "name": "עין שמר",
+        "english_name": "EN SHEMER"
+    },
+    {
+        "id": "948",
+        "name": "עין שריד",
+        "english_name": "EN SARID"
+    },
+    {
+        "id": "949",
+        "name": "עין תמר",
+        "english_name": "EN TAMAR"
+    },
+    {
+        "id": "950",
+        "name": "עינת",
+        "english_name": "ENAT"
+    },
+    {
+        "id": "951",
+        "name": "עיר אובות",
+        "english_name": "IR OVOT"
+    },
+    {
+        "id": "952",
+        "name": "עכו",
+        "english_name": "AKKO"
+    },
+    {
+        "id": "953",
+        "name": "עלומים",
+        "english_name": "ALUMIM"
+    },
+    {
+        "id": "954",
+        "name": "עלי",
+        "english_name": "ELI"
+    },
+    {
+        "id": "955",
+        "name": "עלי זהב",
+        "english_name": "ALE ZAHAV"
+    },
+    {
+        "id": "956",
+        "name": "עלמה",
+        "english_name": "ALMA"
+    },
+    {
+        "id": "957",
+        "name": "עלמון",
+        "english_name": "ALMON"
+    },
+    {
+        "id": "958",
+        "name": "עמוקה",
+        "english_name": "AMUQQA"
+    },
+    {
+        "id": "959",
+        "name": "עמינדב",
+        "english_name": "AMMINADAV"
+    },
+    {
+        "id": "960",
+        "name": "עמיעד",
+        "english_name": "AMMI'AD"
+    },
+    {
+        "id": "961",
+        "name": "עמיעוז",
+        "english_name": "AMMI'OZ"
+    },
+    {
+        "id": "962",
+        "name": "עמיקם",
+        "english_name": "AMMIQAM"
+    },
+    {
+        "id": "963",
+        "name": "עמיר",
+        "english_name": "AMIR"
+    },
+    {
+        "id": "964",
+        "name": "עמנואל",
+        "english_name": "IMMANU'EL"
+    },
+    {
+        "id": "965",
+        "name": "עמקה",
+        "english_name": "AMQA"
+    },
+    {
+        "id": "966",
+        "name": "ענב",
+        "english_name": "ENAV"
+    },
+    {
+        "id": "967",
+        "name": "עספיא",
+        "english_name": "ISIFYA"
+    },
+    {
+        "id": "968",
+        "name": "עפולה",
+        "english_name": "AFULA"
+    },
+    {
+        "id": "969",
+        "name": "עץ אפרים",
+        "english_name": "EZ EFRAYIM"
+    },
+    {
+        "id": "970",
+        "name": "עצמון שגב",
+        "english_name": "ATSMON-SEGEV"
+    },
+    {
+        "id": "971",
+        "name": "עראבה",
+        "english_name": "ARRABE"
+    },
+    {
+        "id": "972",
+        "name": "עראמשה",
+        "english_name": "ARAMSHA"
+    },
+    {
+        "id": "973",
+        "name": "ערב אל נעים",
+        "english_name": "ARRAB AL NAIM"
+    },
+    {
+        "id": "974",
+        "name": "ערד",
+        "english_name": "ARAD"
+    },
+    {
+        "id": "975",
+        "name": "ערוגות",
+        "english_name": "ARUGOT"
+    },
+    {
+        "id": "976",
+        "name": "ערערה",
+        "english_name": "AR'ARA"
+    },
+    {
+        "id": "977",
+        "name": "ערערה-בנגב",
+        "english_name": "AR'ARA-BANEGEV"
+    },
+    {
+        "id": "978",
+        "name": "עשרת",
+        "english_name": "ASERET"
+    },
+    {
+        "id": "979",
+        "name": "עתלית",
+        "english_name": "ATLIT"
+    },
+    {
+        "id": "980",
+        "name": "עתניאל",
+        "english_name": "OTNI'EL"
+    },
+    {
+        "id": "981",
+        "name": "פארן",
+        "english_name": "PARAN"
+    },
+    {
+        "id": "982",
+        "name": "פדואל",
+        "english_name": "PEDU'EL"
+    },
+    {
+        "id": "983",
+        "name": "פדויים",
+        "english_name": "PEDUYIM"
+    },
+    {
+        "id": "984",
+        "name": "פדיה",
+        "english_name": "PEDAYA"
+    },
+    {
+        "id": "985",
+        "name": "פוריה - כפר עבודה",
+        "english_name": "PORIYYA-KEFAR AVODA"
+    },
+    {
+        "id": "986",
+        "name": "פוריה - נווה עובד",
+        "english_name": "PORIYYA-NEWE OVED"
+    },
+    {
+        "id": "987",
+        "name": "פוריה עילית",
+        "english_name": "PORIYYA ILLIT"
+    },
+    {
+        "id": "988",
+        "name": "פוריידיס",
+        "english_name": "FUREIDIS"
+    },
+    {
+        "id": "989",
+        "name": "פורת",
+        "english_name": "PORAT"
+    },
+    {
+        "id": "990",
+        "name": "פטיש",
+        "english_name": "PATTISH"
+    },
+    {
+        "id": "991",
+        "name": "פלך",
+        "english_name": "PELEKH"
+    },
+    {
+        "id": "992",
+        "name": "פלמחים",
+        "english_name": "PALMAHIM"
+    },
+    {
+        "id": "993",
+        "name": "פני חבר",
+        "english_name": "PENE HEVER"
+    },
+    {
+        "id": "994",
+        "name": "פסגות",
+        "english_name": "PESAGOT"
+    },
+    {
+        "id": "995",
+        "name": "פסוטה",
+        "english_name": "FASSUTA"
+    },
+    {
+        "id": "996",
+        "name": "פעמי תש",
+        "english_name": "PA'AME TASHAZ"
+    },
+    {
+        "id": "997",
+        "name": "פצאל",
+        "english_name": "PEZA'EL"
+    },
+    {
+        "id": "998",
+        "name": "פקיעין",
+        "english_name": "PEQI'IN"
+    },
+    {
+        "id": "999",
+        "name": "פקיעין חדשה",
+        "english_name": "PEQI'IN HADASHA"
+    },
+    {
+        "id": "1000",
+        "name": "פרדס חנה-כרכור",
+        "english_name": "PARDES HANNA-KARKUR"
+    },
+    {
+        "id": "1001",
+        "name": "פרדסיה",
+        "english_name": "PARDESIYYA"
+    },
+    {
+        "id": "1002",
+        "name": "פרוד",
+        "english_name": "PAROD"
+    },
+    {
+        "id": "1003",
+        "name": "פרזון",
+        "english_name": "PERAZON"
+    },
+    {
+        "id": "1004",
+        "name": "פרי גן",
+        "english_name": "PERI GAN"
+    },
+    {
+        "id": "1005",
+        "name": "פתח תקווה",
+        "english_name": "PETAH TIQWA"
+    },
+    {
+        "id": "1006",
+        "name": "פתחיה",
+        "english_name": "PETAHYA"
+    },
+    {
+        "id": "1007",
+        "name": "צאלים",
+        "english_name": "ZE'ELIM"
+    },
+    {
+        "id": "1008",
+        "name": "צביה",
+        "english_name": "ZVIYYA"
+    },
+    {
+        "id": "1009",
+        "name": "צבעון",
+        "english_name": "ZIV'ON"
+    },
+    {
+        "id": "1010",
+        "name": "צובה",
+        "english_name": "ZOVA"
+    },
+    {
+        "id": "1011",
+        "name": "צוחר",
+        "english_name": "ZOHAR"
+    },
+    {
+        "id": "1012",
+        "name": "צופיה",
+        "english_name": "ZOFIYYA"
+    },
+    {
+        "id": "1013",
+        "name": "צופים",
+        "english_name": "ZUFIN"
+    },
+    {
+        "id": "1014",
+        "name": "צופית",
+        "english_name": "ZOFIT"
+    },
+    {
+        "id": "1015",
+        "name": "צופר",
+        "english_name": "ZOFAR"
+    },
+    {
+        "id": "1016",
+        "name": "צוקי ים",
+        "english_name": "SHOSHANNAT HAAMAQIM("
+    },
+    {
+        "id": "1017",
+        "name": "צוקים",
+        "english_name": "MAHANE BILDAD"
+    },
+    {
+        "id": "1018",
+        "name": "צור הדסה",
+        "english_name": "ZUR HADASSA"
+    },
+    {
+        "id": "1019",
+        "name": "צור יצחק",
+        "english_name": "ZUR YIZHAQ"
+    },
+    {
+        "id": "1020",
+        "name": "צור משה",
+        "english_name": "ZUR MOSHE"
+    },
+    {
+        "id": "1021",
+        "name": "צור נתן",
+        "english_name": "ZUR NATAN"
+    },
+    {
+        "id": "1022",
+        "name": "צוריאל",
+        "english_name": "ZURI'EL"
+    },
+    {
+        "id": "1023",
+        "name": "צורית",
+        "english_name": "ZURIT"
+    },
+    {
+        "id": "1024",
+        "name": "ציפורי",
+        "english_name": "ZIPPORI"
+    },
+    {
+        "id": "1025",
+        "name": "צלפון",
+        "english_name": "ZELAFON"
+    },
+    {
+        "id": "1026",
+        "name": "צנדלה",
+        "english_name": "SANDALA"
+    },
+    {
+        "id": "1027",
+        "name": "צפריה",
+        "english_name": "ZAFRIYYA"
+    },
+    {
+        "id": "1028",
+        "name": "צפרירים",
+        "english_name": "ZAFRIRIM"
+    },
+    {
+        "id": "1029",
+        "name": "צפת",
+        "english_name": "ZEFAT"
+    },
+    {
+        "id": "1030",
+        "name": "צרופה",
+        "english_name": "ZERUFA"
+    },
+    {
+        "id": "1031",
+        "name": "צרעה",
+        "english_name": "ZOR'A"
+    },
+    {
+        "id": "1032",
+        "name": "קבוצת יבנה",
+        "english_name": "QEVUZAT YAVNE"
+    },
+    {
+        "id": "1033",
+        "name": "קדומים",
+        "english_name": "QEDUMIM"
+    },
+    {
+        "id": "1034",
+        "name": "קדימה-צורן",
+        "english_name": "QADIMA-ZORAN"
+    },
+    {
+        "id": "1035",
+        "name": "קדמה",
+        "english_name": "QEDMA"
+    },
+    {
+        "id": "1036",
+        "name": "קדמת צבי",
+        "english_name": "QIDMAT ZEVI"
+    },
+    {
+        "id": "1037",
+        "name": "קדר",
+        "english_name": "QEDAR"
+    },
+    {
+        "id": "1038",
+        "name": "קדרון",
+        "english_name": "QIDRON"
+    },
+    {
+        "id": "1039",
+        "name": "קדרים",
+        "english_name": "QADDARIM"
+    },
+    {
+        "id": "1040",
+        "name": "קוממיות",
+        "english_name": "QOMEMIYYUT"
+    },
+    {
+        "id": "1041",
+        "name": "קורנית",
+        "english_name": "QORANIT"
+    },
+    {
+        "id": "1042",
+        "name": "קטורה",
+        "english_name": "QETURA"
+    },
+    {
+        "id": "1043",
+        "name": "קיסריה",
+        "english_name": "QESARIYYA"
+    },
+    {
+        "id": "1044",
+        "name": "קלחים",
+        "english_name": "QELAHIM"
+    },
+    {
+        "id": "1045",
+        "name": "קליה",
+        "english_name": "QALYA"
+    },
+    {
+        "id": "1046",
+        "name": "קלנסווה",
+        "english_name": "QALANSAWE"
+    },
+    {
+        "id": "1047",
+        "name": "קלע",
+        "english_name": "QELA"
+    },
+    {
+        "id": "1048",
+        "name": "קציר",
+        "english_name": "QAZIR"
+    },
+    {
+        "id": "1049",
+        "name": "קצר א-סר",
+        "english_name": ""
+    },
+    {
+        "id": "1050",
+        "name": "קצרין",
+        "english_name": "QAZRIN"
+    },
+    {
+        "id": "1051",
+        "name": "קרית אונו",
+        "english_name": "QIRYAT ONO"
+    },
+    {
+        "id": "1052",
+        "name": "קרית ארבע",
+        "english_name": "QIRYAT ARBA"
+    },
+    {
+        "id": "1053",
+        "name": "קרית אתא",
+        "english_name": "QIRYAT ATTA"
+    },
+    {
+        "id": "1054",
+        "name": "קרית ביאליק",
+        "english_name": "QIRYAT BIALIK"
+    },
+    {
+        "id": "1055",
+        "name": "קרית גת",
+        "english_name": "QIRYAT GAT"
+    },
+    {
+        "id": "1056",
+        "name": "קרית טבעון",
+        "english_name": "QIRYAT TIV'ON"
+    },
+    {
+        "id": "1057",
+        "name": "קרית ים",
+        "english_name": "QIRYAT YAM"
+    },
+    {
+        "id": "1058",
+        "name": "קרית יערים",
+        "english_name": "QIRYAT YE'ARIM"
+    },
+    {
+        "id": "1059",
+        "name": "קרית מוצקין",
+        "english_name": "QIRYAT MOTZKIN"
+    },
+    {
+        "id": "1060",
+        "name": "קרית מלאכי",
+        "english_name": "QIRYAT MAL'AKHI"
+    },
+    {
+        "id": "1061",
+        "name": "קרית נטפים",
+        "english_name": "QIRYAT NETAFIM"
+    },
+    {
+        "id": "1062",
+        "name": "קרית ענבים",
+        "english_name": "QIRYAT ANAVIM"
+    },
+    {
+        "id": "1063",
+        "name": "קרית עקרון",
+        "english_name": "QIRYAT EQRON"
+    },
+    {
+        "id": "1064",
+        "name": "קרית שלמה",
+        "english_name": "QIRYAT SHELOMO"
+    },
+    {
+        "id": "1065",
+        "name": "קרית שמונה",
+        "english_name": "QIRYAT SHEMONA"
+    },
+    {
+        "id": "1066",
+        "name": "קרני שומרון",
+        "english_name": "QARNE SHOMERON"
+    },
+    {
+        "id": "1067",
+        "name": "קשת",
+        "english_name": "QESHET"
+    },
+    {
+        "id": "1068",
+        "name": "ראמה",
+        "english_name": "RAME"
+    },
+    {
+        "id": "1069",
+        "name": "ראס אל-עין",
+        "english_name": ""
+    },
+    {
+        "id": "1070",
+        "name": "ראס עלי",
+        "english_name": "RAS ALI"
+    },
+    {
+        "id": "1071",
+        "name": "ראש העין",
+        "english_name": "ROSH HAAYIN"
+    },
+    {
+        "id": "1072",
+        "name": "ראש פינה",
+        "english_name": "ROSH PINNA"
+    },
+    {
+        "id": "1073",
+        "name": "ראש צורים",
+        "english_name": "ROSH ZURIM"
+    },
+    {
+        "id": "1074",
+        "name": "ראשון לציון",
+        "english_name": "RISHON LEZIYYON"
+    },
+    {
+        "id": "1075",
+        "name": "רבבה",
+        "english_name": "REVAVA"
+    },
+    {
+        "id": "1076",
+        "name": "רבדים",
+        "english_name": "REVADIM"
+    },
+    {
+        "id": "1077",
+        "name": "רביבים",
+        "english_name": "REVIVIM"
+    },
+    {
+        "id": "1078",
+        "name": "רביד",
+        "english_name": "RAVID"
+    },
+    {
+        "id": "1079",
+        "name": "רגבה",
+        "english_name": "REGBA"
+    },
+    {
+        "id": "1080",
+        "name": "רגבים",
+        "english_name": "REGAVIM"
+    },
+    {
+        "id": "1081",
+        "name": "רהט",
+        "english_name": "RAHAT"
+    },
+    {
+        "id": "1082",
+        "name": "רווחה",
+        "english_name": "REWAHA"
+    },
+    {
+        "id": "1083",
+        "name": "רוויה",
+        "english_name": "REWAYA"
+    },
+    {
+        "id": "1084",
+        "name": "רוח מדבר",
+        "english_name": "RUAH MIDBAR"
+    },
+    {
+        "id": "1085",
+        "name": "רוחמה",
+        "english_name": "RUHAMA"
+    },
+    {
+        "id": "1086",
+        "name": "רומאנה",
+        "english_name": "RUMMANE"
+    },
+    {
+        "id": "1087",
+        "name": "רומת הייב",
+        "english_name": "RUMAT HEIB"
+    },
+    {
+        "id": "1088",
+        "name": "רועי",
+        "english_name": "RO'I"
+    },
+    {
+        "id": "1089",
+        "name": "רותם",
+        "english_name": "ROTEM"
+    },
+    {
+        "id": "1090",
+        "name": "רחוב",
+        "english_name": "REHOV"
+    },
+    {
+        "id": "1091",
+        "name": "רחובות",
+        "english_name": "REHOVOT"
+    },
+    {
+        "id": "1092",
+        "name": "רחלים",
+        "english_name": "REHELIM"
+    },
+    {
+        "id": "1093",
+        "name": "ריחאניה",
+        "english_name": "REIHANIYYE"
+    },
+    {
+        "id": "1094",
+        "name": "ריחן",
+        "english_name": "REHAN"
+    },
+    {
+        "id": "1095",
+        "name": "ריינה",
+        "english_name": "REINE"
+    },
+    {
+        "id": "1096",
+        "name": "רימונים",
+        "english_name": "RIMMONIM"
+    },
+    {
+        "id": "1097",
+        "name": "רינתיה",
+        "english_name": "RINNATYA"
+    },
+    {
+        "id": "1098",
+        "name": "רכסים",
+        "english_name": "REKHASIM"
+    },
+    {
+        "id": "1099",
+        "name": "רם-און",
+        "english_name": "RAM-ON"
+    },
+    {
+        "id": "1100",
+        "name": "רמות",
+        "english_name": "RAMOT"
+    },
+    {
+        "id": "1101",
+        "name": "רמות השבים",
+        "english_name": "RAMOT HASHAVIM"
+    },
+    {
+        "id": "1102",
+        "name": "רמות מאיר",
+        "english_name": "RAMOT ME'IR"
+    },
+    {
+        "id": "1103",
+        "name": "רמות מנשה",
+        "english_name": "RAMOT MENASHE"
+    },
+    {
+        "id": "1104",
+        "name": "רמות נפתלי",
+        "english_name": "RAMOT NAFTALI"
+    },
+    {
+        "id": "1105",
+        "name": "רמלה",
+        "english_name": "RAMLA"
+    },
+    {
+        "id": "1106",
+        "name": "רמת גן",
+        "english_name": "RAMAT GAN"
+    },
+    {
+        "id": "1107",
+        "name": "רמת דוד",
+        "english_name": "RAMAT DAWID"
+    },
+    {
+        "id": "1108",
+        "name": "רמת הכובש",
+        "english_name": "RAMAT HAKOVESH"
+    },
+    {
+        "id": "1109",
+        "name": "רמת השופט",
+        "english_name": "RAMAT HASHOFET"
+    },
+    {
+        "id": "1110",
+        "name": "רמת השרון",
+        "english_name": "RAMAT HASHARON"
+    },
+    {
+        "id": "1111",
+        "name": "רמת יוחנן",
+        "english_name": "RAMAT YOHANAN"
+    },
+    {
+        "id": "1112",
+        "name": "רמת ישי",
+        "english_name": "RAMAT YISHAY"
+    },
+    {
+        "id": "1113",
+        "name": "רמת מגשימים",
+        "english_name": "RAMAT MAGSHIMIM"
+    },
+    {
+        "id": "1114",
+        "name": "רמת צבי",
+        "english_name": "RAMAT ZEVI"
+    },
+    {
+        "id": "1115",
+        "name": "רמת רזיאל",
+        "english_name": "RAMAT RAZI'EL"
+    },
+    {
+        "id": "1116",
+        "name": "רמת רחל",
+        "english_name": "RAMAT RAHEL"
+    },
+    {
+        "id": "1117",
+        "name": "רנן",
+        "english_name": "RANNEN"
+    },
+    {
+        "id": "1118",
+        "name": "רעים",
+        "english_name": "RE'IM"
+    },
+    {
+        "id": "1119",
+        "name": "רעננה",
+        "english_name": "RA'ANANA"
+    },
+    {
+        "id": "1120",
+        "name": "רקפת",
+        "english_name": "RAQEFET"
+    },
+    {
+        "id": "1121",
+        "name": "רשפון",
+        "english_name": "RISHPON"
+    },
+    {
+        "id": "1122",
+        "name": "רשפים",
+        "english_name": "RESHAFIM"
+    },
+    {
+        "id": "1123",
+        "name": "רתמים",
+        "english_name": "RETAMIM"
+    },
+    {
+        "id": "1124",
+        "name": "שאר ישוב",
+        "english_name": "SHE'AR YASHUV"
+    },
+    {
+        "id": "1125",
+        "name": "שבי ציון",
+        "english_name": "SHAVE ZIYYON"
+    },
+    {
+        "id": "1126",
+        "name": "שבי שומרון",
+        "english_name": "SHAVE SHOMERON"
+    },
+    {
+        "id": "1127",
+        "name": "שבלי - אום אל-גנם",
+        "english_name": "SHIBLI"
+    },
+    {
+        "id": "1128",
+        "name": "שגב-שלום",
+        "english_name": "SEGEV-SHALOM"
+    },
+    {
+        "id": "1129",
+        "name": "שדה אילן",
+        "english_name": "SEDE ILAN"
+    },
+    {
+        "id": "1130",
+        "name": "שדה אליהו",
+        "english_name": "SEDE ELIYYAHU"
+    },
+    {
+        "id": "1131",
+        "name": "שדה אליעזר",
+        "english_name": "SEDE ELI'EZER"
+    },
+    {
+        "id": "1132",
+        "name": "שדה בוקר",
+        "english_name": "SEDE BOQER"
+    },
+    {
+        "id": "1133",
+        "name": "שדה דוד",
+        "english_name": "SEDE DAWID"
+    },
+    {
+        "id": "1134",
+        "name": "שדה ורבורג",
+        "english_name": "SEDE WARBURG"
+    },
+    {
+        "id": "1135",
+        "name": "שדה יואב",
+        "english_name": "SEDE YO'AV"
+    },
+    {
+        "id": "1136",
+        "name": "שדה יעקב",
+        "english_name": "SEDE YA'AQOV"
+    },
+    {
+        "id": "1137",
+        "name": "שדה יצחק",
+        "english_name": "SEDE YIZHAQ"
+    },
+    {
+        "id": "1138",
+        "name": "שדה משה",
+        "english_name": "SEDE MOSHE"
+    },
+    {
+        "id": "1139",
+        "name": "שדה נחום",
+        "english_name": "SEDE NAHUM"
+    },
+    {
+        "id": "1140",
+        "name": "שדה נחמיה",
+        "english_name": "SEDE NEHEMYA"
+    },
+    {
+        "id": "1141",
+        "name": "שדה ניצן",
+        "english_name": "SEDE NIZZAN"
+    },
+    {
+        "id": "1142",
+        "name": "שדה עוזיהו",
+        "english_name": "SEDE UZZIYYAHU"
+    },
+    {
+        "id": "1143",
+        "name": "שדה צבי",
+        "english_name": "SEDE ZEVI"
+    },
+    {
+        "id": "1144",
+        "name": "שדות ים",
+        "english_name": "SEDOT YAM"
+    },
+    {
+        "id": "1145",
+        "name": "שדות מיכה",
+        "english_name": "SEDOT MIKHA"
+    },
+    {
+        "id": "1146",
+        "name": "שדי אברהם",
+        "english_name": "SEDE AVRAHAM"
+    },
+    {
+        "id": "1147",
+        "name": "שדי חמד",
+        "english_name": "SEDE HEMED"
+    },
+    {
+        "id": "1148",
+        "name": "שדי תרומות",
+        "english_name": "SEDE TERUMOT"
+    },
+    {
+        "id": "1149",
+        "name": "שדמה",
+        "english_name": "SHEDEMA"
+    },
+    {
+        "id": "1150",
+        "name": "שדמות דבורה",
+        "english_name": "SHADMOT DEVORA"
+    },
+    {
+        "id": "1151",
+        "name": "שדמות מחולה",
+        "english_name": "SHADMOT MEHOLA"
+    },
+    {
+        "id": "1152",
+        "name": "שדרות",
+        "english_name": "SDEROT"
+    },
+    {
+        "id": "1153",
+        "name": "שואבה",
+        "english_name": "SHO'EVA"
+    },
+    {
+        "id": "1154",
+        "name": "שובה",
+        "english_name": "SHUVA"
+    },
+    {
+        "id": "1155",
+        "name": "שובל",
+        "english_name": "SHOVAL"
+    },
+    {
+        "id": "1156",
+        "name": "שוהם",
+        "english_name": "SHOHAM"
+    },
+    {
+        "id": "1157",
+        "name": "שומרה",
+        "english_name": "SHOMERA"
+    },
+    {
+        "id": "1158",
+        "name": "שומריה",
+        "english_name": "SHOMERIYYA"
+    },
+    {
+        "id": "1159",
+        "name": "שוקדה",
+        "english_name": "SHOQEDA"
+    },
+    {
+        "id": "1160",
+        "name": "שורש",
+        "english_name": "SHORESH"
+    },
+    {
+        "id": "1161",
+        "name": "שורשים",
+        "english_name": "SHORASHIM"
+    },
+    {
+        "id": "1162",
+        "name": "שושנת העמקים",
+        "english_name": "SHOSHANNAT HAAMAQIM"
+    },
+    {
+        "id": "1163",
+        "name": "שזור",
+        "english_name": "SHEZOR"
+    },
+    {
+        "id": "1164",
+        "name": "שחר",
+        "english_name": "SHAHAR"
+    },
+    {
+        "id": "1165",
+        "name": "שחרות",
+        "english_name": "SHAHARUT"
+    },
+    {
+        "id": "1166",
+        "name": "שיבולים",
+        "english_name": "SHIBBOLIM"
+    },
+    {
+        "id": "1167",
+        "name": "שיטים",
+        "english_name": "NAHAL SHITTIM"
+    },
+    {
+        "id": "1168",
+        "name": "שייח' דנון",
+        "english_name": "SHEIKH DANNUN"
+    },
+    {
+        "id": "1169",
+        "name": "שילה",
+        "english_name": "SHILO"
+    },
+    {
+        "id": "1170",
+        "name": "שילת",
+        "english_name": "SHILAT"
+    },
+    {
+        "id": "1171",
+        "name": "שכניה",
+        "english_name": "SHEKHANYA"
+    },
+    {
+        "id": "1172",
+        "name": "שלווה",
+        "english_name": "SHALWA"
+    },
+    {
+        "id": "1173",
+        "name": "שלווה במדבר",
+        "english_name": "SHALVA BAMIDBAR"
+    },
+    {
+        "id": "1174",
+        "name": "שלוחות",
+        "english_name": "SHELUHOT"
+    },
+    {
+        "id": "1175",
+        "name": "שלומי",
+        "english_name": "SHELOMI"
+    },
+    {
+        "id": "1176",
+        "name": "שלומית",
+        "english_name": ""
+    },
+    {
+        "id": "1177",
+        "name": "שמיר",
+        "english_name": "SHAMIR"
+    },
+    {
+        "id": "1178",
+        "name": "שמעה",
+        "english_name": "SHIM'A"
+    },
+    {
+        "id": "1179",
+        "name": "שמרת",
+        "english_name": "SHAMERAT"
+    },
+    {
+        "id": "1180",
+        "name": "שמשית",
+        "english_name": ""
+    },
+    {
+        "id": "1181",
+        "name": "שני",
+        "english_name": "SHANI"
+    },
+    {
+        "id": "1182",
+        "name": "שניר",
+        "english_name": "SENIR"
+    },
+    {
+        "id": "1183",
+        "name": "שעב",
+        "english_name": "SHA'AB"
+    },
+    {
+        "id": "1184",
+        "name": "שעורים",
+        "english_name": "SE'ORIM"
+    },
+    {
+        "id": "1185",
+        "name": "שעל",
+        "english_name": "SHA'AL"
+    },
+    {
+        "id": "1186",
+        "name": "שעלבים",
+        "english_name": "SHA'ALVIM"
+    },
+    {
+        "id": "1187",
+        "name": "שער אפרים",
+        "english_name": "SHA'AR EFRAYIM"
+    },
+    {
+        "id": "1188",
+        "name": "שער הגולן",
+        "english_name": "SHA'AR HAGOLAN"
+    },
+    {
+        "id": "1189",
+        "name": "שער העמקים",
+        "english_name": "SHA'AR HAAMAQIM"
+    },
+    {
+        "id": "1190",
+        "name": "שער מנשה",
+        "english_name": "SHA'AR MENASHE"
+    },
+    {
+        "id": "1191",
+        "name": "שערי תקווה",
+        "english_name": "SHA'ARE TIQWA"
+    },
+    {
+        "id": "1192",
+        "name": "שפיים",
+        "english_name": "SHEFAYIM"
+    },
+    {
+        "id": "1193",
+        "name": "שפיר",
+        "english_name": "SHAFIR"
+    },
+    {
+        "id": "1194",
+        "name": "שפר",
+        "english_name": "SHEFER"
+    },
+    {
+        "id": "1195",
+        "name": "שפרעם",
+        "english_name": "SHEFAR'AM"
+    },
+    {
+        "id": "1196",
+        "name": "שקד",
+        "english_name": "SHAQED"
+    },
+    {
+        "id": "1197",
+        "name": "שקף",
+        "english_name": "SHEQEF"
+    },
+    {
+        "id": "1198",
+        "name": "שרונה",
+        "english_name": "SHARONA"
+    },
+    {
+        "id": "1199",
+        "name": "שריד",
+        "english_name": "SARID"
+    },
+    {
+        "id": "1200",
+        "name": "שרשרת",
+        "english_name": "SHARSHERET"
+    },
+    {
+        "id": "1201",
+        "name": "שתולה",
+        "english_name": "SHETULA"
+    },
+    {
+        "id": "1202",
+        "name": "שתולים",
+        "english_name": "SHETULIM"
+    },
+    {
+        "id": "1203",
+        "name": "תאשור",
+        "english_name": "TE'ASHUR"
+    },
+    {
+        "id": "1204",
+        "name": "תדהר",
+        "english_name": "TIDHAR"
+    },
+    {
+        "id": "1205",
+        "name": "תובל",
+        "english_name": "TUVAL"
+    },
+    {
+        "id": "1206",
+        "name": "תומר",
+        "english_name": "TOMER"
+    },
+    {
+        "id": "1207",
+        "name": "תושיה",
+        "english_name": "TUSHIYYA"
+    },
+    {
+        "id": "1208",
+        "name": "תימורים",
+        "english_name": "TIMMORIM"
+    },
+    {
+        "id": "1209",
+        "name": "תירוש",
+        "english_name": "TIROSH"
+    },
+    {
+        "id": "1210",
+        "name": "תל אביב יפו",
+        "english_name": "TEL AVIV-YAFO"
+    },
+    {
+        "id": "1211",
+        "name": "תל יוסף",
+        "english_name": "TEL YOSEF"
+    },
+    {
+        "id": "1212",
+        "name": "תל יצחק",
+        "english_name": "TEL YIZHAQ"
+    },
+    {
+        "id": "1213",
+        "name": "תל מונד",
+        "english_name": "TEL MOND"
+    },
+    {
+        "id": "1214",
+        "name": "תל עדשים",
+        "english_name": "TEL ADASHIM"
+    },
+    {
+        "id": "1215",
+        "name": "תל קציר",
+        "english_name": "TEL QAZIR"
+    },
+    {
+        "id": "1216",
+        "name": "תל שבע",
+        "english_name": "TEL SHEVA"
+    },
+    {
+        "id": "1217",
+        "name": "תל תאומים",
+        "english_name": "TEL TE'OMIM"
+    },
+    {
+        "id": "1218",
+        "name": "תלם",
+        "english_name": "TELEM"
+    },
+    {
+        "id": "1219",
+        "name": "תלמי אליהו",
+        "english_name": "TALME ELIYYAHU"
+    },
+    {
+        "id": "1220",
+        "name": "תלמי אלעזר",
+        "english_name": "TALME EL'AZAR"
+    },
+    {
+        "id": "1221",
+        "name": "תלמי ביל",
+        "english_name": "TALME BILU"
+    },
+    {
+        "id": "1222",
+        "name": "תלמי יוסף",
+        "english_name": "TALME YOSEF"
+    },
+    {
+        "id": "1223",
+        "name": "תלמי יחיאל",
+        "english_name": "TALME YEHI'EL"
+    },
+    {
+        "id": "1224",
+        "name": "תלמי יפה",
+        "english_name": "TALME YAFE"
+    },
+    {
+        "id": "1225",
+        "name": "תלמים",
+        "english_name": "TELAMIM"
+    },
+    {
+        "id": "1226",
+        "name": "תמרת",
+        "english_name": "TIMRAT"
+    },
+    {
+        "id": "1227",
+        "name": "תנובות",
+        "english_name": "TENUVOT"
+    },
+    {
+        "id": "1228",
+        "name": "תעוז",
+        "english_name": "TA'OZ"
+    },
+    {
+        "id": "1229",
+        "name": "תפרח",
+        "english_name": "TIFRAH"
+    },
+    {
+        "id": "1230",
+        "name": "תקומה",
+        "english_name": "TEQUMA"
+    },
+    {
+        "id": "1231",
+        "name": "תקוע",
+        "english_name": "TEQOA"
+    },
+    {
+        "id": "1232",
+        "name": "תרום",
+        "english_name": "TARUM"
+    },
+    {
+        "id": ""
+    }
+]

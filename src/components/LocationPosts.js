@@ -15,19 +15,13 @@ import RoadAssist from '../pics/Category Icons/Road assist.svg'
 import Social from '../pics/Category Icons/Social.svg'
 import { Link } from "react-router-dom";
 
-export default class MyPosts extends Component {
+export default class LocationPosts extends Component {
     constructor(props) {
         super(props)
     
         this.state = {
              posts:[],
         }
-    }
-    componentDidMount(){
-        if(this.props.myPosts==""){
-            document.getElementById('bigBox').innerHTML="no post"
-        }
-        
     }
     // find picture for category
   categoryPic=(num)=>{
@@ -101,9 +95,30 @@ export default class MyPosts extends Component {
     render() {
         return (
             <div style={{position:"relative",}}>
-                <p style={{textAlign:"center"}} id="bigBox"></p>
-
-                
+                {this.props.location.map(user=>{return <div key={user.id}>
+                    <div style={{position:"absolute", left:0}}>
+                <img alt="headPic" src={this.categoryPic(user.categoryId)} style={{width:"20px",paddingRight:5}}/>
+                </div>
+                <div style={{marginLeft:"22px",}}>
+                <Link to='/requestD'><span style={{fontSize:"15pt"}} onClick={(e)=>this.postSelect(user)}>{this.findCategory(user.categoryId)}</span></Link>
+                    <p style={{display:"-webkit-box" ,WebkitLineClamp:2, WebkitBoxOrient:"vertical", overflow:"hidden", textAlign:"right", direction:"rtl", fontSize:"12pt"}}>{user.content}</p>
+                    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}} className="container">
+                    <div>
+                      <img width="15px" src={location} alt="location"/>
+                      {this.findCity(user.city)}
+                    </div>
+                    <div>
+                      <img width="15px" src={arrow} alt="location"/>
+                      distance
+                    </div>
+                    <div>
+                      <img width="15px" src={clock} alt="location"/>
+                      {this.findTime(user.createDate)}
+                    </div>
+                    </div>
+                    <hr/>
+                    </div>
+                </div>})}
             </div>
         )
     }

@@ -1,0 +1,793 @@
+{
+  "Sheet1": [
+    {
+      "Name": "aboutDescription",
+      "English": "A social app that connects people who need help with those who can help. The connection is through a smart engine that uses details provided by the participants to produce effective matches.",
+      "Hebrew": "אפליקציה חברתית המחברת בין אנשים שזקוקים לעזרה כלשהי לאלה שיכולים לסייע. החיבור באמצעות מנוע חכם המשתמש בפרטים שנמסרו על ידי המשתשים כדי לייצר התאמות אפקטיביות."
+    },
+    {
+      "Name": "aboutTitle",
+      "English": "About Willing",
+      "Hebrew": "אודות Willing"
+    },
+    {
+      "Name": "aboutTitleUpperCase",
+      "English": "ABOUT",
+      "Hebrew": "אודות"
+    },
+    {
+      "Name": "appVerErrorMessage",
+      "English": "Oops! It\\'s seems your application is out of date, Update the application to keep using it",
+      "Hebrew": "אופס! נראה שהאפליקציה שלך אינו מעודכנת, עדכנ\\\\י את האפליקציה כדי להמשיך את השימוש"
+    },
+    {
+      "Name": "call",
+      "English": "Call",
+      "Hebrew": "התקשר"
+    },
+    {
+      "Name": "cancel_uppercase",
+      "English": "CANCEL",
+      "Hebrew": "בטל"
+    },
+    {
+      "Name": "close",
+      "English": "Close",
+      "Hebrew": "סגור"
+    },
+    {
+      "Name": "closeNote",
+      "English": "\" Are you sure you want to close the request? In this status, other users could not see the request\"",
+      "Hebrew": "את/ה בטוח שבצונך לסגור את הבקשה? בסטטוס זה משתמשים אחרים לא יכלו לראות את הבקשה"
+    },
+    {
+      "Name": "defaultMessageForUser",
+      "English": "Hello, I\\'ve seen your message:\\n\\n[shortDesc]\\n\\nin Willing app and I\\'ll be happy to help (:",
+      "Hebrew": "שלום, ראיתי את ההודעה שלך:\\n\\n[shortDesc]\\n\\nבאפליקציית Willing ואשמח לעזור (:"
+    },
+    {
+      "Name": "delete",
+      "English": "Delete",
+      "Hebrew": "מחק"
+    },
+    {
+      "Name": "deletedMessage",
+      "English": "Your request was deleted",
+      "Hebrew": "הבקשה שלך נמחקה"
+    },
+    {
+      "Name": "deleteNote",
+      "English": "Are you sure you want to Delete this request? This action can\\'t be undone",
+      "Hebrew": "את/ה בטוח שאתה/ה רוצה למחוק את הבקשה הזאת? פעולה זאת אינה ניתנת לביטול"
+    },
+    {
+      "Name": "description_uppercase",
+      "English": "DESCRIPTION",
+      "Hebrew": "תיאור"
+    },
+    {
+      "Name": "distance_uppercase",
+      "English": "DISTANCE FROM YOU",
+      "Hebrew": "המרחק ממיקומך"
+    },
+    {
+      "Name": "dueDate_uppercase",
+      "English": "EXPIRES IN",
+      "Hebrew": "יפוג בעוד"
+    },
+    {
+      "Name": "edit_lowercase",
+      "English": "Edit",
+      "Hebrew": "ערוך"
+    },
+    {
+      "Name": "edit_uppercase",
+      "English": "EDIT",
+      "Hebrew": "ערוך"
+    },
+    {
+      "Name": "editPost_title",
+      "English": "EDIT REQUEST",
+      "Hebrew": "עריכת בקשה"
+    },
+    {
+      "Name": "emailSubject",
+      "English": "Willing App - Message from user",
+      "Hebrew": "Wiiling App - הודעה ממשתמש מס\\'"
+    },
+    {
+      "Name": "emailTitle",
+      "English": "Send using…",
+      "Hebrew": "שלח באמצעות…"
+    },
+    {
+      "Name": "emailTo",
+      "English": "Shachar87@gmail.com"
+    },
+    {
+      "Name": "Emergency",
+      "English": "Emergency",
+      "Hebrew": "חירום"
+    },
+    {
+      "Name": "error",
+      "English": "Error",
+      "Hebrew": "שגיאה"
+    },
+    {
+      "Name": "exitAppQuestion",
+      "English": "Are you sure you want to close Willing app?",
+      "Hebrew": "האם אתה בטוח שאת\\\\ה רוצה לסגור את Willing?"
+    },
+    {
+      "Name": "exitNewPostQuestion",
+      "English": "Are you sure you want to go back?\\nAll the data will be lost",
+      "Hebrew": "\"האם אתה בטוח שברצונך לעזוב את המסך? כל המידע יאבד \""
+    },
+    {
+      "Name": "General",
+      "English": "General",
+      "Hebrew": "כללי"
+    },
+    {
+      "Name": "GiveAwayItem",
+      "English": "Give Away Item",
+      "Hebrew": "חפצים למסירה"
+    },
+    {
+      "Name": "informationNotAvailable",
+      "English": "Information not available",
+      "Hebrew": "מידע לא זמין"
+    },
+    {
+      "Name": "intro_description1",
+      "English": "Request what you need from relevant people who want to help",
+      "Hebrew": "בקשו מה שאתם צריכים מהאנשים הרלוונטיים שרוצים לעזור."
+    },
+    {
+      "Name": "intro_description2",
+      "English": "Got Help? You can close the request so no-one bothers you anymore",
+      "Hebrew": "עזרו לך? אפשר לסגור את הבקשה שלא יפנו אליך יותר."
+    },
+    {
+      "Name": "intro_description3",
+      "English": "Want to help someone? You choose who and when",
+      "Hebrew": "רוצה לעזור בקטנה? אתם בוחרים למי ומתי."
+    },
+    {
+      "Name": "intro_title1",
+      "English": "Get Help",
+      "Hebrew": "קבל\\\\י עזרה"
+    },
+    {
+      "Name": "intro_title2",
+      "English": "Close Request",
+      "Hebrew": "סגירת בקשה"
+    },
+    {
+      "Name": "intro_title3",
+      "English": "Micro-volunteering",
+      "Hebrew": "מיקרו-התנדבות"
+    },
+    {
+      "Name": "ItemNeeded",
+      "English": "Item Needed",
+      "Hebrew": "דרושים חפצים"
+    },
+    {
+      "Name": "location_uppercase",
+      "English": "LOCATION",
+      "Hebrew": "מיקום"
+    },
+    {
+      "Name": "LostAndFound",
+      "English": "Lost And Found",
+      "Hebrew": "אבדות ומציאות"
+    },
+    {
+      "Name": "Medical",
+      "English": "Medical",
+      "Hebrew": "רפואי"
+    },
+    {
+      "Name": "message",
+      "English": "Message",
+      "Hebrew": "הודעה"
+    },
+    {
+      "Name": "messageBar_tip1",
+      "English": "You can always close the request by entering your own request and clicking \\\"Close\\\"",
+      "Hebrew": "תמיד אפשר לסגור את הבקשה על ידי כניסה  לבקשה שלך ולחיצה על \\\"סגור\\\""
+    },
+    {
+      "Name": "messageBar_tip2",
+      "English": "Know someone who needs help? Open a request on their behalf using their city and phone number",
+      "Hebrew": "מכירים מישהו שצריך עזרה? תפתחו בקשה בשמם כולל העיר שלהם והטלפון"
+    },
+    {
+      "Name": "messageBar_tip3",
+      "English": "Did you know? Willing is not for profit. You're wellcome to volunteer with us or donate. Contact us using the side options.",
+      "Hebrew": "הידעת? Willing היא ללא מטרות רווח. מוזמנים להתנדב או לתרום. פנו אלינו דרך תפריט הצד."
+    },
+    {
+      "Name": "messageBar_tip4",
+      "English": "We're always happy to get comments or ideas for improvement. Contact us using the side options.",
+      "Hebrew": "תמיד נשמח לקבל הערות או רעיונות לשיפורים - פנו אלינו דרך תפריט הצד"
+    },
+    {
+      "Name": "messageBar_tip5",
+      "English": "Coming soon: anonymous chat, smart push notifications and a clever filter: You decide when to get requests, where and what kind.",
+      "Hebrew": "בקרוב בWilling: צ'אט אנונימי, הודעות פוש חכמות, ומנוע סינון חכם. אתם קובעים מתי תקבלו הודעות, איזה סוגים ואיפה."
+    },
+    {
+      "Name": "moreInfo",
+      "English": "Show more info",
+      "Hebrew": "פרטים נוספים"
+    },
+    {
+      "Name": "name",
+      "English": "Name",
+      "Hebrew": "שם"
+    },
+    {
+      "Name": "name_uppercase",
+      "English": "NAME",
+      "Hebrew": "שם"
+    },
+    {
+      "Name": "nav_about",
+      "English": "About",
+      "Hebrew": "אודות"
+    },
+    {
+      "Name": "nav_faq",
+      "English": "FAQ",
+      "Hebrew": "שאלות ותשובות"
+    },
+    {
+      "Name": "nav_feedback",
+      "English": "Help/Feedback",
+      "Hebrew": "עזרה\\\\משוב"
+    },
+    {
+      "Name": "networkErrorMessage",
+      "English": "Oops! An Internet connection is required to use the application",
+      "Hebrew": "אופס! על מנת להשתמש באפליקציה יש צורך בחיבור לאינטרנט"
+    },
+    {
+      "Name": "newPost_categoriesDescription",
+      "English": "Let’s start by choosing a category that best describes your request. This helps other people to notice your request quickly.",
+      "Hebrew": "נתחיל בבחירת הקטגוריה המתאימה ביותר לתיאור הבקשה שלך. הדבר יעזור לאחרים לראות את הבקשה שלך במהירות"
+    },
+    {
+      "Name": "newPost_contactDescription",
+      "English": "We're almost set! Fill out your details or the person on whose behalf you're setting up the request",
+      "Hebrew": "כמעט סיימנו! נשאר רק להוסיף את הפרטים שלך או של מי שאתה מבקש בשמו"
+    },
+    {
+      "Name": "newPost_contactOptionAnonymous",
+      "English": "Anonymous",
+      "Hebrew": "אנונימי"
+    },
+    {
+      "Name": "newPost_contactOptionMyDetails",
+      "English": "My details",
+      "Hebrew": "הפרטים שלי"
+    },
+    {
+      "Name": "newPost_contactOptionSomeoneElse",
+      "English": "Someone else",
+      "Hebrew": "בקשה עבור מישהו אחר"
+    },
+    {
+      "Name": "newPost_detailsDescription",
+      "English": "Now fill details that will help to find the best match for your request",
+      "Hebrew": "כעת אנא מלאו פרטים נוספים אודות הבקשה"
+    },
+    {
+      "Name": "newPost_detailsDescriptionHint",
+      "English": "Enter request description…",
+      "Hebrew": "הקליד\\\\י את תיאור הבקשה…"
+    },
+    {
+      "Name": "newPost_successMessage",
+      "English": "Your request posted successfully",
+      "Hebrew": "הבקשה שלך פורסמה בהצלחה"
+    },
+    {
+      "Name": "newPost_title",
+      "English": "NEW REQUEST",
+      "Hebrew": "בקשה חדשה"
+    },
+    {
+      "Name": "newPost_whenDescription",
+      "English": "Until when to post?",
+      "Hebrew": "לכמה זמן תתפרסם הבקשה לפני סגירה אוטומטית?"
+    },
+    {
+      "Name": "newPost_whereDescription",
+      "English": "What radius from the location should this be posted?",
+      "Hebrew": "באיזה מרחק מהמיקום לפרסם?"
+    },
+    {
+      "Name": "newPostLocation",
+      "English": "LOCATION (DEFAULT - CURRENT)",
+      "Hebrew": "מיקום(ברירת מחדל - נוכחי)"
+    },
+    {
+      "Name": "next_uppercase",
+      "English": "NEXT",
+      "Hebrew": "הבא"
+    },
+    {
+      "Name": "no",
+      "English": "No",
+      "Hebrew": "לא"
+    },
+    {
+      "Name": "noPermission",
+      "English": "No Permission",
+      "Hebrew": "אין הרשאה"
+    },
+    {
+      "Name": "noString",
+      "English": "N/A",
+      "Hebrew": "לא זמין"
+    },
+    {
+      "Name": "ok_uppercase",
+      "English": "OK",
+      "Hebrew": "אשר"
+    },
+    {
+      "Name": "pass",
+      "English": "Pass",
+      "Hebrew": "מוותר"
+    },
+    {
+      "Name": "permissionDeniedMessage",
+      "English": "Using the application requires location permission, would you like to experiment or exit?",
+      "Hebrew": "השימוש באפלקציה מחייב הרשאה למיקום, האם תרצה להתנסות או לצאת?"
+    },
+    {
+      "Name": "permissionDeniedTitle",
+      "English": "Permission Denied",
+      "Hebrew": "הגישה הדחתה"
+    },
+    {
+      "Name": "phone",
+      "English": "Phone Number",
+      "Hebrew": "מספר טלפון"
+    },
+    {
+      "Name": "phone_uppercase",
+      "English": "PHONE NUMBER",
+      "Hebrew": "מספר טלפון"
+    },
+    {
+      "Name": "postDetails_CallTo",
+      "English": "Call To:",
+      "Hebrew": "התקשר אל:"
+    },
+    {
+      "Name": "postDetails_CallToError",
+      "English": "Can\\'t call, missing number",
+      "Hebrew": "לא ניתן להתקשר, חסר מספר"
+    },
+    {
+      "Name": "postDetails_connectionDetails",
+      "English": "You can contact the publisher in the following ways:",
+      "Hebrew": "ניתן ליצור קשר עם מפרסם הבקשה בדרכים הבאות:"
+    },
+    {
+      "Name": "postDetails_km",
+      "English": "km",
+      "Hebrew": "ק\\\"מ"
+    },
+    {
+      "Name": "postDetails_meter",
+      "English": "m",
+      "Hebrew": "מ\\'"
+    },
+    {
+      "Name": "postDetails_SMSError",
+      "English": "Can\\'t send SMS, missing number",
+      "Hebrew": "לא ניתן לשלוח הודעה, חסר מספר"
+    },
+    {
+      "Name": "postDetails_title",
+      "English": "REQUEST DETAILS",
+      "Hebrew": "פרטי בקשה"
+    },
+    {
+      "Name": "posterName_uppercase",
+      "English": "POSTER NAME",
+      "Hebrew": "שם המבקש"
+    },
+    {
+      "Name": "posts_title",
+      "English": "HOME SCREEN",
+      "Hebrew": "דף הבית"
+    },
+    {
+      "Name": "postsFilterBar_location",
+      "English": "Location",
+      "Hebrew": "בסביבה"
+    },
+    {
+      "Name": "postsFilterBar_mine",
+      "English": "Mine",
+      "Hebrew": "שלי"
+    },
+    {
+      "Name": "postsFilterBar_recent",
+      "English": "Recent",
+      "Hebrew": "אחרונים"
+    },
+    {
+      "Name": "report",
+      "English": "Report this post",
+      "Hebrew": "דווח כלא ראוי"
+    },
+    {
+      "Name": "reportHint",
+      "English": "Write your note…",
+      "Hebrew": "רשום את ההערה שלך…"
+    },
+    {
+      "Name": "reportNote",
+      "English": "Why you want to report this request?",
+      "Hebrew": "למה הינך רוצה לדווח על הבקשה הזאת?"
+    },
+    {
+      "Name": "reportSuccess",
+      "English": "Report sent successfully, thank you for your vigilance",
+      "Hebrew": "הדיווח נשלח בהצלחה, תודה על ערנותך"
+    },
+    {
+      "Name": "RideDeliver",
+      "English": "Ride/Deliver",
+      "Hebrew": "נסיעה/העברה"
+    },
+    {
+      "Name": "RoadAssist",
+      "English": "Road Assist",
+      "Hebrew": "עזרה בדרך"
+    },
+    {
+      "Name": "send",
+      "English": "Send",
+      "Hebrew": "שלח"
+    },
+    {
+      "Name": "sendFailure",
+      "English": "Something wrong, your request was not sent, please try again",
+      "Hebrew": "משהו קרה, הבקשה שלך לא נשלח, נא לנסות שוב"
+    },
+    {
+      "Name": "serverConnectionErrorMessage",
+      "English": "Oops! there seem to be problems with the server, please try later",
+      "Hebrew": "אופס! נראה שיש בעיות בשרת, יש לנסות שוב במאוחר יותר"
+    },
+    {
+      "Name": "signup",
+      "English": "Sign Up",
+      "Hebrew": "הרשם"
+    },
+    {
+      "Name": "skip",
+      "English": "Skip",
+      "Hebrew": "דלג"
+    },
+    {
+      "Name": "SMS",
+      "English": "SMS",
+      "Hebrew": "סמס"
+    },
+    {
+      "Name": "Social",
+      "English": "Social",
+      "Hebrew": "חברתי"
+    },
+    {
+      "Name": "start",
+      "English": "START",
+      "Hebrew": "התחל"
+    },
+    {
+      "Name": "status",
+      "English": "Status:",
+      "Hebrew": "סטטוס:"
+    },
+    {
+      "Name": "status_close",
+      "English": "Close",
+      "Hebrew": "סגור"
+    },
+    {
+      "Name": "status_null",
+      "English": "N/A",
+      "Hebrew": "לא זמין"
+    },
+    {
+      "Name": "status_open",
+      "English": "Open",
+      "Hebrew": "פתוח"
+    },
+    {
+      "Name": "stay",
+      "English": "Stay",
+      "Hebrew": "הישאר"
+    },
+    {
+      "Name": "telephone_uppercase",
+      "English": "TELEPHONE",
+      "Hebrew": "טלפון"
+    },
+    {
+      "Name": "termsAcceptDescription",
+      "English": "By clicking on this button you agree to",
+      "Hebrew": "בלחיצה על הכפתור זה הינך מאשר את"
+    },
+    {
+      "Name": "termsAcceptDescriptionLink",
+      "English": "Willing terms of use",
+      "Hebrew": "\"תנאי השימוש של Willing \""
+    },
+    {
+      "Name": "time",
+      "English": "Time posted:",
+      "Hebrew": "מועד הפרסום:"
+    },
+    {
+      "Name": "time_daysAgo",
+      "English": "days",
+      "Hebrew": "ימים"
+    },
+    {
+      "Name": "time_expiredTime",
+      "English": "Expired",
+      "Hebrew": "לא בתוקף"
+    },
+    {
+      "Name": "time_hoursAgo",
+      "English": "hours",
+      "Hebrew": "שעות"
+    },
+    {
+      "Name": "time_minsAgo",
+      "English": "minuets",
+      "Hebrew": "דקות"
+    },
+    {
+      "Name": "time_monthsAgo",
+      "English": "months",
+      "Hebrew": "חודשים"
+    },
+    {
+      "Name": "time_oneDayAgo",
+      "English": "day",
+      "Hebrew": "יום"
+    },
+    {
+      "Name": "time_oneHourAgo",
+      "English": "hour",
+      "Hebrew": "שעה"
+    },
+    {
+      "Name": "time_oneMinAgo",
+      "English": "minuet",
+      "Hebrew": "דקה"
+    },
+    {
+      "Name": "time_oneMonthAgo",
+      "English": "month",
+      "Hebrew": "חודש"
+    },
+    {
+      "Name": "time_oneWeekAgo",
+      "English": "week",
+      "Hebrew": "שבוע"
+    },
+    {
+      "Name": "time_oneYearAgo",
+      "English": "year",
+      "Hebrew": "שנה"
+    },
+    {
+      "Name": "time_pastTime",
+      "English": "ago",
+      "Hebrew": "לפני"
+    },
+    {
+      "Name": "time_weeksAgo",
+      "English": "weeks",
+      "Hebrew": "שבועות"
+    },
+    {
+      "Name": "time_yearsAgo",
+      "English": "years",
+      "Hebrew": "שנים"
+    },
+    {
+      "Name": "title",
+      "English": "title",
+      "Hebrew": "כותרת"
+    },
+    {
+      "Name": "undo",
+      "English": "Undo",
+      "Hebrew": "בטל"
+    },
+    {
+      "Name": "unlimited",
+      "English": "Unlimited",
+      "Hebrew": "ללא הגבלה"
+    },
+    {
+      "Name": "urgentLevel_0",
+      "English": "Not urgent",
+      "Hebrew": "לא דחוף"
+    },
+    {
+      "Name": "urgentLevel_1",
+      "English": "Moderate",
+      "Hebrew": "חשוב"
+    },
+    {
+      "Name": "urgentLevel_2",
+      "English": "Serious",
+      "Hebrew": "דחוף"
+    },
+    {
+      "Name": "urgentLevel_3",
+      "English": "Critical",
+      "Hebrew": "דחוף מאוד"
+    },
+    {
+      "Name": "urgentLevel_4",
+      "English": "Life threatening",
+      "Hebrew": "מציל חיים"
+    },
+    {
+      "Name": "urgentLevel_uppercase",
+      "English": "URGENCY LEVEL",
+      "Hebrew": "רמת דחיפות"
+    },
+    {
+      "Name": "validation_description",
+      "English": "Description is too short, you must enter at list 15 charters",
+      "Hebrew": "תיאור קצר מידי, יש לכתוב לפחות 15 תווים"
+    },
+    {
+      "Name": "validation_emptyName",
+      "English": "You must enter a valid name",
+      "Hebrew": "חובה להזין שם תקין"
+    },
+    {
+      "Name": "validation_location",
+      "English": "Location not valid",
+      "Hebrew": "מיקום לא תקין"
+    },
+    {
+      "Name": "validation_shortName",
+      "English": "Name too short, You must enter a valid name",
+      "Hebrew": "שם קצר מידי, יש לרשום שם תקין"
+    },
+    {
+      "Name": "validation_validNumber",
+      "English": "You must enter a valid number",
+      "Hebrew": "חובה להזין מספר תקין"
+    },
+    {
+      "Name": "verifyDigits_changeNumber",
+      "English": "Change",
+      "Hebrew": "לשנות"
+    },
+    {
+      "Name": "verifyDigits_codeDescription",
+      "English": "6-digit code",
+      "Hebrew": "קוד בן 6 ספרות"
+    },
+    {
+      "Name": "verifyDigits_description",
+      "English": "Please enter the SMS verification code sent to you:",
+      "Hebrew": "\"אנא הקש את המספר שקיבלת \""
+    },
+    {
+      "Name": "verifyDigits_errorMessage",
+      "English": "The code you entered is invalid",
+      "Hebrew": "הקוד שהכנסת אינו תקין"
+    },
+    {
+      "Name": "verifyDigits_resendButton",
+      "English": "send me again",
+      "Hebrew": "שלח שוב"
+    },
+    {
+      "Name": "verifyDigits_resendDescription",
+      "English": "I didn\\’t get the code!",
+      "Hebrew": "לא קיבלתי את הקוד"
+    },
+    {
+      "Name": "verifyDigits_rightNumber",
+      "English": "Right number",
+      "Hebrew": "מספר תקין"
+    },
+    {
+      "Name": "verifyDigits_verified",
+      "English": "VERIFIED!",
+      "Hebrew": "אומת!"
+    },
+    {
+      "Name": "verifyDigits_verify",
+      "English": "VERIFICATION CODE",
+      "Hebrew": "אימות קוד"
+    },
+    {
+      "Name": "verifyDigits_verifyFailure",
+      "English": "Verify Failure",
+      "Hebrew": "אימות נכשל"
+    },
+    {
+      "Name": "verifyPhone_errorMessage",
+      "English": "You need to enter valid phone number",
+      "Hebrew": "הקש מספר טלפון תקף"
+    },
+    {
+      "Name": "verifyPhone_message",
+      "English": "Please enter your country code and telephone number below.The authentication code will be sent via SMS shortly:",
+      "Hebrew": "אנא הקש את אזור החיוג ומספר טלפון. קוד האימות ישלח אליך בסמס ברגעים הקרובים."
+    },
+    {
+      "Name": "verifyPhone_phoneHint",
+      "English": "Phone number",
+      "Hebrew": "מספר טלפון"
+    },
+    {
+      "Name": "verifyPhone_title",
+      "English": "Verify your telephone number",
+      "Hebrew": "אנא אשר\\\\י את מספר הטלפון שלך"
+    },
+    {
+      "Name": "verifyPhone_verifyMessage",
+      "English": "Are you sure? Please check",
+      "Hebrew": "האם את\\\\ה בטוח\\\\ה? אנא בדק\\\\י שנית"
+    },
+    {
+      "Name": "version",
+      "English": "Version",
+      "Hebrew": "גרסה"
+    },
+    {
+      "Name": "welcome",
+      "English": "Welcome to Willing!",
+      "Hebrew": "ברוכים הבאים ל-Willing!"
+    },
+    {
+      "Name": "whatsAppError",
+      "English": "Something happened and the WhatsApp app could not be opened, the application may not be installed",
+      "Hebrew": "משהו קרה ולא ניתן לפתוח את אפליקציית WhatsApp, יכול להיות שהאפליקציה לא מותקנת."
+    },
+    {
+      "Name": "when_uppercase",
+      "English": "WHEN",
+      "Hebrew": "מתי?"
+    },
+    {
+      "Name": "where_uppercase",
+      "English": "WHERE",
+      "Hebrew": "היכן?"
+    },
+    {
+      "Name": "yes",
+      "English": "Yes",
+      "Hebrew": "כן"
+    },
+    {
+      "Name": "yesDelete",
+      "English": "Yes, delete",
+      "Hebrew": "כן, תמחק"
+    }
+  ]
+}

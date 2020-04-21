@@ -1,0 +1,48 @@
+@font-face{
+    src: url('../font/FontsFree-Net-SFProDisplay-Light.ttf');
+    font-family: sfLight;
+}
+@font-face{
+    src: url('../font//FontsFree-Net-SFProDisplay-Medium.ttf');
+    font-family: sfMedium;
+}
+@font-face{
+    src: url('../font/FontsFree-Net-SFProDisplay-Regular.ttf');
+    font-family: sfRegular;
+}
+.textBox{
+    text-align:center;
+    margin-top: 10pt;
+    align-items: center;
+    direction:rtl;
+    display: grid;
+    color: rgb(69, 69, 69);
+}
+
+.header1{
+    font-size: 24pt;
+    padding-top: 30pt;
+    font-family: sfMedium;
+    
+}
+
+.piska{
+    font-size:16pt;
+    line-height:19pt;
+    max-width: 230pt;
+    /* fontFamily:"SFProDisplay-Light" */
+    padding-top:22pt;
+    font-family: sfLight;
+    margin: auto;
+}
+.skipBtn{
+    font-family: sfRegular;
+    font-size: 18pt;
+}
+.btnNext{
+    float: right;
+}
+.btnBox{
+   margin-top: 30%; 
+   
+}

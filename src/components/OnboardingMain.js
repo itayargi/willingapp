@@ -1,22 +1,66 @@
-import React, { Component } from "react";
-import { ViewPager, Frame, Track, View } from 'react-view-pager'
-import OnBoarding1 from './OnBoarding1.js';
-import OnBoarding2 from './OnBoarding2';
+import React, { Component } from 'react'
+import SwipeableViews from 'react-swipeable-views';
+import Onboarding_02 from './Onboarding_02';
+import Onboarding_03 from './Onboarding_03';
+import Onboarding_01 from './Onboarding_01';
+
+
 
 export default class OnboardingMain extends Component {
-  render() {
-    return (
-      <div>
-        <ViewPager>
-          <Frame>
-            <Track>
-              <View><OnBoarding1/></View>
-              <View><OnBoarding2/></View>
-              {/* and other views (slides) you want to have in the carousel */}
-            </Track>
-          </Frame>
-        </ViewPager>
-      </div>
-    );
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+      swipeIndex:0,
+    }
   }
+  
+    
+    
+    render() {
+        const styles = {
+            slide: {
+              // padding: 10,
+              maxHeight: "100vh",
+              color: 'black',
+              // boxSizing:"border-box"
+                
+            },
+            slide1: {
+              backgroundColor: '#FEA900',
+              
+            },
+            slide2: {
+              backgroundColor: '#B3DC4A',
+            },
+            slide3: {
+              backgroundColor: '#6AC0FF',
+            },
+          };
+          const btnNext=()=>{
+            this.setState({ swipeIndex: this.state.swipeIndex + 1 })
+          }
+          const skipBtn=()=>{
+            this.setState({ swipeIndex:this.state.swipeIndex + 2 })
+
+          }
+          const handleChangeIndex = (index) => {
+            this.setState({
+              swipeIndex: index,
+            })
+          };
+          
+        return (
+            <SwipeableViews
+              slideStyle={{ }} 
+              index={this.state.swipeIndex}
+              onChangeIndex={handleChangeIndex}
+              enableMouseEvents>
+              <div style={Object.assign({}, styles.slide, {})}><Onboarding_01 skipBtn={skipBtn} btnNext={btnNext} /></div>
+              <div style={Object.assign({}, styles.slide, {})}><Onboarding_02 btnNext={btnNext}/></div>
+              <div style={Object.assign({}, styles.slide, {})}><Onboarding_03/></div>
+            </SwipeableViews>
+                
+        )
+    }
 }
