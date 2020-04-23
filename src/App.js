@@ -37,7 +37,7 @@ export default class App extends Component {
   //add the token from register
   addToken=(token)=>{
     this.setState({token:token})
-    console.log(this.state)
+    // console.log(this.state)
   }
   
   updateUser = (header, post, location, distance, date, phone, userName)=>{
@@ -53,47 +53,19 @@ export default class App extends Component {
     return (
       <div>
        <Router>
-       
-      <Switch>
+        <Switch>
+          <Route exact path='/' component={()=>{return <div><SignUp/></div>}} />
           <Route exact path='/onboardingMain' component={()=>{return <div className="container" style={{maxHeight:"100vh"}}><OnboardingMain /></div>}} />
-          <Route exact path='/homePage' component={()=>{return <div><HomeScreen token={this.state.token} updateUser={this.updateUser} /></div>}} />
+          <Route exact path='/homePage' component={()=>{return <div><HomeScreen verify={this.state.verify} token={this.state.token} updateUser={this.updateUser} /></div>}} />
           <Route exact path='/newRequest' component={()=>{return <div><NewRequestFinal01/></div>}} />
           <Route exact path='/requestD' component={()=>{return <div><RequestDetails_01 user={this.state}/></div>}} />
-          <Route exact path='/' component={()=>{return <div><SignUp/></div>}} />
           <Route exact path='/termsOfUse' component={()=>{return <div><TermsOfUse/></div>}} />
           <Route exact path='/register' component={()=>{return <div><Register addToken={this.addToken}/></div>}} />
           <Route exact path='/verify' component={()=>{return <div><VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token}/></div>}} />
 
-      </Switch>
+       </Switch>
       </Router>
-      {/* <Test/>
-      {<Translate content="title" component="h1" className="class"/>}
-      <Translate component="input" type="text" attributes={{placeholder: 'placeholder'}}/> */}
-
-
-      {/* <button onClick={() => this.handleClick('en')} >
       
-            English
-        </button>
-        <button onClick={() => this.handleClick('chi')} >
-            Chinese
-          </button> */}
-      {/* <ListOfPosts/> */}
-      {/* <NewRequestFinal_01/> */}
-      {/* <HomeScreen/> */}
-      {/* <RequestDetails_01/> */}
-      {/* <p>
-            {t('Thanks.1')}
-              {/* <h3>{t('Why.1')}</h3> }
-      </p> */}
-      {/* <TermsOfUse/> */}
-      {/* <SignUp/> */}
-      {/* <VerifyCode/> */}
-      {/* {<Register/>} */}
-      {/* <OnboardingMain/> */}
-      {/* <ViewPagerAll/> */}
-    {/* <NewRequest_01 addNewPost={addNewPost}/> */}
-
       </div>
     )
   }

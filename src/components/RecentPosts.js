@@ -29,22 +29,22 @@ export default class RecentPosts extends Component {
     }
   }
   
-  componentDidMount(){
+  // componentDidMount(){
     // const mainSrever="http://ec2-52-91-26-189.compute-1.amazonaws.com:8080";
         // const userToken="092a40c8-819d-4aee-acf8-103c04278e17";
         // const endAdress="/users/register"
-       axios.get(`/requests/_filters?token=092a40c8-819d-4aee-acf8-103c04278e17&status=1&sortBy=1`).then(response=>{
+      //  axios.get(`/requests/_filters?token=092a40c8-819d-4aee-acf8-103c04278e17&status=1&sortBy=1`).then(response=>{
             // console.log(response)
-            this.setState({posts:response.data})
+            // this.setState({posts:response.data})
             // console.log('response', response.data)
-        })
-        .catch(error=>{
+        // })
+        // .catch(error=>{
             // console.log(error)
-            console.log('Error json file' , error)
-        })
+            // console.log('Error json file' , error)
+        // })
         // taking the data
         // const headPost= this.state.posts.map(user=> {return this.findCategory(user.categoryId)})
-  }
+  // }
   // translate which city by number
   findCity(num){
     return cities_data.find(city=>city.id==num).name

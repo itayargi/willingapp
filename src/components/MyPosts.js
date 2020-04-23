@@ -23,12 +23,12 @@ export default class MyPosts extends Component {
              posts:[],
         }
     }
-    componentDidMount(){
-        if(this.props.myPosts==""){
-            document.getElementById('bigBox').innerHTML="no post"
-        }
+    // componentDidMount(){
+    //     if(this.props.myPosts==""){
+    //         document.getElementById('bigBox').innerHTML="no post"
+    //     }
         
-    }
+    // }
     // find picture for category
   categoryPic=(num)=>{
     switch (num){
