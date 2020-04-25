@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/willingapp/static/css/main.4ba0dd0c.chunk.css",
-    "main.js": "/willingapp/static/js/main.a28ed258.chunk.js",
-    "main.js.map": "/willingapp/static/js/main.a28ed258.chunk.js.map",
+    "main.css": "/willingapp/static/css/main.675172e2.chunk.css",
+    "main.js": "/willingapp/static/js/main.399c8692.chunk.js",
+    "main.js.map": "/willingapp/static/js/main.399c8692.chunk.js.map",
     "runtime-main.js": "/willingapp/static/js/runtime-main.6747bbdb.js",
     "runtime-main.js.map": "/willingapp/static/js/runtime-main.6747bbdb.js.map",
     "static/css/2.de424728.chunk.css": "/willingapp/static/css/2.de424728.chunk.css",
-    "static/js/2.b9bc1871.chunk.js": "/willingapp/static/js/2.b9bc1871.chunk.js",
-    "static/js/2.b9bc1871.chunk.js.map": "/willingapp/static/js/2.b9bc1871.chunk.js.map",
+    "static/js/2.f511f556.chunk.js": "/willingapp/static/js/2.f511f556.chunk.js",
+    "static/js/2.f511f556.chunk.js.map": "/willingapp/static/js/2.f511f556.chunk.js.map",
     "index.html": "/willingapp/index.html",
-    "precache-manifest.6c7dbf19757db407a5c787d3f22b3d63.js": "/willingapp/precache-manifest.6c7dbf19757db407a5c787d3f22b3d63.js",
+    "precache-manifest.796b2b9ba7829fb301b20fc99593e6e1.js": "/willingapp/precache-manifest.796b2b9ba7829fb301b20fc99593e6e1.js",
     "service-worker.js": "/willingapp/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/willingapp/static/css/2.de424728.chunk.css.map",
-    "static/css/main.4ba0dd0c.chunk.css.map": "/willingapp/static/css/main.4ba0dd0c.chunk.css.map",
-    "static/js/2.b9bc1871.chunk.js.LICENSE.txt": "/willingapp/static/js/2.b9bc1871.chunk.js.LICENSE.txt",
+    "static/css/main.675172e2.chunk.css.map": "/willingapp/static/css/main.675172e2.chunk.css.map",
+    "static/js/2.f511f556.chunk.js.LICENSE.txt": "/willingapp/static/js/2.f511f556.chunk.js.LICENSE.txt",
     "static/media/Case.svg": "/willingapp/static/media/Case.b3d7e8ad.svg",
     "static/media/Emergency.svg": "/willingapp/static/media/Emergency.dc117eee.svg",
     "static/media/Onboarding.css": "/willingapp/static/media/FontsFree-Net-SFProDisplay-Regular.d09549c1.ttf",
@@ -30,13 +30,14 @@
     "static/media/App.css": "/willingapp/static/media/background.0f130b05.svg",
     "static/media/semantic.css": "/willingapp/static/media/outline-icons.ece54318.ttf",
     "static/media/countdown.svg": "/willingapp/static/media/countdown.e5880c65.svg",
+    "static/media/verified.svg": "/willingapp/static/media/verified.e7c12cbe.svg",
     "static/media/willing.png": "/willingapp/static/media/willing.1fcdc4ee.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6747bbdb.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.b9bc1871.chunk.js",
-    "static/css/main.4ba0dd0c.chunk.css",
-    "static/js/main.a28ed258.chunk.js"
+    "static/js/2.f511f556.chunk.js",
+    "static/css/main.675172e2.chunk.css",
+    "static/js/main.399c8692.chunk.js"
   ]
 }
