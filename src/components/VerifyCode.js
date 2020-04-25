@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import countdown from '../pics/countdown.svg'
 import { Link } from "react-router-dom";
 import axios from 'axios'
-
+import '../App.css'
 
 export default class VerifyCode extends Component {
    constructor(props) {
@@ -20,9 +20,9 @@ export default class VerifyCode extends Component {
     axios.post('/users/verify', this.state).then(response=>{
       console.log(response.data)
       if(response.data.success){
-        this.props.addVerify(response.data.success)
+        this.props.addVerify(true)
       }
-    })
+    })    
     .catch(error=>{
       // console.log(error)
       console.log('Error json file' , error)
@@ -30,7 +30,7 @@ export default class VerifyCode extends Component {
    }
    componentDidMount(){
      var counter=60
-     console.log(this.props.status)
+    //  console.log(this.props.status)
      const intervalId = setInterval(() => {
        counter--
       if(!this.props.status && counter && document.getElementById('timerPos')){
@@ -48,33 +48,29 @@ export default class VerifyCode extends Component {
    
     
     render() {
-        // var counter = 60;
-        // const
-
-
         return (
-            <div className="container" style={{height:"100vh",position:"relative",textAlign:"center",}}>
+            <div id="mainContainer" className="container" style={{height:"100vh",position:"relative",textAlign:"center",}}>
             <div style={{position:"absolute", bottom:"10%", width:"100%"}}>
                 
                <Link to='/onboardingMain'><button onClick={this.verifyPhone} style={{backgroundColor:"rgb(80, 210, 194)", color:"white", fontSize:"14px", borderRadius:"50pt", height:"25pt",  margin:"auto",width:"150pt"}}>NEXT</button></Link>
 
             </div>
-                <div style={{textAlign:"center",width:"100%"}}>
+                <div style={{textAlign:"center",width:"100%",paddingTop:"40px",color:"rgb(253, 253, 253)" }}>
                     <h2>VERIFICATION CODE</h2>
                 </div>
-                <div style={{textAlign:"center", marginBottom:100}}>
-                    <p>Please enter the SMS Verification code sent to you:</p>
+                <div style={{textAlign:"center", marginTop:"10px", fontSize:"13pt"}}>
+                    <p style={{width:"220pt", margin:"auto", color:"rgb(255, 255, 255)"}}>Please enter the SMS Verification code sent to you:</p>
                 </div>
 
-              <div style={{position:"relative", width:"50px", margin:"0 auto"}}>
+              <div style={{position:"relative", width:"50px", margin:"auto", marginTop:"70px", marginBottom:"70px" }}>
                 <p style={{position:"absolute",width:"100%", textAlign:"center",top:"20px"}} id="timerPos"></p>
                 <img style={{}} src={countdown} alt="countDown" width="100%"></img>
               </div>
             <div style={{textAlign:"center"}}>
-                <input onChange={(e)=>{this.setState({code:e.target.value})}} style={{}} type="password" size="6" maxLength="6" required></input>
+                <input onChange={(e)=>{this.setState({code:e.target.value})}} style={{fontSize:"20px", textAlign:"center", background:"none", color:"white"}} type="password" size="6" maxLength="6" required></input>
                 <hr width="100px"/>
             </div>
-            <div style={{textAlign:"center"}}>
+            <div style={{textAlign:"center", fontSize:"15pt",color:"rgb(255, 255, 255)"}}>
             <p>6-digit code</p>
             </div>
             </div>

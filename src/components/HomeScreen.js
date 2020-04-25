@@ -34,7 +34,7 @@ export default class HomeScreen extends Component {
         return "Lost and found"
       case 7:
         return "Social"
-      case 8:
+      default:
         return "General"
     }
   }
@@ -83,7 +83,7 @@ export default class HomeScreen extends Component {
         // const userToken="092a40c8-819d-4aee-acf8-103c04278e17";
         // const endAdress="/users/register"
         var server= '/requests/_filters?token=' + this.props.token +'&status=1&sortBy=1'
-        console.log(server)
+        // console.log(server)
        axios.get(server).then(response=>{
             this.setState({posts:response.data})
 
@@ -97,9 +97,9 @@ export default class HomeScreen extends Component {
         
 
         // uplaod location post
-        var server= '/requests/_filters?token=' + this.props.token +'&status=1&sortBy=2'
+        var serverL= '/requests/_filters?token=' + this.props.token +'&status=1&sortBy=2'
 
-        axios.get(server).then(response=>{
+        axios.get(serverL).then(response=>{
           this.setState({location:response.data})
           // console.log(response.data)
       })

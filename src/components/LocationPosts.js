@@ -47,7 +47,7 @@ export default class LocationPosts extends Component {
     }
    }
    findCity(num){
-    return cities_data.find(city=>city.id==num).name
+    return cities_data.find(city=>city.id===num).name
   }
   findTime(timeNum){
     const time= new Date(timeNum)
@@ -88,21 +88,22 @@ export default class LocationPosts extends Component {
         return "Lost and found"
       case 7:
         return "Social"
-      case 8:
+      default:
         return "General"
     }
   }
     render() {
         return (
             <div style={{position:"relative",}}>
-                {this.props.location.map(user=>{return <div key={user.id}>
+            {/* change back to this.props.location */}
+                {postJson.map(user=>{return <div key={user.id}>
                     <div style={{position:"absolute", left:0}}>
                 <img alt="headPic" src={this.categoryPic(user.categoryId)} style={{width:"20px",paddingRight:5}}/>
                 </div>
                 <div style={{marginLeft:"22px",}}>
                 <Link to='/requestD'><span style={{fontSize:"15pt"}} onClick={(e)=>this.postSelect(user)}>{this.findCategory(user.categoryId)}</span></Link>
                     <p style={{display:"-webkit-box" ,WebkitLineClamp:2, WebkitBoxOrient:"vertical", overflow:"hidden", textAlign:"right", direction:"rtl", fontSize:"12pt"}}>{user.content}</p>
-                    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}} className="container">
+                    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", color:"rgba(0, 0, 0, 0.4)"}} className="container">
                     <div>
                       <img width="15px" src={location} alt="location"/>
                       {this.findCity(user.city)}

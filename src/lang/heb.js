@@ -7,7 +7,8 @@ export default {
     intro_title3:"מיקרו-התנדבות",
     intro_title3Btn:"הרשם",
     skip: "דלג",
-
-
+    phone:"טלפון",
+    location:"מיקום",
+    distance:"מרחק",
 
   }

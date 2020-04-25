@@ -1,0 +1,17 @@
+/* verifyCode */
+#mainContainer{
+    background-image: url('./pics/background.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* VerifiedEnd */
+#picUp{
+    background-image: url('./pics/background.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    text-align: center;
+}

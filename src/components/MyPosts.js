@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import location from '../pics/location.png'
-import arrow from '../pics/arrow.png'
-import clock from '../pics/clock.png'
-import postJson from './postsJson.json'
+// import location from '../pics/location.png'
+// import arrow from '../pics/arrow.png'
+// import clock from '../pics/clock.png'
+// import postJson from './postsJson.json'
 import cities_data from './israel-cities'
 import Case from '../pics/Category Icons/Case.svg'
 import emergency from '../pics/Category Icons/Emergency.svg'
@@ -13,7 +13,7 @@ import ItemNeeded from '../pics/Category Icons/Item needed.svg'
 import Ride_Delivery from '../pics/Category Icons/Ride_Delivery.svg'
 import RoadAssist from '../pics/Category Icons/Road assist.svg'
 import Social from '../pics/Category Icons/Social.svg'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default class MyPosts extends Component {
     constructor(props) {
@@ -53,7 +53,7 @@ export default class MyPosts extends Component {
     }
    }
    findCity(num){
-    return cities_data.find(city=>city.id==num).name
+    return cities_data.find(city=>city.id===num).name
   }
   findTime(timeNum){
     const time= new Date(timeNum)
@@ -94,7 +94,7 @@ export default class MyPosts extends Component {
         return "Lost and found"
       case 7:
         return "Social"
-      case 8:
+      default:
         return "General"
     }
   }

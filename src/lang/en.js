@@ -20,10 +20,9 @@ export default {
     intro_title2:"Close Request",
     intro_title3:"Micro-volunteering",
     intro_title3Btn:"SIGN UP",
-
-
-    skip: "SKIP"
-
+    location:"LOCATION",
+    skip: "SKIP",
+    distance:"DISTANCE",
 
 
   }

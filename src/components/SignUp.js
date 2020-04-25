@@ -8,7 +8,7 @@ export default class SignUp extends Component {
 
         return (
            
-        <div style={{maxHeight:"100vh", position:"relative"}}>
+        <div style={{height:"100vh", position:"relative"}}>
         <div style={{position:"absolute", bottom:"5%", width:"100%", textAlign:"center"}}>
             <p style={{margin:"auto"}}>I am already a user </p>
         </div>

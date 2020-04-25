@@ -26,14 +26,14 @@ export default class Onboarding_01 extends Component {
                     <Translate style={{}} content="intro_description1" component="p" className="piska" unsafe={true}/>
 
                 </div>
-                <div style={{display:"flex", flexDirection:"row"}}>
-                            <span  style={{ fontSize:"22pt",  position:"absolute", bottom:"10%", left:"10%" }} onClick={this.props.skipBtn}>
-                                <Translate style={{}} content="skip" component="p" unsafe={true}/>
-                            </span>
+                <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"90%"}}>
+                            <div  style={{ fontSize:"22pt",width:"100%", textAlign:"left" }} onClick={this.props.skipBtn}>
+                                <Translate style={{}} content="skip" component="span" unsafe={true}/>
+                            </div>
                             
-                            <span onClick={this.props.btnNext} style={{ position:"absolute", bottom:"10%", right:"10%"}} >
+                            <div onClick={this.props.btnNext} style={{width:"100%", textAlign:"right" }} >
                                 <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/>
-                            </span>
+                            </div>
                     {/* <MDBFooter color="cyan" className="font-small darken-3 pt-0">
                         <MDBContainer>
                             <MDBRow>

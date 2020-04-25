@@ -25,7 +25,7 @@ import { Link } from "react-router-dom";
           console.log("connection is on")
       }
     }
-    //takes the phone number from the user, reduce the "0" and return object for axios
+    //takes the phone number from the user, reduce the "0", add 972 and return object for axios
     objectTransfer=(num)=>{
         var newstr="972"
         newstr=newstr+num.slice(1)
@@ -36,18 +36,19 @@ import { Link } from "react-router-dom";
 
     getUsers = async () => {
         // debugger
-        const config= {
-            headers:{
-                'Content-Type': 'application/json',
-                 Authorization: 'token'
-            }
-        }
+        // const config= {
+        //     headers:{
+        //         'Content-Type': 'application/json',
+        //          Authorization: 'token'
+        //     }
+        // }
         //  const num={
         //     phone:"972543112161"
         // }
+        alert(this.state.phone)
         var phone= this.objectTransfer(this.state.phone)
         try{
-        let res = await axios.post("/users/register",phone,config);
+        let res = await axios.post("/users/register",phone);
         let data = res.data.token;
         console.log(data)
         this.props.addToken(data)
@@ -56,42 +57,7 @@ import { Link } from "react-router-dom";
             alert(`${e}`)
         }
 
-        // this.setState({ users: data });
     };
-   //btn
-  async btnOk(){
-            // debugger
-
-            try {
-                var phone= this.objectTransfer(this.state.phone)
-                const response = await axios.post('/users/register', phone);
-                console.log('👉 Returned data:', response);
-                let data = response.data.token;
-                this.props.addToken(data)
-
-              } catch (e) {
-                console.log(`😱 Axios request failed: ${e}`);
-                alert(`😱 Axios request failed`)
-              }
-        // const data={
-        //     phone:"972543112161"
-        // }
-        
-        // var newstr="972"
-        // var cut= this.state.phone.slice(1)
-        // var total= newstr + cut 
-        // var obj = {
-        //     phone:total
-        // }
-        // axios.post('/users/register',obj).then(response=>{
-        //     this.props.addToken(response.data.token)
-        //     console.log(response.data.token)
-        // })
-        // .catch(error=>{
-        //     alert('telephone probs')
-        //     alert(error)
-        // })
-    }
 
     render() {
         
@@ -101,19 +67,24 @@ import { Link } from "react-router-dom";
         return (
             <div style={{position:"relative", height:"100vh"}} className="container">
                 <div style={{position:"absolute", bottom:"5%", width:"100%", textAlign:"center"}}>
-                    <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>OK</button></Link>
+                    <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link>
                 </div>
-            <div style={{width:"100%", textAlign:"center",position:"absolute"}}>
-               <h3 style={{marginTop:"20px", color:"white"}}>VERIFY YOUR PHONE NUMBER</h3>
-            </div>
-             <div style={{width:"100%"}}>
-               <img style={{objectFit:"cover", margin:"auto",width:"100%", maxHeight:"50vh"}} src={willing} alt="topPic"></img>
-           </div>
-           <div style={{textAlign:"center", width:"100%"}}>
-               <p style={{width:"270px", margin:"auto"}}>Please enter your country code and phone number below. The authentication code will be sent to via SMS shortly:</p>
-           </div>
-                <div style={{width:"100%", textAlign:"center", marginTop:"50px"}}>
-                    <input style={{fontSize:"15pt"}} onChange={handleChange} type="text" placeholder="Enter number"></input>
+                <div style={{width:"100%", textAlign:"center",position:"absolute"}}>
+                    <h3 style={{marginTop:"20px", color:"white"}}>VERIFY YOUR PHONE NUMBER</h3>
+                </div>
+                <div style={{width:"100%"}}>
+                    <img style={{objectFit:"cover", margin:"auto",width:"100%", maxHeight:"50vh"}} src={willing} alt="topPic"></img>
+                </div>
+                <div style={{textAlign:"center", width:"100%"}}>
+                    <p style={{width:"270px", margin:"auto"}}>Please enter your country code and phone number below. The authentication code will be sent to via SMS shortly:</p>
+                </div>
+                <div style={{width:"100%", textAlign:"center", marginTop:"50px",fontSize:"15pt"}}>
+                    <select style={{width:"100%"}}>
+                        <option>israel(+972)</option>
+                        <option>USA(+1)</option>
+                    </select>
+                    <br/>
+                    <input style={{width:"100%"}} onChange={handleChange} type="text" placeholder="Phone Number"></input>
                 </div>
             </div>
         )

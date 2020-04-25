@@ -4,7 +4,7 @@ import emergency from '../pics/Category Icons/Emergency.svg'
 import location from '../pics/location.png'
 import { Grid } from 'semantic-ui-react'
 import { Icon } from 'semantic-ui-react'
-import AddMoreBtn from './AddMoreBtn'
+// import AddMoreBtn from './AddMoreBtn'
 import Translate from 'react-translate-component';
 
 export default class RequestDetails_01 extends Component {
@@ -81,16 +81,20 @@ export default class RequestDetails_01 extends Component {
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
-        <p>LOCATION</p>
-        {/* <p>{this.props.user.location}</p> */}
-        <Translate content="copy.p1" component="p" unsafe={true}/>
+        {/* <p>LOCATION</p> */}
+        <div><Translate content="location" component="h4" unsafe={true}/></div>
+
+        <p>{this.props.user.location}</p>
+        {/* <Translate content="copy.p1" component="p" unsafe={true}/> */}
 
         </div>
       </Grid.Column>
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
-        <p>DISTANCE</p>
+        {/* <p>DISTANCE</p> */}
+        <div><Translate content="distance" component="h4" unsafe={true}/></div>
+
         <p>{this.props.user.distance}</p>
         </div>
       </Grid.Column>
@@ -119,7 +123,7 @@ export default class RequestDetails_01 extends Component {
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
-        <p><Translate content="phone" component="p" unsafe={true}/></p>
+        <div><Translate content="phone" component="p" unsafe={true}/></div>
         <p>{this.props.user.phone}</p>
         </div>
       </Grid.Column>

@@ -17,7 +17,7 @@ import Ride_Delivery from '../pics/Category Icons/Ride_Delivery.svg'
 import RoadAssist from '../pics/Category Icons/Road assist.svg'
 import Social from '../pics/Category Icons/Social.svg'
 import { Link } from "react-router-dom";
-import axios from 'axios'
+// import axios from 'axios'
 
 export default class RecentPosts extends Component {
   constructor(props) {
@@ -47,7 +47,7 @@ export default class RecentPosts extends Component {
   // }
   // translate which city by number
   findCity(num){
-    return cities_data.find(city=>city.id==num).name
+    return cities_data.find(city=>city.id===num).name
   }
   // show the time with minutes, hours and days
   findTime(timeNum){
@@ -123,7 +123,7 @@ export default class RecentPosts extends Component {
     return (
       <div >
       {/* change back to server name by axios */}
-      {this.props.user.map(user=>{return <div key={user.id}>
+      {postJson.map(user=>{return <div key={user.id}>
         <Item.Group>
           <Item>
             <Item.Content>
