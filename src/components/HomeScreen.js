@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FloatingBtn from "./FloatingBtn";
 import AllHomeTabs from './AllHomeTabs'
 import axios from 'axios'
+import RecentPosts from "./RecentPosts";
 
 export default class HomeScreen extends Component {
   constructor(props) {
@@ -10,8 +11,8 @@ export default class HomeScreen extends Component {
     this.state = {
       posts:[],
       location:[],
-      myPosts:[]
-      
+      myPosts:[],
+      token:this.props.token
     }
     
   }
@@ -38,7 +39,8 @@ export default class HomeScreen extends Component {
         return "General"
     }
   }
-  componentDidMount(){
+  componentDidMount= async()=>{
+    console.log('its coming',this.state.token)
       // check for connection
       const connectionCheck= navigator.onLine;
       if (!connectionCheck){
@@ -57,21 +59,25 @@ export default class HomeScreen extends Component {
           // console.log(lat,lon)
           // console.log('yeahhhhhhhhhhhhh')
           const data={"lat":lat, "lng":lon}
-          axios.post(`/users/092a40c8-819d-4aee-acf8-103c04278e17/_location`,data).then(response=>{
-            if(response.data.success){
-              console.log('yeahhhhhhhhhhhhh')
-            }
-            else{
-              console.log('nooooooooooooooo')
-            }
-            // this.setState({location:response.data})
-            // console.log(response.data)
-        })
-        .catch(error=>{
-            console.log('Error json file' , error)
-            alert('not getting location')
+          let tokenLocalstorage= localStorage.getItem('token')
+          if(tokenLocalstorage){
+              var serverL= '/users/' + tokenLocalstorage +'/_location'
+              axios.post(serverL,data).then(response=>{
+                if(response.data.success){
+                  console.log('yeahhhhhhhhhhhhh')
+                }
+                else{
+                  console.log('nooooooooooooooo')
+                }
+                // this.setState({location:response.data})
+                // console.log(response.data)
+            })
+            .catch(error=>{
+                console.log('Error json file' , error)
+                alert('not getting location')
 
-        })
+            })
+      }
       }); 
       
   }
@@ -82,9 +88,10 @@ export default class HomeScreen extends Component {
     // const mainSrever="http://ec2-52-91-26-189.compute-1.amazonaws.com:8080";
         // const userToken="092a40c8-819d-4aee-acf8-103c04278e17";
         // const endAdress="/users/register"
-        var server= '/requests/_filters?token=' + this.props.token +'&status=1&sortBy=1'
+        let tokenLocalstorage= localStorage.getItem('token')
+        var server= '/requests/_filters?token=' + tokenLocalstorage +'&status=1&sortBy=1'
         // console.log(server)
-       axios.get(server).then(response=>{
+        await axios.get(server).then(response=>{
             this.setState({posts:response.data})
 
         })
@@ -97,9 +104,9 @@ export default class HomeScreen extends Component {
         
 
         // uplaod location post
-        var serverL= '/requests/_filters?token=' + this.props.token +'&status=1&sortBy=2'
+        var serverL= '/requests/_filters?token=' + tokenLocalstorage +'&status=1&sortBy=2'
 
-        axios.get(serverL).then(response=>{
+        await axios.get(serverL).then(response=>{
           this.setState({location:response.data})
           // console.log(response.data)
       })
@@ -109,7 +116,7 @@ export default class HomeScreen extends Component {
           alert('no upload loaction post')
       })
       //upload my posts
-      axios.get(`/requests/_filters?token=092a40c8-819d-4aee-acf8-103c04278e17&my=true&sortBy=1`).then(response=>{
+      await axios.get(`/requests/_filters?token=092a40c8-819d-4aee-acf8-103c04278e17&my=true&sortBy=1`).then(response=>{
         this.setState({myPosts:response.data})
         // console.log(response.data)
     })
@@ -125,7 +132,7 @@ export default class HomeScreen extends Component {
   
   render() {
     return (
-      <div >
+      <div style={{}} >
         <div
           style={{
             display: "grid",
@@ -139,6 +146,7 @@ export default class HomeScreen extends Component {
         </div>
         <div className="container2">
           <FloatingBtn />
+          {/* <RecentPosts user={this.state.posts} updateUser={this.props.updateUser}/> */}
           <AllHomeTabs myPosts={this.state.myPosts} location={this.state.location} user={this.state.posts} updateUser={this.props.updateUser} />
         </div>
       </div>

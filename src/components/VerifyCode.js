@@ -14,19 +14,25 @@ export default class VerifyCode extends Component {
      }
    }
 
-   verifyPhone=()=>{
+   verifyPhone = async ()=>{
     //  debugger
-    clearInterval(this.intervalId)
-    axios.post('/users/verify', this.state).then(response=>{
-      console.log(response.data)
-      if(response.data.success){
-        this.props.addVerify(true)
-      }
-    })    
-    .catch(error=>{
-      // console.log(error)
-      console.log('Error json file' , error)
-  })
+      clearInterval(this.intervalId)
+      console.log(this.state)
+      try{
+        let res = await axios({
+            url:"/users/verify",
+            method:"post",
+            data:this.state,
+        })
+        let data = res.data;
+        console.log(data)
+        if(data.succes){
+            this.props.addVerify(true)
+          }
+    }catch (e){
+        console.log(`😱 Axios verification code failed: ${e}`);
+        alert(`${e}`)
+    }
    }
    componentDidMount(){
      var counter=60
@@ -50,11 +56,7 @@ export default class VerifyCode extends Component {
     render() {
         return (
             <div id="mainContainer" className="container" style={{height:"100vh",position:"relative",textAlign:"center",}}>
-            <div style={{position:"absolute", bottom:"10%", width:"100%"}}>
-                
-               <Link to='/onboardingMain'><button onClick={this.verifyPhone} style={{backgroundColor:"rgb(80, 210, 194)", color:"white", fontSize:"14px", borderRadius:"50pt", height:"25pt",  margin:"auto",width:"150pt"}}>NEXT</button></Link>
-
-            </div>
+            
                 <div style={{textAlign:"center",width:"100%",paddingTop:"40px",color:"rgb(253, 253, 253)" }}>
                     <h2>VERIFICATION CODE</h2>
                 </div>
@@ -72,6 +74,9 @@ export default class VerifyCode extends Component {
             </div>
             <div style={{textAlign:"center", fontSize:"15pt",color:"rgb(255, 255, 255)"}}>
             <p>6-digit code</p>
+            </div>
+            <div style={{position:"absolute", bottom:"10%", width:"100%"}}>
+               <Link to='/verifiedEnd'><button onClick={this.verifyPhone} style={{backgroundColor:"rgb(80, 210, 194)", color:"white", fontSize:"14px", borderRadius:"50pt", height:"25pt",  margin:"auto",width:"150pt"}}>NEXT</button></Link>
             </div>
             </div>
         )

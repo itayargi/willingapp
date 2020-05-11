@@ -16,14 +16,15 @@ import { Link } from "react-router-dom";
     
     componentDidMount(){
         // check for connection
-      const connectionCheck= navigator.onLine;
-      if (!connectionCheck){
-          console.error('You are not connected to the internet, connection is required')
-          alert('no internet')
-      }
-      else{
-          console.log("connection is on")
-      }
+    //   const connectionCheck= navigator.onLine;
+    //   if (!connectionCheck){
+    //       console.error('You are not connected to the internet, connection is required')
+    //       alert('no internet')
+    //   }
+    //   else{
+    //       console.log("connection is on")
+        //   alert('We have connection')
+        //   }
     }
     //takes the phone number from the user, reduce the "0", add 972 and return object for axios
     objectTransfer=(num)=>{
@@ -34,30 +35,35 @@ import { Link } from "react-router-dom";
         }
     }
 
-    getUsers = async () => {
-        // debugger
-        // const config= {
-        //     headers:{
-        //         'Content-Type': 'application/json',
-        //          Authorization: 'token'
-        //     }
-        // }
-        //  const num={
-        //     phone:"972543112161"
-        // }
-        alert(this.state.phone)
+    getUsers = async() => {
         var phone= this.objectTransfer(this.state.phone)
-        try{
-        let res = await axios.post("/users/register",phone);
-        let data = res.data.token;
-        console.log(data)
-        this.props.addToken(data)
-        } catch (e){
-            console.log(`😱 Axios request failed: ${e}`);
+        const connectionCheck= navigator.onLine;
+        if (!connectionCheck){
+          console.error('You are not connected to the internet, connection is required')
+          alert('no internet')
+      }
+      else{
+          console.log("connection is on")
+          alert('We have connection')
+          try{
+            let res = await axios({
+                url:"/users/register",
+                method:"post",
+                data:phone,
+                
+            })
+            let data = res.data.token;
+            console.log(data)
+            //saving the token in local storage
+            localStorage.setItem('token', data)
+            this.props.addToken(data)
+        }catch (e){
+            console.log(`😱 Axios requestRegister failed: ${e}`);
             alert(`${e}`)
         }
+          }
 
-    };
+    }
 
     render() {
         
@@ -66,8 +72,10 @@ import { Link } from "react-router-dom";
         }
         return (
             <div style={{position:"relative", height:"100vh"}} className="container">
+                {/* button Link */}
                 <div style={{position:"absolute", bottom:"5%", width:"100%", textAlign:"center"}}>
                     <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link>
+                    {/* <button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button> */}
                 </div>
                 <div style={{width:"100%", textAlign:"center",position:"absolute"}}>
                     <h3 style={{marginTop:"20px", color:"white"}}>VERIFY YOUR PHONE NUMBER</h3>

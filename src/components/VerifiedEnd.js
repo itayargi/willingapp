@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
 import '../App.css'
 import verified from '../pics/verified.svg'
+import { Link } from "react-router-dom";
 
 export default class VerifiedEnd extends Component {
+
+    componentDidMount(){
+
+    }
+
     render() {
         return (
             <div style={{height:"100vh", position:"relative"}}>
@@ -14,7 +20,9 @@ export default class VerifiedEnd extends Component {
                     <p style={{color:"rgb(74, 75, 75)", margin:"auto", fontSize:"40pt", paddingLeft:"40px"}}>Welcome to Willing!</p>
                 </div>
                 <div style={{position:"absolute", bottom:"10%", width:"100%", display:"grid"}}>
-                <button style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button>
+                
+               <Link style={{margin:"auto"}} to='/homePage'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
+
                 </div>
             </div>
         )

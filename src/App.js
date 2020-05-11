@@ -55,15 +55,16 @@ export default class App extends Component {
       <div>
        <Router>
         <Switch>
-          <Route exact path='/' component={()=>{return <div><SignUp/></div>}} />
-          <Route exact path='/onboardingMain' component={()=>{return <div className="container" style={{maxHeight:"100vh"}}><OnboardingMain /></div>}} />
-          <Route exact path='/homePage' component={()=>{return <div><HomeScreen verify={this.state.verify} token={this.state.token} updateUser={this.updateUser} /></div>}} />
+          <Route exact path='/signUp' component={()=>{return <div><SignUp/></div>}} />
+          <Route exact path='/' component={()=>{return <div className="container" style={{maxHeight:"100vh"}}><OnboardingMain /></div>}} />
           <Route exact path='/newRequest' component={()=>{return <div><NewRequestFinal01/></div>}} />
-          <Route exact path='/requestD' component={()=>{return <div><REQUESTDETAILS_01 user={this.state}/></div>}} />
           <Route exact path='/termsOfUse' component={()=>{return <div><TermsOfUse/></div>}} />
           <Route exact path='/register' component={()=>{return <div><Register addToken={this.addToken}/></div>}} />
           <Route exact path='/verify' component={()=>{return <div><VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token}/></div>}} />
           <Route exact path='/verifiedEnd' component={()=>{return <div><VerifiedEnd /></div>}} />
+          <Route exact path='/homePage' component={()=>{return <div><HomeScreen verify={this.state.verify} token={this.state.token} updateUser={this.updateUser} /></div>}} />
+          <Route exact path='/requestD' component={()=>{return <div><REQUESTDETAILS_01 user={this.state}/></div>}} />
+
 
        </Switch>
       </Router>

@@ -96,7 +96,7 @@ export default class LocationPosts extends Component {
         return (
             <div style={{position:"relative",}}>
             {/* change back to this.props.location */}
-                {postJson.map(user=>{return <div key={user.id}>
+                {this.props.location.map(user=>{return <div key={user.id}>
                     <div style={{position:"absolute", left:0}}>
                 <img alt="headPic" src={this.categoryPic(user.categoryId)} style={{width:"20px",paddingRight:5}}/>
                 </div>

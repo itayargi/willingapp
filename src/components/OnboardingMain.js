@@ -3,6 +3,7 @@ import SwipeableViews from 'react-swipeable-views';
 import ONBOARDING_02 from './Onboarding_02';
 import ONBOARDING_03 from './Onboarding_03';
 import ONBOARDING_01 from './Onboarding_01';
+import SignUp from './SignUp';
 
 
 
@@ -41,7 +42,7 @@ export default class OnboardingMain extends Component {
             this.setState({ swipeIndex: this.state.swipeIndex + 1 })
           }
           const skipBtn=()=>{
-            this.setState({ swipeIndex:this.state.swipeIndex + 2 })
+            this.setState({ swipeIndex:3 })
 
           }
           const handleChangeIndex = (index) => {
@@ -57,8 +58,9 @@ export default class OnboardingMain extends Component {
               onChangeIndex={handleChangeIndex}
               enableMouseEvents>
               <div style={Object.assign({}, styles.slide, {})}><ONBOARDING_01 skipBtn={skipBtn} btnNext={btnNext} /></div>
-              <div style={Object.assign({}, styles.slide, {})}><ONBOARDING_02 btnNext={btnNext}/></div>
-              <div style={Object.assign({}, styles.slide, {})}><ONBOARDING_03/></div>
+              <div style={Object.assign({}, styles.slide, {})}><ONBOARDING_02 skipBtn={skipBtn} btnNext={btnNext}/></div>
+              <div style={Object.assign({}, styles.slide, {})}><ONBOARDING_03 btnNext={btnNext}/></div>
+              <div style={Object.assign({}, styles.slide, {})}><SignUp/></div>
             </SwipeableViews>
                 
         )

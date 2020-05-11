@@ -16,8 +16,8 @@ export default class Onboarding_01 extends Component {
         return (
             <div className="container" style={{height:"100vh"}}>
             {/* pic up */}
-                <div>
-                    <img alt="firstPic" width="100%" src={onboarding1}></img>
+                <div style={{}}>
+                    <img style={{maxHeight:"50vh"}} alt="firstPic" width="100%" src={onboarding1}></img>
                 </div>
                 <div style={{}} className="textBox">
                     {/* <h3 className="header1" style={{}}>סיוע</h3> */}
@@ -34,25 +34,6 @@ export default class Onboarding_01 extends Component {
                             <div onClick={this.props.btnNext} style={{width:"100%", textAlign:"right" }} >
                                 <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/>
                             </div>
-                    {/* <MDBFooter color="cyan" className="font-small darken-3 pt-0">
-                        <MDBContainer>
-                            <MDBRow>
-                                <MDBCol  className="py-5">
-                                    <div className="mb-5 flex-center"></div>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBContainer>
-                    <div className="footer-copyright text-center py-3">
-                        <MDBContainer  fluid>
-                            <a href='#' style={{fontFamily:"sfRegular", fontSize:"18pt", textAlign:"left", }} onClick={this.props.skipBtn} className="fb-ic">
-                            <Translate style={{}} content="skip" component="span" unsafe={true}/>
-                            </a>
-                            <a href='#' onClick={this.props.btnNext} style={{marginLeft:"50%"}} className="pin-ic">
-                            <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/>
-                            </a>
-                        </MDBContainer>
-                    </div>
-                    </MDBFooter> */}
                 </div>
             </div>
         )

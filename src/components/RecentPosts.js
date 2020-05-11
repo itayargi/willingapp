@@ -123,7 +123,7 @@ export default class RecentPosts extends Component {
     return (
       <div >
       {/* change back to server name by axios */}
-      {postJson.map(user=>{return <div key={user.id}>
+      {this.props.user.map(user=>{return <div key={user.id}>
         <Item.Group>
           <Item>
             <Item.Content>
