@@ -64,10 +64,10 @@ export default class HomeScreen extends Component {
               var serverL= '/users/' + tokenLocalstorage +'/_location'
               axios.post(serverL,data).then(response=>{
                 if(response.data.success){
-                  console.log('yeahhhhhhhhhhhhh')
+                  console.log('location of the user sent to server')
                 }
                 else{
-                  console.log('nooooooooooooooo')
+                  console.log('problem with sending location of user')
                 }
                 // this.setState({location:response.data})
                 // console.log(response.data)
@@ -87,16 +87,15 @@ export default class HomeScreen extends Component {
 
     // const mainSrever="http://ec2-52-91-26-189.compute-1.amazonaws.com:8080";
         // const userToken="092a40c8-819d-4aee-acf8-103c04278e17";
-        // const endAdress="/users/register"
         let tokenLocalstorage= localStorage.getItem('token')
         var server= '/requests/_filters?token=' + tokenLocalstorage +'&status=1&sortBy=1'
-        // console.log(server)
+        //upload recent posts
         await axios.get(server).then(response=>{
             this.setState({posts:response.data})
 
         })
         .catch(error=>{
-            console.log('Error json file' , error)
+            console.log('Error json file- recent posts' , error)
           alert('no upload recent post')
 
         })

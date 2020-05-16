@@ -37,6 +37,8 @@ import { Link } from "react-router-dom";
 
     getUsers = async() => {
         var phone= this.objectTransfer(this.state.phone)
+        
+        localStorage.setItem('myPhone', this.state.phone)
         const connectionCheck= navigator.onLine;
         if (!connectionCheck){
           console.error('You are not connected to the internet, connection is required')
@@ -53,6 +55,7 @@ import { Link } from "react-router-dom";
                 
             })
             let data = res.data.token;
+            localStorage.setItem('valid', false)
             console.log(data)
             //saving the token in local storage
             localStorage.setItem('token', data)

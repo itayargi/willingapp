@@ -4,7 +4,38 @@
     background-position: center;
     background-size: cover;
 }
-
+.allScreen{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+.popWindow{
+    width: 35%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(175, 202, 236);
+}
+.btnYesNo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.popActivat{
+    visibility: visible;
+    opacity: 1;
+}
 /* VerifiedEnd */
 #picUp{
     background-image: url('./pics/background.svg');
@@ -15,3 +46,4 @@
     display: grid;
     text-align: center;
 }
+
