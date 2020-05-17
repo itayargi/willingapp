@@ -56,7 +56,7 @@ export default class App extends Component {
        <Router>
         <Switch>
           <Route exact path='/signUp' component={()=>{return <div><SignUp/></div>}} />
-          <Route exact path='/' component={()=>{return <div className="container" style={{maxHeight:"100vh"}}><OnboardingMain /></div>}} />
+          <Route exact path='/' component={()=>{return <div style={{maxHeight:"100vh"}}><OnboardingMain /></div>}} />
           <Route exact path='/newRequest' component={()=>{return <div><NewRequestFinal01/></div>}} />
           <Route exact path='/termsOfUse' component={()=>{return <div><TermsOfUse/></div>}} />
           <Route exact path='/register' component={()=>{return <div><Register addToken={this.addToken}/></div>}} />

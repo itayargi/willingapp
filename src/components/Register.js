@@ -63,6 +63,8 @@ import { Link } from "react-router-dom";
         }catch (e){
             console.log(`😱 Axios requestRegister failed: ${e}`);
             alert(`${e}`)
+            localStorage.setItem('valid', false)
+
         }
           }
 

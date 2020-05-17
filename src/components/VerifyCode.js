@@ -43,6 +43,8 @@ export default class VerifyCode extends Component {
   //  pop up screen
    sendAgain=()=>{
      document.getElementById('verificationCode').style.display="none"
+     var clockPic= document.querySelector('#clockDiv')
+     clockPic.classList.add('deleteDiv');
      var popScreen = document.querySelector('.allScreen');
      popScreen.classList.add('popActivat')
    }
@@ -56,8 +58,11 @@ export default class VerifyCode extends Component {
 // yes/no btn pop screen 
    btnQuestionYes=async()=>{
     //  send the code to the same number
+        var clockPic= document.querySelector('#clockDiv')
         var popScreen = document.querySelector('.allScreen');
         popScreen.classList.remove('popActivat')
+        clockPic.classList.remove('deleteDiv');
+
         document.getElementById('verificationCode').style.display="inline"
         this.timerClock()
         var localPhone= localStorage.getItem('myPhone')
@@ -81,8 +86,11 @@ export default class VerifyCode extends Component {
       }
    }
    btnQuestionNo=()=>{
+    var clockPic= document.querySelector('#clockDiv')
     var popScreen = document.querySelector('.allScreen');
     popScreen.classList.remove('popActivat')
+    clockPic.classList.remove('deleteDiv');
+
     document.getElementById('verificationCode').style.display="inline"
     this.timerClock()
    }
@@ -90,22 +98,23 @@ export default class VerifyCode extends Component {
   //  timer display
    timerClock=()=>{
      let valid= localStorage.getItem('valid')
+     alert(valid)
      if (valid=="false"){
        valid=false
      }
      else{
        valid= true
      }
-     var counter=60
+     var counter=5
      const intervalId = setInterval(() => {
       counter--
-     if(!this.props.status && counter && document.getElementById('timerPos') && !valid){
+     if( counter && document.getElementById('timerPos') && !valid){
        document.getElementById('timerPos').innerHTML=counter
      }
      else {
        clearInterval(intervalId);
        if(document.getElementById('timerPosEnd'))
-      document.getElementById('timerPosEnd').style.display="inline"
+           document.getElementById('timerPosEnd').style.display="inline"
 
       //  let circle='<button onClick={this.sendAgain}>OK</button>'
       //  document.getElementById('timerPosEnd').innerHTML=circle
@@ -143,13 +152,16 @@ export default class VerifyCode extends Component {
     render() {
         return (
             <div id="mainContainer" className="container" style={{height:"100vh",textAlign:"center",}}>
+            <div style={{ position:"absolute",bottom:"7%", left:0, width:"100%", textAlign:"center"}}>
+               <Link to='/verifiedEnd'><button onClick={this.verifyPhone} style={{backgroundColor:"rgb(80, 210, 194)", color:"white", fontSize:"14px", borderRadius:"50pt", height:"25pt",  margin:"auto",width:"150pt"}}>NEXT</button></Link>
+            </div>
             {/* pop window question */}
             <div className="allScreen">
               <div className="popWindow">
                   <h5>Send the code to the same number?</h5>
                   <div className="btnYesNo">
-                    <button onClick={this.btnQuestionYes}>yes</button>
-               <Link to='/register'><button onClick={this.btnQuestionNo} >no</button></Link>
+                    <button className="btnQues" onClick={this.btnQuestionYes}>yes</button>
+               <Link to='/register'><button className="btnQues" onClick={this.btnQuestionNo} >no</button></Link>
                     
                     
                   </div>
@@ -168,7 +180,7 @@ export default class VerifyCode extends Component {
                     <p style={{position:"absolute",width:"100%", textAlign:"center",top:"20px"}} id="timerPos"></p>
                     <img style={{}} src={countdown} alt="countDown" width="100%"></img>
                   </div>
-                  <p onClick={this.sendAgain} style={{color:"white", width:"100%", textAlign:"center",display:"none"}} id="timerPosEnd">Send code again</p>
+                  <p onClick={this.sendAgain} style={{color:"white", width:"100%", textAlign:"center",display:"none", cursor:"pointer", textDecoration:"underLine"}} id="timerPosEnd">Send code again</p>
                 </div>
             <div id="verificationCode" style={{textAlign:"center", position:"relative"}}>
 
@@ -178,9 +190,7 @@ export default class VerifyCode extends Component {
             <div style={{textAlign:"center", fontSize:"15pt",color:"rgb(255, 255, 255)"}}>
             <p>6-digit code</p>
             </div>
-            <div style={{position:"absolute", bottom:"10%", width:"100%"}}>
-               <Link to='/verifiedEnd'><button onClick={this.verifyPhone} style={{backgroundColor:"rgb(80, 210, 194)", color:"white", fontSize:"14px", borderRadius:"50pt", height:"25pt",  margin:"auto",width:"150pt"}}>NEXT</button></Link>
-            </div>
+            
             
 
             </div>

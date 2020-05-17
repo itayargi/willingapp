@@ -14,7 +14,7 @@ export default class Onboarding_02 extends Component {
     
     render() {
         return (
-            <div className="container" style={{height:"100vh", position:"relative"}}>
+            <div style={{height:"100vh", position:"relative"}}>
             {/* pic up */}
                 <div>
                     <img style={{maxHeight:"50vh"}} alt="firstPic" width="100%" src={onborading2}></img>
@@ -25,12 +25,12 @@ export default class Onboarding_02 extends Component {
                 <Translate style={{}} content="intro_description2" component="p" className="piska" unsafe={true}/>
 
                 </div>
-                <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"90%"}}>
-                            <div  style={{ fontSize:"22pt",width:"100%", textAlign:"left" }} onClick={this.props.skipBtn}>
+                <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"100%", justifyContent:"space-between"}}>
+                            <div  style={{ fontSize:"22pt",marginLeft:"10%" }} onClick={this.props.skipBtn}>
                                 <Translate style={{}} content="skip" component="span" unsafe={true}/>
                             </div>
                             
-                            <div onClick={this.props.btnNext} style={{width:"100%", textAlign:"right" }} >
+                            <div onClick={this.props.btnNext} style={{marginRight:"10%" }} >
                                 <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/>
                             </div>
                 </div>
