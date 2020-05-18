@@ -29,22 +29,8 @@ export default class RecentPosts extends Component {
     }
   }
   
-  // componentDidMount(){
-    // const mainSrever="http://ec2-52-91-26-189.compute-1.amazonaws.com:8080";
-        // const userToken="092a40c8-819d-4aee-acf8-103c04278e17";
-        // const endAdress="/users/register"
-      //  axios.get(`/requests/_filters?token=092a40c8-819d-4aee-acf8-103c04278e17&status=1&sortBy=1`).then(response=>{
-            // console.log(response)
-            // this.setState({posts:response.data})
-            // console.log('response', response.data)
-        // })
-        // .catch(error=>{
-            // console.log(error)
-            // console.log('Error json file' , error)
-        // })
-        // taking the data
-        // const headPost= this.state.posts.map(user=> {return this.findCategory(user.categoryId)})
-  // }
+  
+
   // translate which city by number
   findCity(num){
     return cities_data.find(city=>city.id===num).name
@@ -123,7 +109,8 @@ export default class RecentPosts extends Component {
     return (
       <div >
       {/* change back to server name by axios */}
-      {postJson.map(user=>{return <div key={user.id}>
+      {this.props.user.map(user=>{return <div key={user.id}>
+        <Link onClick={(e)=>this.postSelect(user)} to='/requestD'>
         <Item.Group>
           <Item>
             <Item.Content>
@@ -131,9 +118,9 @@ export default class RecentPosts extends Component {
                 <img alt="headPic" src={this.categoryPic(user.categoryId)} style={{width:"20px",paddingRight:5}}/>
                 </div>
                 <div style={{marginLeft:25}}>
-                <Item.Header style={{fontSize:"15pt"}}><Link to='/requestD'><span onClick={(e)=>this.postSelect(user)}>{this.findCategory(user.categoryId)}</span></Link> 
+                <Item.Header style={{fontSize:"15pt", color:"rgb(83, 82, 100)"}}><span >{this.findCategory(user.categoryId)}</span> 
                 </Item.Header>
-                <Item.Meta><p style={{display:"-webkit-box", WebkitLineClamp:2, WebkitBoxOrient:"vertical", overflow:"hidden", textAlign:"right", direction:"rtl", fontSize:"12pt"}}>{user.content}</p></Item.Meta>
+                <Item.Meta><p style={{display:"-webkit-box",color:"rgb(121, 121, 131)" ,WebkitLineClamp:2, WebkitBoxOrient:"vertical", overflow:"hidden", textAlign:"right", direction:"rtl", fontSize:"12pt"}}>{user.content}</p></Item.Meta>
                 <Item.Description>
                 {/* extra discription */}
                 </Item.Description>
@@ -159,6 +146,7 @@ export default class RecentPosts extends Component {
               </Item.Content>
           </Item>  
         </Item.Group>
+        </Link>
       </div>
       })}
 

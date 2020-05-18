@@ -30,11 +30,12 @@ export default class Onboarding_03 extends Component {
                 </div>
                 <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"100%", justifyContent:"space-between"}}>
                             <div  style={{ fontSize:"22pt",marginLeft:"10%"}} onClick={this.props.btnNext}>
-                                <Translate style={{}} content="skip" component="span" unsafe={true}/>
+                                <Translate style={{fontSize:"18pt"}} content="skip" component="span" unsafe={true}/>
                             </div>
                             
                             <div onClick={this.props.btnNext} style={{marginRight:"10%"}} >
-                                <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/>
+                                {/* <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/> */}
+                                <i style={{fontSize:"16pt"}} className="angle right icon"></i>
                             </div>
                 </div>
                 <div style={{}}>

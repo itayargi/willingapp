@@ -19,6 +19,8 @@ export default class RequestDetails_01 extends Component {
 
     
     render() {
+      var phone = this.props.user.phone;
+      var whatsappLink= "https://api.whatsapp.com/send?phone=" + phone + "&text=Hello"
       var i = 0;
       const showMore=()=>{
         if(!i){
@@ -50,6 +52,9 @@ export default class RequestDetails_01 extends Component {
                     }}
                     className="homeHeader"
                     >
+                    <div style={{position:"absolute", top:"26pt"}} className="fullPage">
+                        <Link to='/HomeScreen'><i style={{fontSize:"28pt",color:"white" }} className="angle left icon"></i></Link>
+                    </div>
                     <h3 style={{ margin: "auto" }}>REQUEST DETAILS</h3>
             {/* end header */}
             </div>
@@ -123,7 +128,7 @@ export default class RequestDetails_01 extends Component {
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
-        <div><Translate content="phone" component="p" unsafe={true}/></div>
+        <div><Translate content="phone" component="p" /></div>
         <p>{this.props.user.phone}</p>
         </div>
       </Grid.Column>
@@ -141,13 +146,13 @@ export default class RequestDetails_01 extends Component {
 You can connect with the person that posted this request via next lorem ipsom:
 </div>
 <div style={{width:"100%", textAlign:"center", marginTop:20}}>
-    <Icon size="big" style={{marginRight:50}} color="green" name="whatsapp"></Icon>
+    <a href={whatsappLink} ><Icon size="big" style={{marginRight:50}} color="green" name="whatsapp"></Icon></a>
     <Icon size="big" style={{marginRight:50}} color="blue" name="phone"></Icon>
     <Icon size="big" color="yellow" name="mail"></Icon>
 </div>
-<div style={{position:"absolute" , top:"3%", left:"3%", }} className="linkHome">
+{/* <div style={{position:"absolute" , top:"3%", left:"3%", }} className="linkHome">
     <Link style={{color:"white"}} to='/homePage'>Home</Link>
-</div>
+</div> */}
 </div>
             {/* end page */}
             </div>

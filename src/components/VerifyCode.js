@@ -16,6 +16,7 @@ export default class VerifyCode extends Component {
 
    verifyPhone = async ()=>{
     //  debugger
+    
       clearInterval(this.intervalId)
       console.log(this.state)
       try{
@@ -26,14 +27,17 @@ export default class VerifyCode extends Component {
         })
         let data = res.data;
         console.log(data)
+        // if the code is correct
         if(data.success){
-            // this.props.addVerify(true)
+            this.props.addVerify()
             localStorage.setItem('valid', true)
             console.log('the code is correct')
           }
           else{
             console.log('the code is NOT correct')
-
+            alert('The code is Not correct, please try again')
+            localStorage.setItem('valid', false)
+            
           }
     }catch (e){
         console.log(`😱 Axios verification code failed: ${e}`);
@@ -62,7 +66,6 @@ export default class VerifyCode extends Component {
         var popScreen = document.querySelector('.allScreen');
         popScreen.classList.remove('popActivat')
         clockPic.classList.remove('deleteDiv');
-
         document.getElementById('verificationCode').style.display="inline"
         this.timerClock()
         var localPhone= localStorage.getItem('myPhone')
@@ -73,7 +76,6 @@ export default class VerifyCode extends Component {
               url:"/users/register",
               method:"post",
               data:myPhone,
-              
           })
           let data = res.data.token;
           localStorage.setItem('valid', false)
@@ -90,7 +92,6 @@ export default class VerifyCode extends Component {
     var popScreen = document.querySelector('.allScreen');
     popScreen.classList.remove('popActivat')
     clockPic.classList.remove('deleteDiv');
-
     document.getElementById('verificationCode').style.display="inline"
     this.timerClock()
    }
@@ -98,14 +99,13 @@ export default class VerifyCode extends Component {
   //  timer display
    timerClock=()=>{
      let valid= localStorage.getItem('valid')
-     alert(valid)
      if (valid=="false"){
        valid=false
      }
      else{
        valid= true
      }
-     var counter=5
+     var counter=60
      const intervalId = setInterval(() => {
       counter--
      if( counter && document.getElementById('timerPos') && !valid){
@@ -115,12 +115,8 @@ export default class VerifyCode extends Component {
        clearInterval(intervalId);
        if(document.getElementById('timerPosEnd'))
            document.getElementById('timerPosEnd').style.display="inline"
-
-      //  let circle='<button onClick={this.sendAgain}>OK</button>'
-      //  document.getElementById('timerPosEnd').innerHTML=circle
-       // document.getElementById('timerPos').innerHTML=""
-     }
-   if (counter === 0 || this.props.status) {
+       }
+    if (counter === 0 || this.props.status) {
        console.log('Done');
        clearInterval(intervalId);
      }
@@ -129,31 +125,16 @@ export default class VerifyCode extends Component {
    }
    componentDidMount(){
      this.timerClock()
-    //  var counter=5
-    //  console.log(this.props.status)
-    //  const intervalId = setInterval(() => {
-    //    counter--
-    //   if(!this.props.status && counter && document.getElementById('timerPos')){
-    //     document.getElementById('timerPos').innerHTML=counter
-    //   }
-    //   else {
-    //     clearInterval(intervalId);
-    //     document.getElementById('clockDiv').innerHTML='<a style={{color:white, fontSize:12pt, zIndex:5}} href=/verify>send again</a>'
-    //     // document.getElementById('timerPos').innerHTML=""
-    //   }
-    // if (counter === 0 || this.props.status) {
-    //     console.log('Done');
-    //     clearInterval(intervalId);
-    //   }
-    // }, 1000);
+   
    }
    
     
     render() {
         return (
             <div id="mainContainer" className="container" style={{height:"100vh",textAlign:"center",}}>
-            <div style={{ position:"absolute",bottom:"7%", left:0, width:"100%", textAlign:"center"}}>
+            <div id="linkBox" style={{ position:"absolute",bottom:"7%", left:0, width:"100%", textAlign:"center"}}>
                <Link to='/verifiedEnd'><button onClick={this.verifyPhone} style={{backgroundColor:"rgb(80, 210, 194)", color:"white", fontSize:"14px", borderRadius:"50pt", height:"25pt",  margin:"auto",width:"150pt"}}>NEXT</button></Link>
+               {/* <button onClick={this.verifyPhone} style={{backgroundColor:"rgb(80, 210, 194)", color:"white", fontSize:"14px", borderRadius:"50pt", height:"25pt",  margin:"auto",width:"150pt"}}>NEXT</button> */}
             </div>
             {/* pop window question */}
             <div className="allScreen">
@@ -161,14 +142,12 @@ export default class VerifyCode extends Component {
                   <h5>Send the code to the same number?</h5>
                   <div className="btnYesNo">
                     <button className="btnQues" onClick={this.btnQuestionYes}>yes</button>
-               <Link to='/register'><button className="btnQues" onClick={this.btnQuestionNo} >no</button></Link>
-                    
-                    
+                    <Link to='/register'><button className="btnQues" onClick={this.btnQuestionNo} >no</button></Link>
                   </div>
               </div>
             </div>
             {/* end pop */}
-                <div style={{textAlign:"center",width:"100%",paddingTop:"40px",color:"rgb(253, 253, 253)" }}>
+                <div className="verifyPic" style={{textAlign:"center",width:"100%",paddingTop:"40px",color:"rgb(253, 253, 253)" }}>
                     <h2>VERIFICATION CODE</h2>
                 </div>
                 <div style={{textAlign:"center", marginTop:"10px", fontSize:"13pt"}}>

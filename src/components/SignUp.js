@@ -10,7 +10,7 @@ export default class SignUp extends Component {
            
         <div style={{height:"100vh", position:"relative"}}>
            <div style={{width:"100%", }}>
-               <img style={{objectFit:"cover", margin:"auto",width:"100%",maxHeight:"50vh"}} src={willing} alt="topPic"></img>
+               <img style={{objectFit:"fill", margin:"auto",width:"100%",maxHeight:"50vh"}} src={willing} alt="topPic"></img>
            </div>
            <div style={{width:"100%", textAlign:"center", marginTop:"50px"}}>
                

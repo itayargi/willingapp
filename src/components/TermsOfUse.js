@@ -4,11 +4,15 @@ import { Link } from "react-router-dom";
 export default class TermsOfUse extends Component {
     render() {
         return (
-            <div className="container" style={{height:"100vh"}}>
+            <div style={{height:"100vh", width:"100%"}}>
             
                 <div className="blueUp" style={{display:"grid",height:"64pt", backgroundColor:"rgb(57, 55, 119)"}}>
+                    <div style={{position:"absolute", top:"26pt"}} className="fullPage">
+                        <Link to='/signUp'><i style={{fontSize:"28pt",color:"white" }} className="angle left icon"></i></Link>
+                    </div>
                     <p style={{ margin:"auto", fontSize:"17pt", fontWeight:"bold", color:"#fff"}}>Terms of use</p>
                 </div>
+                
                 <div className="terms" style={{textAlign:"left",marginLeft:"33pt"}}>
                     <h5 style={{marginTop:"38pt"}}>Willing terms of use</h5>
                     <br></br>
@@ -17,9 +21,10 @@ export default class TermsOfUse extends Component {
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 
                 </div>
-                <div style={{width:"100%", textAlign:"center", position:"absolute", bottom:"10%"}}>
+                {/* <div style={{width:"100%", textAlign:"center", position:"absolute", bottom:"10%"}}>
                <Link to='/register'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"150pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link>
-            </div>
+            </div> */}
+            
             </div>
         )
     }

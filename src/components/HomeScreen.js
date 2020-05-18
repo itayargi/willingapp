@@ -3,6 +3,10 @@ import FloatingBtn from "./FloatingBtn";
 import AllHomeTabs from './AllHomeTabs'
 import axios from 'axios'
 import RecentPosts from "./RecentPosts";
+import PostsPage from "./PostsPage";
+import Fab from '@material-ui/core/Fab';
+import AddIcon from '@material-ui/icons/Add';
+import { Link } from "react-router-dom";
 
 export default class HomeScreen extends Component {
   constructor(props) {
@@ -144,9 +148,19 @@ export default class HomeScreen extends Component {
           <h3 style={{ margin: "auto" }}>HOME SCREEN</h3>
         </div>
         <div className="container2">
-          <FloatingBtn />
+          {/* <FloatingBtn /> */}
+          <div style={{position:"fixed", bottom:"10%", right:"4%", zIndex:5}}>
+              <Link style={{}} to='/newRequest'>
+                <div>
+                    <Fab color="primary" aria-label="add" >
+                    <AddIcon />
+                    </Fab>
+                </div>
+              </Link>
+          </div>
           {/* <RecentPosts user={this.state.posts} updateUser={this.props.updateUser}/> */}
-          <AllHomeTabs myPosts={this.state.myPosts} location={this.state.location} user={this.state.posts} updateUser={this.props.updateUser} />
+          <PostsPage myPosts={this.state.myPosts} location={this.state.location} user={this.state.posts} updateUser={this.props.updateUser} />
+          {/* <AllHomeTabs myPosts={this.state.myPosts} location={this.state.location} user={this.state.posts} updateUser={this.props.updateUser} /> */}
         </div>
       </div>
     );

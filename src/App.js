@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import HomeScreen from './components/HomeScreen';
 import OnboardingMain from './components/OnboardingMain'
 import NewRequestFinal01 from './components/NewRequestFinal01'
-import REQUESTDETAILS_01 from './components/RequestDetails_01';
+import RequestDetails_01 from './components/RequestDetails_01';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 // import TranslateApp from './components/TranslateApp';
 import Test from './Test'
@@ -19,11 +19,11 @@ export default class App extends Component {
 
 
   state={
-      header:["1"],
-       post:["1"],
-       location:["1"],
-       distance:["1"],
-       date:["1"],
+      header:[""],
+       post:[""],
+       location:[""],
+       distance:[""],
+       date:[""],
        phone:[],
        userName:[],
        token:[],
@@ -32,7 +32,7 @@ export default class App extends Component {
        
   }
   //add verify status
-  addVerify=(status)=>{
+  addVerify=()=>{
     this.setState({verify:true})
   }
   //add the token from register
@@ -61,9 +61,9 @@ export default class App extends Component {
           <Route exact path='/termsOfUse' component={()=>{return <div><TermsOfUse/></div>}} />
           <Route exact path='/register' component={()=>{return <div><Register addToken={this.addToken}/></div>}} />
           <Route exact path='/verify' component={()=>{return <div><VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token}/></div>}} />
-          <Route exact path='/verifiedEnd' component={()=>{return <div><VerifiedEnd /></div>}} />
+          <Route exact path='/verifiedEnd' component={()=>{return <div><VerifiedEnd status={this.state.verify} token={this.state.token} /></div>}} />
           <Route exact path='/homePage' component={()=>{return <div><HomeScreen verify={this.state.verify} token={this.state.token} updateUser={this.updateUser} /></div>}} />
-          <Route exact path='/requestD' component={()=>{return <div><REQUESTDETAILS_01 user={this.state}/></div>}} />
+          <Route exact path='/requestD' component={()=>{return <div><RequestDetails_01 user={this.state}/></div>}} />
 
 
        </Switch>

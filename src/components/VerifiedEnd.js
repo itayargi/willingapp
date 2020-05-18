@@ -13,6 +13,7 @@ import Ride_Delivery from '../pics/Category Icons/Ride_Delivery.svg'
 import RoadAssist from '../pics/Category Icons/Road assist.svg'
 import Social from '../pics/Category Icons/Social.svg'
 import cities_data from './israel-cities'
+import VerifyCode from './VerifyCode';
 
 export default class VerifiedEnd extends Component {
     constructor(props) {
@@ -103,7 +104,7 @@ export default class VerifiedEnd extends Component {
    }
 
     componentDidMount= async()=>{
-        const tokenLocalStorage= localStorage.getItem('token')
+        const tokenLocalStorage= this.props.token
         //check location and send it to server
     if("geolocation" in navigator){
         navigator.geolocation.getCurrentPosition(function(position){
@@ -176,24 +177,49 @@ export default class VerifiedEnd extends Component {
   const locationPtoString=JSON.stringify(this.state.locationPosts)
   localStorage.setItem('locationPosts',locationPtoString )
 
-//saving all the data in order
-let serverRecentPosts={
-       header:"",
-       post:"",
-       location:"",
-       distance:"",
-       date:"",
-       phone:"",
-       userName:"",
 
-}
 
   }//end of else
     }//end of componentDidMount
 
+    // check verication and return the acording screen
+  checkVerification=()=>{
+      var varificationStatus= localStorage.getItem('valid')
+      if ( varificationStatus=="true"){
+        varificationStatus=true
+      }
+      else{
+        varificationStatus=false
+      }
+      if(varificationStatus==true){
+      return <div>
+        <div id="picUp">
+            <h2 style={{paddingTop:"30px", color:"rgb(253, 253, 253)"}}>Verified!</h2>
+            <img style={{margin:"auto"}} src={verified} alt="verified"></img>
+        </div>
+        <div style={{height:"150pt", display:"grid"}}>
+            <p style={{color:"rgb(74, 75, 75)", margin:"auto", fontSize:"40pt", paddingLeft:"40px"}}>Welcome to Willing!</p>
+        </div>
+        <div style={{position:"absolute", bottom:"10%", width:"100%", display:"grid"}}>
+            <Link style={{margin:"auto"}} to='/homePage'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
+        </div>
+      </div>
+      }
+      // else if the code is not correct
+      else{
+        return <div style={{width:"100%", height:"100%", textAlign:"center"}}>
+          <div style={{margin:"auto", width:"250px", height:"150px", border:"solid",display:"flex" , flexDirection:"column",justifyContent:"space-around", }}>
+          <h4>The code is NOT correct</h4>
+          <p>Please try again</p>
+          <Link to='/verify'><button style={{width:"50px", margin:"auto"}}>OK</button></Link>
+          </div>
+        </div>
+      }
+    }
     render() {
+      
         return (
-            <div style={{height:"100vh", position:"relative"}}>
+            <div style={{height:"100vh", position:"relative", display:"grid"}}>
                 <div id="picUp">
                     <h2 style={{paddingTop:"30px", color:"rgb(253, 253, 253)"}}>Verified!</h2>
                     <img style={{margin:"auto"}} src={verified} alt="verified"></img>
@@ -206,6 +232,7 @@ let serverRecentPosts={
                <Link style={{margin:"auto"}} to='/homePage'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
 
                 </div>
+                {/* {this.checkVerification()} */}
             </div>
         )
     }

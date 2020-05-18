@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import counterpart from 'counterpart';
 import Translate from 'react-translate-component';
 import en from './lang/en';
-import de from './lang/de';
 import heb from './lang/heb'
 
 counterpart.registerTranslations('en', en);
-counterpart.registerTranslations('de', de);
 counterpart.registerTranslations('heb', heb);
-counterpart.setLocale('heb');
+counterpart.setLocale('en');
 
 const Link = (props) => {
   return (
