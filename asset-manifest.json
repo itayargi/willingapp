@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/willingapp/static/css/main.216e98e5.chunk.css",
-    "main.js": "/willingapp/static/js/main.b2ad3c2b.chunk.js",
-    "main.js.map": "/willingapp/static/js/main.b2ad3c2b.chunk.js.map",
+    "main.js": "/willingapp/static/js/main.813e629c.chunk.js",
+    "main.js.map": "/willingapp/static/js/main.813e629c.chunk.js.map",
     "runtime-main.js": "/willingapp/static/js/runtime-main.6747bbdb.js",
     "runtime-main.js.map": "/willingapp/static/js/runtime-main.6747bbdb.js.map",
-    "static/css/2.de424728.chunk.css": "/willingapp/static/css/2.de424728.chunk.css",
-    "static/js/2.caa18b5f.chunk.js": "/willingapp/static/js/2.caa18b5f.chunk.js",
-    "static/js/2.caa18b5f.chunk.js.map": "/willingapp/static/js/2.caa18b5f.chunk.js.map",
+    "static/css/2.9e1808b7.chunk.css": "/willingapp/static/css/2.9e1808b7.chunk.css",
+    "static/js/2.be421b26.chunk.js": "/willingapp/static/js/2.be421b26.chunk.js",
+    "static/js/2.be421b26.chunk.js.map": "/willingapp/static/js/2.be421b26.chunk.js.map",
     "index.html": "/willingapp/index.html",
-    "precache-manifest.030ab4f6dde34d4d14b7c61f48f05d91.js": "/willingapp/precache-manifest.030ab4f6dde34d4d14b7c61f48f05d91.js",
+    "precache-manifest.365aff74d1dba9228aaa089ddb553b98.js": "/willingapp/precache-manifest.365aff74d1dba9228aaa089ddb553b98.js",
     "service-worker.js": "/willingapp/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/willingapp/static/css/2.de424728.chunk.css.map",
+    "static/css/2.9e1808b7.chunk.css.map": "/willingapp/static/css/2.9e1808b7.chunk.css.map",
     "static/css/main.216e98e5.chunk.css.map": "/willingapp/static/css/main.216e98e5.chunk.css.map",
-    "static/js/2.caa18b5f.chunk.js.LICENSE.txt": "/willingapp/static/js/2.caa18b5f.chunk.js.LICENSE.txt",
+    "static/js/2.be421b26.chunk.js.LICENSE.txt": "/willingapp/static/js/2.be421b26.chunk.js.LICENSE.txt",
     "static/media/Case.svg": "/willingapp/static/media/Case.b3d7e8ad.svg",
     "static/media/Emergency.svg": "/willingapp/static/media/Emergency.dc117eee.svg",
     "static/media/General.svg": "/willingapp/static/media/General.e870928e.svg",
@@ -27,6 +27,7 @@
     "static/media/Road assist.svg": "/willingapp/static/media/Road assist.06957b96.svg",
     "static/media/Social.svg": "/willingapp/static/media/Social.e78aa76a.svg",
     "static/media/App.css": "/willingapp/static/media/gradient_background.0f130b05.svg",
+    "static/media/semantic.min.css": "/willingapp/static/media/outline-icons.ef60a4f6.woff",
     "static/media/countdown.svg": "/willingapp/static/media/countdown.e5880c65.svg",
     "static/media/sms.svg": "/willingapp/static/media/sms.81e446d8.svg",
     "static/media/verified.svg": "/willingapp/static/media/verified.e7c12cbe.svg",
@@ -34,9 +35,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6747bbdb.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.caa18b5f.chunk.js",
+    "static/css/2.9e1808b7.chunk.css",
+    "static/js/2.be421b26.chunk.js",
     "static/css/main.216e98e5.chunk.css",
-    "static/js/main.b2ad3c2b.chunk.js"
+    "static/js/main.813e629c.chunk.js"
   ]
 }
