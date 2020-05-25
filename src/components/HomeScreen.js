@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import FloatingBtn from "./FloatingBtn";
-import AllHomeTabs from './AllHomeTabs'
+// import FloatingBtn from "./FloatingBtn";
+// import AllHomeTabs from './AllHomeTabs'
 import axios from 'axios'
-import RecentPosts from "./RecentPosts";
+// import RecentPosts from "./RecentPosts";
 import PostsPage from "./PostsPage";
-import Fab from '@material-ui/core/Fab';
-import AddIcon from '@material-ui/icons/Add';
-import { Link } from "react-router-dom";
+// import Fab from '@material-ui/core/Fab';
+// import AddIcon from '@material-ui/icons/Add';
+// import { Link } from "react-router-dom";
 
 export default class HomeScreen extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ export default class HomeScreen extends Component {
     
   }
   // find type of category
-  findCategory(num){
+  findCategory=(num)=>{
     switch (num){
       case 0:
         return "Emergency"
@@ -129,6 +129,7 @@ export default class HomeScreen extends Component {
         alert('no upload my post')
 
     })
+    this.props.uploadPosts(this.state.posts, this.state.location, this.state.myPosts)
     //end of componentDidMount
   }
   
@@ -136,7 +137,7 @@ export default class HomeScreen extends Component {
   render() {
     return (
       <div style={{}} >
-        <div
+        {/* <div
           style={{
             display: "grid",
             color: "white",
@@ -146,10 +147,10 @@ export default class HomeScreen extends Component {
           className="homeHeader"
         >
           <h3 style={{ margin: "auto" }}>HOME SCREEN</h3>
-        </div>
+        </div> */}
         <div className="container2">
           {/* <FloatingBtn /> */}
-          <div style={{position:"fixed", bottom:"10%", right:"4%", zIndex:5}}>
+          {/* <div style={{position:"fixed", bottom:"10%", right:"4%", zIndex:5}}>
               <Link style={{}} to='/newRequest'>
                 <div>
                     <Fab color="primary" aria-label="add" >
@@ -157,7 +158,7 @@ export default class HomeScreen extends Component {
                     </Fab>
                 </div>
               </Link>
-          </div>
+          </div> */}
           {/* <RecentPosts user={this.state.posts} updateUser={this.props.updateUser}/> */}
           <PostsPage myPosts={this.state.myPosts} location={this.state.location} user={this.state.posts} updateUser={this.props.updateUser} />
           {/* <AllHomeTabs myPosts={this.state.myPosts} location={this.state.location} user={this.state.posts} updateUser={this.props.updateUser} /> */}

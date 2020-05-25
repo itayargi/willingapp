@@ -5,6 +5,8 @@ import axios from 'axios'
 import '../App.css'
 
 export default class VerifyCode extends Component {
+  _isMounted=false
+
    constructor(props) {
      super(props)
    
@@ -124,10 +126,14 @@ export default class VerifyCode extends Component {
 
    }
    componentDidMount(){
-     this.timerClock()
-   
+    this._isMounted=true
+     if(this._isMounted){
+        this.timerClock()
+     }
    }
-   
+   componentWillUnmount(){
+     this._isMounted=false
+   }
     
     render() {
         return (

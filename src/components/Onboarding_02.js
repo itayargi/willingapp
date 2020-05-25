@@ -16,7 +16,7 @@ export default class Onboarding_02 extends Component {
         return (
             <div style={{height:"100vh", position:"relative", width:"100%"}}>
             {/* pic up */}
-                <div>
+                <div style={{width:"100%"}}>
                     <img style={{maxHeight:"50vh", width:"100%"}} alt="firstPic" width="100%" src={onborading2}></img>
                 </div>
                 <div style={{}} className="textBox">
@@ -25,15 +25,9 @@ export default class Onboarding_02 extends Component {
                 <Translate style={{}} content="intro_description2" component="p" className="piska" unsafe={true}/>
 
                 </div>
-                <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"100%", justifyContent:"space-between"}}>
-                            <div  style={{ fontSize:"22pt",marginLeft:"10%" }} onClick={this.props.skipBtn}>
-                                <Translate style={{fontSize:"18pt"}} content="skip" component="span" unsafe={true}/>
-                            </div>
-                            
-                            <div onClick={this.props.btnNext} style={{marginRight:"10%" }} >
-                                {/* <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/> */}
-                                <i style={{fontSize:"16pt"}} className="angle right icon"></i>
-                            </div>
+                <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"100%", justifyContent:"space-around",}}>
+                            <Translate onClick={this.props.skipBtn} style={{fontSize:"18pt"}} content="skip" component="span" unsafe={true}/>
+                            <img onClick={this.props.btnNext} style={{fontSize:"16pt"}} src="https://img.icons8.com/metro/26/000000/chevron-right.png"/>
                 </div>
             </div>
         )

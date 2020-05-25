@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import willing from '../pics/gradient_background.svg'
+// import willing from '../pics/gradient_background.svg'
 import { Link } from "react-router-dom";
 import '../App.css'
 import smsPic from '../pics/sms.svg'
 import countries from '../countries/countries.json'
+
  export default  class Register extends Component {
     constructor(props) {
         super(props)
@@ -70,11 +71,7 @@ import countries from '../countries/countries.json'
         }
         return (
             <div style={{position:"relative", height:"100vh", width:"100%"}}>
-                {/* button Link */}
-                <div style={{position:"absolute", bottom:"5%", width:"100%", textAlign:"center"}}>
-                    <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link>
-                    {/* <button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button> */}
-                </div>
+                
                 <div style={{width:"100%", textAlign:"center",position:"absolute"}}>
                     <h3 style={{marginTop:"20px", color:"white"}}>VERIFY YOUR PHONE NUMBER</h3>
                 </div>
@@ -92,7 +89,7 @@ import countries from '../countries/countries.json'
                         {/* select input with all the countris numbers */}
                         <select style={{width:"100%",border:"none",borderBottom:"solid 2px", borderColor:"rgb(185, 185, 185)", height:"24pt", backgroundColor:"none"}}>
                             {countriesList.countries.map(country=>{
-                            return <option key={country.name} onChange={this.countrySelect} value={country.code}>{country.code + "   " + country.name}</option> 
+                            return <option key={country.name} onChange={this.countrySelect} value={country.code}>{country.code + "   " + "(" + country.name + ")"}</option> 
                         })}
                         </select>
 
@@ -100,6 +97,11 @@ import countries from '../countries/countries.json'
                         <br/>
                         <input style={{width:"100%",border:"none",borderBottom:"solid 2px", height:"24pt", borderColor:"rgb(185, 185, 185)"}} onChange={handleChange} type="number" placeholder="Phone Number"></input>
                     </div>
+                </div>
+                {/* button Link */}
+                <div style={{position:"fixed", bottom:"5%", width:"100%", textAlign:"center"}}>
+                    <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link>
+                    {/* <button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button> */}
                 </div>
             </div>
         )

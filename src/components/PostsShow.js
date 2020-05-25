@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import location from '../pics/location.png'
 import arrow from '../pics/arrow.png'
 import clock from '../pics/clock.png'
-import postJson from './postsJson.json'
+// import postJson from './postsJson.json'
 import cities_data from './israel-cities'
 import Case from '../pics/Category Icons/Case.svg'
 import emergency from '../pics/Category Icons/Emergency.svg'
@@ -23,6 +23,7 @@ export default class PostsShow extends Component {
              
         }
     }
+    
  // find picture for category
   categoryPic=(num)=>{
     switch (num){
@@ -63,7 +64,7 @@ export default class PostsShow extends Component {
     }
     else return hours+" hours ago"
   }
-  postSelect=(user)=>{
+  postSelect(user){
     const location= this.findCity(user.city)
     const date= this.findTime(user.createDate)
    this.props.updateUser(this.findCategory(user.categoryId),user.content,location,user.radius,date, user.phone, user.userName)
@@ -93,60 +94,14 @@ export default class PostsShow extends Component {
     }
   }
     render() {
-        const renderCheck=()=>{
-            var validStatus= localStorage.getItem('valid')
-            if(validStatus=="false"){
-                validStatus=false
-            }
-            else validStatus=true
-            // if validStatus true show the posts
-            if (validStatus){
-                return <div style={{position:"relative",}}>
-                {/* change back to this.props.location */}
-                    {this.props.postsFile.map(user=>{return <div key={user.id}>
-                      <Link onClick={(e)=>this.postSelect(user)} to='/requestD'>
-                        <div style={{position:"absolute", left:0}}>
-                        {/* logo for the header */}
-                    <img alt="headPic" src={this.categoryPic(user.categoryId)} style={{width:"20px",paddingRight:5}}/>
-                    </div>
-                    <div style={{marginLeft:"22px",}}>
-                    {/* post header */}
-                    <span style={{fontSize:"15pt",color:"rgb(83, 82, 100)", lineHeight:"20pt", }} >{this.findCategory(user.categoryId)}</span>
-                    {/* post content */}
-                        <p style={{marginTop:"7pt",display:"-webkit-box" ,WebkitLineClamp:2, WebkitBoxOrient:"vertical", overflow:"hidden",color:"rgb(121, 121, 131)", textAlign:"right", direction:"rtl", fontSize:"12pt", lineHeight:"16pt"}}>{user.content}</p>
-                        {/* div for post details */}
-                        <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", color:"rgba(0, 0, 0, 0.4)"}} className="container">
-                        <div>
-                          <img width="15px" src={location} alt="location"/>
-                          {this.findCity(user.city)}
-                        </div>
-                        <div>
-                          <img width="15px" src={arrow} alt="location"/>
-                          distance
-                        </div>
-                        <div>
-                          <img width="15px" src={clock} alt="location"/>
-                          {this.findTime(user.createDate)}
-                        </div>
-                        </div>
-                        <hr style={{lineHeight:0,marginTop:"4pt", marginBottom:"8pt" , padding:0}} />
-                        </div>
-                        </Link>
-                    </div>})}
-                </div> 
-            }
-            else {
-                return <div>you have not connected yet</div>
-            }
-
-        }
+        
         return (
             // <div>
             //     {renderCheck()}
             // </div>
             <div className="container" style={{position:"relative",}}>
             {/* change back to this.props.postsFile */}
-                {postJson.map(user=>{return <div key={user.id}>
+                {this.props.postsFile.map(user=>{return <div key={user.id}>
                   <Link onClick={(e)=>this.postSelect(user)} to='/requestD'>
                     <div style={{position:"absolute", left:0}}>
                     {/* logo for the header */}

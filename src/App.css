@@ -67,3 +67,8 @@
     background-size: cover;
     display: grid;
 }
+
+/* RequerstDetails_01 */
+.propsTags{
+    font-size: 14px;
+}

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import "./Onboarding.css";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+// import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import onboarding3 from '../pics/Onboarding_03.png'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Translate from 'react-translate-component';
 
 export default class Onboarding_03 extends Component {
@@ -28,22 +28,11 @@ export default class Onboarding_03 extends Component {
                     {/* <h3 className="header1" style={{}}>מיקרו-התנדבות</h3> */}
                     {/* <p className="piska" style={{}}>רוצה לעזור בקטנה? אתם בוחרים בוחר למי ומתי</p> */}
                 </div>
-                <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"100%", justifyContent:"space-between"}}>
-                            <div  style={{ fontSize:"22pt",marginLeft:"10%"}} onClick={this.props.btnNext}>
-                                <Translate style={{fontSize:"18pt"}} content="skip" component="span" unsafe={true}/>
-                            </div>
-                            
-                            <div onClick={this.props.btnNext} style={{marginRight:"10%"}} >
-                                {/* <img alt='icon' src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"/> */}
-                                <i style={{fontSize:"16pt"}} className="angle right icon"></i>
-                            </div>
+                <div style={{display:"flex", flexDirection:"row", position:"absolute", bottom:"10%", width:"100%", justifyContent:"space-around",}}>
+                            <Translate onClick={this.props.btnNext} style={{fontSize:"18pt"}} content="skip" component="span" unsafe={true}/>
+                            <img alt="onboarding3Pic" onClick={this.props.btnNext} style={{fontSize:"16pt"}} src="https://img.icons8.com/metro/26/000000/chevron-right.png"/>
                 </div>
-                <div style={{}}>
-                {/* <Link to='/homePage'><div style={{display:"grid",margin:"auto",height:"48pt", backgroundColor:"rgb(80, 210, 194)",borderRadius:"50pt", width:"220pt", position:"absolute", bottom:0}}><p style={{  fontSize:"16pt",color:"white",  margin:"auto"}}>הרשם</p></div></Link> */}
-                {/* <Link to='/signUp'><div style={{display:"grid",margin:"auto",height:"48pt", backgroundColor:"rgb(80, 210, 194)",borderRadius:"50pt", width:"220pt"}}><Translate style={{color:"white", margin:"auto", fontSize:"18pt"}} content="intro_title3Btn" component="span" unsafe={true}/>
-</div></Link> */}
-                    
-                </div>
+                
             </div>
         )
     }

@@ -13,16 +13,18 @@ import Ride_Delivery from '../pics/Category Icons/Ride_Delivery.svg'
 import RoadAssist from '../pics/Category Icons/Road assist.svg'
 import Social from '../pics/Category Icons/Social.svg'
 import cities_data from './israel-cities'
-import VerifyCode from './VerifyCode';
+// import VerifyCode from './VerifyCode';
 
 export default class VerifiedEnd extends Component {
+  _isMounted=false
+
     constructor(props) {
         super(props)
     
         this.state = {
             recentPosts:[],
             locationPosts:[], 
-            newRecentPost:[] 
+            myPosts:[] 
          }
     }
     // translate which city by number
@@ -77,7 +79,7 @@ export default class VerifiedEnd extends Component {
     }
   }
   // find picture for category
-  categoryPic=(num)=>{
+  categoryPic(num){
     if(num==""){
         return ""
     }
@@ -103,10 +105,15 @@ export default class VerifiedEnd extends Component {
     }
    }
 
-    componentDidMount= async()=>{
-        const tokenLocalStorage= this.props.token
+   componentDidMount= async()=>{
+      // flag to check if the component is mounted to prevent errors
+      this._isMounted=true;
+      var valid= localStorage.getItem('valid')
+      const tokenLocalStorage= this.props.token
+      
+      if(tokenLocalStorage.length>0) {
         //check location and send it to server
-    if("geolocation" in navigator){
+        if("geolocation" in navigator){
         navigator.geolocation.getCurrentPosition(function(position){
             const lat= position.coords.latitude.toString();
             const lon= position.coords.longitude.toString();
@@ -150,8 +157,10 @@ export default class VerifiedEnd extends Component {
             
         })
         let data = res.data;
-        this.setState({recentPosts:data})
-        console.log('fetching recentPosts')
+        if(this._isMounted){
+          this.setState({recentPosts:data})
+          console.log('fetching recentPosts')
+        }
     }catch (e){
         console.log(`😱 Axios requestRegister failed: ${e}`);
         alert(`${e}`)
@@ -165,12 +174,33 @@ export default class VerifiedEnd extends Component {
           
       })
       let data = res.data;
-      this.setState({locationPosts:data})
-      console.log('fetching location')
+      if(this._isMounted){
+        this.setState({locationPosts:data})
+        console.log('fetching location')
+      }
   }catch (e){
       console.log(`😱 Axios LocationPosts failed: ${e}`);
       alert(`${e}`)
   }
+
+  //fetching my posts
+  try{
+    let adress="/requests/_filters?token=" + token + "&my=true&sortBy=1"
+    let res = await axios({
+        url:adress,
+        method:"get",
+        
+    })
+    let data = res.data;
+    if(this._isMounted){
+      this.setState({myPosts:data})
+      console.log('fetching my posts')
+    }
+}catch (e){
+    console.log(`😱 Axios LocationPosts failed: ${e}`);
+    alert(`${e}`)
+}
+
   //saving data in localStorage
   const recentPtoString=JSON.stringify(this.state.recentPosts)
   localStorage.setItem('recentPosts',recentPtoString )
@@ -178,61 +208,49 @@ export default class VerifiedEnd extends Component {
   localStorage.setItem('locationPosts',locationPtoString )
 
 
+  // this.props.uploadPosts(this.state.recentPosts, this.state.locationPosts, this.state.myPosts)
+  // this.sendPostToState(this.state.recentPosts, this.state.locationPosts, this.state.myPosts)
 
   }//end of else
+}
+else{
+  document.getElementById('mainDiv').innerHTML='<h1>wo wow wo</h1>'
+}
     }//end of componentDidMount
 
-    // check verication and return the acording screen
-  checkVerification=()=>{
-      var varificationStatus= localStorage.getItem('valid')
-      if ( varificationStatus=="true"){
-        varificationStatus=true
-      }
-      else{
-        varificationStatus=false
-      }
-      if(varificationStatus==true){
-      return <div>
-        <div id="picUp">
-            <h2 style={{paddingTop:"30px", color:"rgb(253, 253, 253)"}}>Verified!</h2>
-            <img style={{margin:"auto"}} src={verified} alt="verified"></img>
-        </div>
-        <div style={{height:"150pt", display:"grid"}}>
-            <p style={{color:"rgb(74, 75, 75)", margin:"auto", fontSize:"40pt", paddingLeft:"40px"}}>Welcome to Willing!</p>
-        </div>
-        <div style={{position:"absolute", bottom:"10%", width:"100%", display:"grid"}}>
-            <Link style={{margin:"auto"}} to='/homePage'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
-        </div>
-      </div>
-      }
-      // else if the code is not correct
-      else{
-        return <div style={{width:"100%", height:"100%", textAlign:"center"}}>
-          <div style={{margin:"auto", width:"250px", height:"150px", border:"solid",display:"flex" , flexDirection:"column",justifyContent:"space-around", }}>
-          <h4>The code is NOT correct</h4>
-          <p>Please try again</p>
-          <Link to='/verify'><button style={{width:"50px", margin:"auto"}}>OK</button></Link>
-          </div>
-        </div>
+    componentWillUnmount(){
+      this._isMounted=false
+    }
+
+    sendPostToState=()=>{
+      if(this._isMounted){
+          const recent=this.state.recentPosts
+          const location=this.state.locationPosts
+          const my=this.state.myPosts
+          this.props.uploadPosts(recent, location, my)
       }
     }
+    // check verication and return the acording screen
+  
     render() {
-      
+
         return (
             <div style={{height:"100vh", position:"relative", display:"grid"}}>
                 <div id="picUp">
                     <h2 style={{paddingTop:"30px", color:"rgb(253, 253, 253)"}}>Verified!</h2>
                     <img style={{margin:"auto"}} src={verified} alt="verified"></img>
                 </div>
+                <div id="mainDiv">
                 <div style={{height:"150pt", display:"grid"}}>
                     <p style={{color:"rgb(74, 75, 75)", margin:"auto", fontSize:"40pt", paddingLeft:"40px"}}>Welcome to Willing!</p>
                 </div>
                 <div style={{position:"absolute", bottom:"10%", width:"100%", display:"grid"}}>
                 
-               <Link style={{margin:"auto"}} to='/homePage'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
+               <Link style={{margin:"auto"}} to='/PostsPage'><button onClick={this.sendPostToState} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
 
                 </div>
-                {/* {this.checkVerification()} */}
+                </div>
+                {/* {this.sendPostToState(recentPosts, locationPosts, myPosts)} */}
             </div>
         )
     }

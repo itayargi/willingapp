@@ -25,19 +25,23 @@ export default class OnboardingMain extends Component {
               maxHeight: "100vh",
               color: 'black',
               // boxSizing:"border-box"
-              width:"100%"
+              width:"100%",
+              margin:0,
+              padding:0,
+              
                 
             },
             slide1: {
               backgroundColor: '#FEA900',
-              width:"100%"
               
             },
             slide2: {
               backgroundColor: '#B3DC4A',
+
             },
             slide3: {
               backgroundColor: '#6AC0FF',
+
             },
           };
           const btnNext=()=>{

@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import SwipeableViews from 'react-swipeable-views';
-import Onboarding_02 from './Onboarding_02';
-import Onboarding_03 from './Onboarding_03';
-import Onboarding_01 from './Onboarding_01';
-import SignUp from './SignUp';
 import PostsShow from './PostsShow';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-
+import { Link } from "react-router-dom";
+import Fab from '@material-ui/core/Fab';
+import AddIcon from '@material-ui/icons/Add';
+// import postJson from './postsJson.json'
 
 export default class PostsPage extends Component {
   constructor(props) {
@@ -62,6 +61,18 @@ export default class PostsPage extends Component {
           
         return (
             <div>
+            {/* header */}
+            <div
+          style={{
+            display: "grid",
+            color: "white",
+            height: "10vh",
+            backgroundColor: "rgb(57, 55, 119)"
+          }}
+          className="homeHeader"
+        >
+          <h3 style={{ margin: "auto" }}>HOME SCREEN</h3>
+        </div>
                 <AppBar position="static" color="default">
                     <Tabs
                     value={this.state.swipeIndex}
@@ -85,7 +96,16 @@ export default class PostsPage extends Component {
               <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={this.props.location} updateUser={this.props.updateUser}/></div>
               <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={this.props.myPosts} updateUser={this.props.updateUser}/></div>
             </SwipeableViews>
-
+            {/* float btn */}
+            <div style={{position:"fixed", bottom:"10%", right:"4%", zIndex:5}}>
+              <Link style={{}} to='/newRequest'>
+                <div>
+                    <Fab color="primary" aria-label="add" >
+                    <AddIcon />
+                    </Fab>
+                </div>
+              </Link>
+          </div>
             </div>
             
                 

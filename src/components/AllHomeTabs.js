@@ -7,14 +7,14 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import RecentPosts from './RecentPosts';
-import LocationPosts from './LocationPosts'
-import MyPosts from './MyPosts';
+// import RecentPosts from './RecentPosts';
+// import LocationPosts from './LocationPosts'
+// import MyPosts from './MyPosts';
 import PostsShow from './PostsShow';
-import location from '../pics/location.png'
-import arrow from '../pics/arrow.png'
-import clock from '../pics/clock.png'
-import postJson from './postsJson.json'
+// import location from '../pics/location.png'
+// import arrow from '../pics/arrow.png'
+// import clock from '../pics/clock.png'
+// import postJson from './postsJson.json'
 import cities_data from './israel-cities'
 import Case from '../pics/Category Icons/Case.svg'
 import emergency from '../pics/Category Icons/Emergency.svg'

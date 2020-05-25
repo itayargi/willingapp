@@ -1,4 +1,4 @@
-@font-face{
+/* @font-face{
     src: url('../font/FontsFree-Net-SFProDisplay-Light.ttf');
     font-family: sfLight;
 }
@@ -9,7 +9,7 @@
 @font-face{
     src: url('../font/FontsFree-Net-SFProDisplay-Regular.ttf');
     font-family: sfRegular;
-}
+} */
 .textBox{
     text-align:center;
     margin-top: 10pt;
@@ -22,7 +22,6 @@
 .header1{
     font-size: 24pt;
     padding-top: 30pt;
-    font-family: sfMedium;
     
 }
 
@@ -32,11 +31,9 @@
     max-width: 230pt;
     /* fontFamily:"SFProDisplay-Light" */
     padding-top:22pt;
-    font-family: sfLight;
     margin: auto;
 }
 .skipBtn{
-    font-family: sfRegular;
     font-size: 18pt;
 }
 .btnNext{

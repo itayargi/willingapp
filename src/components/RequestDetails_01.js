@@ -6,6 +6,11 @@ import { Grid } from 'semantic-ui-react'
 import { Icon } from 'semantic-ui-react'
 // import AddMoreBtn from './AddMoreBtn'
 import Translate from 'react-translate-component';
+import '../App.css';
+// import './'
+// import 'semantic-ui';
+// import '../semantic/src/semantic.less'
+import 'semantic-ui-css/semantic.min.css'
 
 export default class RequestDetails_01 extends Component {
   constructor(props) {
@@ -53,7 +58,7 @@ export default class RequestDetails_01 extends Component {
                     className="homeHeader"
                     >
                     <div style={{position:"absolute", top:"26pt"}} className="fullPage">
-                        <Link to='/HomeScreen'><i style={{fontSize:"28pt",color:"white" }} className="angle left icon"></i></Link>
+                        <Link to='/postsPage'><i style={{fontSize:"28pt",color:"white" }} className="angle left icon"></i></Link>
                     </div>
                     <h3 style={{ margin: "auto" }}>REQUEST DETAILS</h3>
             {/* end header */}
@@ -89,7 +94,7 @@ export default class RequestDetails_01 extends Component {
         {/* <p>LOCATION</p> */}
         <div><Translate content="location" component="h4" unsafe={true}/></div>
 
-        <p>{this.props.user.location}</p>
+        <p className="propsTags">{this.props.user.location}</p>
         {/* <Translate content="copy.p1" component="p" unsafe={true}/> */}
 
         </div>
@@ -100,7 +105,7 @@ export default class RequestDetails_01 extends Component {
         {/* <p>DISTANCE</p> */}
         <div><Translate content="distance" component="h4" unsafe={true}/></div>
 
-        <p>{this.props.user.distance}</p>
+        <p className="propsTags">{this.props.user.distance}</p>
         </div>
       </Grid.Column>
     </Grid.Row>
@@ -110,14 +115,14 @@ export default class RequestDetails_01 extends Component {
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
         <p>DUE DATE</p>
-        <p>{this.props.user.date}</p>
+        <p className="propsTags">{this.props.user.date}</p>
         </div>
       </Grid.Column>
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
         <p>URGENCY LEVEL</p>
-        <p>Urgent</p>
+        <p className="propsTags">Urgent</p>
         </div>
       </Grid.Column>
     </Grid.Row>
@@ -128,15 +133,15 @@ export default class RequestDetails_01 extends Component {
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
-        <div><Translate content="phone" component="p" /></div>
-        <p>{this.props.user.phone}</p>
+        <Translate content="phone" component="p" />
+        <p className="propsTags">{this.props.user.phone}</p>
         </div>
       </Grid.Column>
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
         <p>POSTER NAME</p>
-        <p>{this.props.user.userName}</p>
+        <p className="propsTags">{this.props.user.userName}</p>
         </div>
       </Grid.Column>
     </Grid.Row>
