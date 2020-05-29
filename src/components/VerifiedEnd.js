@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../App.css'
 import verified from '../pics/verified.svg'
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import axios from 'axios'
 import Case from '../pics/Category Icons/Case.svg'
 import emergency from '../pics/Category Icons/Emergency.svg'
@@ -110,8 +110,9 @@ export default class VerifiedEnd extends Component {
       this._isMounted=true;
       var valid= localStorage.getItem('valid')
       const tokenLocalStorage= this.props.token
-      
-      if(tokenLocalStorage.length>0) {
+      // tokenLocalStorage.length>0
+      if(true) {
+        // <Redirect to='/register'/>
         //check location and send it to server
         if("geolocation" in navigator){
         navigator.geolocation.getCurrentPosition(function(position){
@@ -235,20 +236,21 @@ else{
     render() {
 
         return (
-            <div style={{height:"100vh", position:"relative", display:"grid"}}>
-                <div id="picUp">
-                    <h2 style={{paddingTop:"30px", color:"rgb(253, 253, 253)"}}>Verified!</h2>
-                    <img style={{margin:"auto"}} src={verified} alt="verified"></img>
+            <div style={{height:"100vh", position:"relative", }}>
+                <div style={{paddingBottom:0, marginBottom:0, maxHeight:"50vh"}} id="picUp">
+                    <h2 style={{paddingTop:"30px", color:"rgb(253, 253, 253)", marginBottom:0, paddingBottom:0}}>Verified!</h2>
+                    <img style={{margin:"auto", marginTop:0}} src={verified} alt="verified"></img>
                 </div>
-                <div id="mainDiv">
+                <div style={{borderRadius:"50px", backgroundColor:"white", position:"relative", top:"-40px"}} id="mainDiv">
                 <div style={{height:"150pt", display:"grid"}}>
                     <p style={{color:"rgb(74, 75, 75)", margin:"auto", fontSize:"40pt", paddingLeft:"40px"}}>Welcome to Willing!</p>
+                </div>
+                
                 </div>
                 <div style={{position:"absolute", bottom:"10%", width:"100%", display:"grid"}}>
                 
                <Link style={{margin:"auto"}} to='/PostsPage'><button onClick={this.sendPostToState} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
 
-                </div>
                 </div>
                 {/* {this.sendPostToState(recentPosts, locationPosts, myPosts)} */}
             </div>

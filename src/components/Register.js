@@ -28,9 +28,31 @@ import countries from '../countries/countries.json'
             phone:newstr
         }
     }
+    checkPhoneNumber(num){
+        if(num.length!=10 || num[0]!=0){
+            return false;
+        }
+        return true;
 
+    }
+    buttonNext(){
+        document.getElementById('questionBox').style.display="inline-block"
+        document.getElementById('inputBox').value=""
+    }
+    noBtn(){
+        document.getElementById('questionBox').style.display="none"
+
+    }
     getUsers = async() => {
         var phone= this.objectTransfer(this.state.phone)
+        if(this.checkPhoneNumber(this.state.phone)){
+            localStorage.setItem('phoneStatus', true)
+            // alert('are you sure?')
+        }
+        else{
+            localStorage.setItem('phoneStatus', false)
+            alert('Please Enter a valid phone number')
+        }
         // localStorage.setItem('myPhone', this.state.phone)
         const connectionCheck= navigator.onLine;
         if (!connectionCheck){
@@ -70,7 +92,7 @@ import countries from '../countries/countries.json'
             this.setState({phone: event.target.value})
         }
         return (
-            <div style={{position:"relative", height:"100vh", width:"100%"}}>
+            <div style={{position:"relative", height:"100vh", width:"100%",}}>
                 
                 <div style={{width:"100%", textAlign:"center",position:"absolute"}}>
                     <h3 style={{marginTop:"20px", color:"white"}}>VERIFY YOUR PHONE NUMBER</h3>
@@ -79,6 +101,16 @@ import countries from '../countries/countries.json'
                 <div className="topDivPic" style={{width:"100%", height:"50vh"}}>
                     {/* <img style={{objectFit:"cover", margin:"auto",width:"100%", height:"100%", objectPosition:"center"}} src={willing} alt="topPic"></img> */}
                     <img style={{margin:"auto"}} alt="smsPic" src={smsPic}></img>
+                </div>
+                <div id="questionBox" style={{display:"none",position:"fixed", top:"30%",width:"100%", textAlign:"center", height:"120px", zIndex:5}}>
+                    <div style={{width:"80%",backgroundColor:"grey", margin:"auto"}}>
+                    <h5 style={{paddingTop:"20px"}}>Are you sure this is the number?</h5>
+                    <p>{this.state.phone}</p>
+                    <div style={{justifyContent:"space-around",display:"flex", marginTop:"30px", paddingBottom:"20px"}}>
+                    <Link to='/verify'><button onClick={this.getUsers} >Yes</button></Link>
+                        <button onClick={this.noBtn}>No</button>
+                    </div>
+                    </div>
                 </div>
                 <div style={{borderRadius:"50px", backgroundColor:"white", position:"relative", top:"-35px"}} className="squerDown">
                     <div style={{textAlign:"center", width:"100%", marginBottom:"50px"}}>
@@ -95,12 +127,14 @@ import countries from '../countries/countries.json'
 
                         </div>
                         <br/>
-                        <input style={{width:"100%",border:"none",borderBottom:"solid 2px", height:"24pt", borderColor:"rgb(185, 185, 185)"}} onChange={handleChange} type="number" placeholder="Phone Number"></input>
+                        <input id="inputBox" style={{width:"100%",border:"none",borderBottom:"solid 2px", height:"24pt", borderColor:"rgb(185, 185, 185)"}} onChange={handleChange} type="number" placeholder="Phone Number"></input>
                     </div>
                 </div>
                 {/* button Link */}
                 <div style={{position:"fixed", bottom:"5%", width:"100%", textAlign:"center"}}>
-                    <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link>
+                    {/* <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link> */}
+                    <button onClick={this.buttonNext} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button>
+
                     {/* <button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button> */}
                 </div>
             </div>

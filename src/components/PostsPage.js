@@ -7,7 +7,7 @@ import Tab from '@material-ui/core/Tab';
 import { Link } from "react-router-dom";
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
-// import postJson from './postsJson.json'
+import postJson from './postsJson.json'
 
 export default class PostsPage extends Component {
   constructor(props) {
@@ -59,6 +59,8 @@ export default class PostsPage extends Component {
               })
           };
           
+          const miniPosts=postJson.slice(0,15)
+
         return (
             <div>
             {/* header */}
@@ -92,9 +94,9 @@ export default class PostsPage extends Component {
               index={this.state.swipeIndex}
               onChangeIndex={handleChangeIndex}
               enableMouseEvents>
-              <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={this.props.user} updateUser={this.props.updateUser} /></div>
-              <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={this.props.location} updateUser={this.props.updateUser}/></div>
-              <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={this.props.myPosts} updateUser={this.props.updateUser}/></div>
+              <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={miniPosts} updateUser={this.props.updateUser} /></div>
+              <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={miniPosts} updateUser={this.props.updateUser}/></div>
+              <div style={Object.assign({}, styles.slide, {})}><PostsShow postsFile={miniPosts} updateUser={this.props.updateUser}/></div>
             </SwipeableViews>
             {/* float btn */}
             <div style={{position:"fixed", bottom:"10%", right:"4%", zIndex:5}}>

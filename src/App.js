@@ -15,6 +15,7 @@ import SignUp from './components/SignUp'
 import TermsOfUse from './components/TermsOfUse'
 import VerifiedEnd from './components/VerifiedEnd'
 import PostsPage from './components/PostsPage'
+import { Redirect } from "react-router-dom";
 
 export default class App extends Component {
 
@@ -56,10 +57,14 @@ export default class App extends Component {
    }
 
   render() {
-    
-    
-    
-    
+    var validStatus= localStorage.getItem('valid')
+    var phoneStatus= localStorage.getItem('phoneStatus')
+    if(phoneStatus=="true"){
+      phoneStatus=true;
+    }    
+    else{
+      phoneStatus=false
+    }
     return (
       <div>
        <Router>
@@ -70,6 +75,13 @@ export default class App extends Component {
           <Route exact path='/termsOfUse' component={()=>{return <div><TermsOfUse/></div>}} />
           <Route exact path='/register' component={()=>{return <div><Register addToken={this.addToken}/></div>}} />
           <Route exact path='/verify' component={()=>{return <div><VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token}/></div>}} />
+          {/* <Route exact path='/verify'> */}
+            {/* {phoneStatus ?  <VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token} /> :<Redirect to="/register" />} */}
+            {/* {phoneStatus ? <Redirect to="/register" /> : <VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token} />} */}
+
+          {/* </Route> */}
+
+
           <Route exact path='/verifiedEnd' component={()=>{return <div><VerifiedEnd uploadPosts={this.uploadPosts} status={this.state.verify} token={this.state.token} /></div>}} />
           {/* <Route exact path='/homePage' component={()=>{return <div><HomeScreen uploadPosts={this.uploadPosts} verify={this.state.verify} token={this.state.token} updateUser={this.updateUser} /></div>}} /> */}
           <Route exact path='/requestD' component={()=>{return <div><RequestDetails_01 user={this.state}/></div>}} />
