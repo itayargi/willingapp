@@ -14,6 +14,8 @@ import Ride_Delivery from '../pics/Category Icons/Ride_Delivery.svg'
 import RoadAssist from '../pics/Category Icons/Road assist.svg'
 import Social from '../pics/Category Icons/Social.svg'
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../semantic/dist/semantic.css'
 
 export default class PostsShow extends Component {
     constructor(props) {
@@ -103,9 +105,9 @@ export default class PostsShow extends Component {
             {/* change back to this.props.postsFile */}
                 {this.props.postsFile.map(user=>{return <div key={user.id}>
                   <Link onClick={(e)=>this.postSelect(user)} to='/requestD'>
-                    <div style={{position:"absolute", left:0}}>
+                    <div style={{position:"absolute", left:"5px"}}>
                     {/* logo for the header */}
-                <img alt="headPic" src={this.categoryPic(user.categoryId)} style={{width:"20px",paddingRight:5}}/>
+                <img alt="headPic" src={this.categoryPic(user.categoryId)} style={{width:"20px",}}/>
                 </div>
                 <div style={{marginLeft:"22px",}}>
                 {/* post header */}

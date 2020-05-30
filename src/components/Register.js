@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import '../App.css'
 import smsPic from '../pics/sms.svg'
 import countries from '../countries/countries.json'
+import Translate from 'react-translate-component';
 
  export default  class Register extends Component {
     constructor(props) {
@@ -16,8 +17,20 @@ import countries from '../countries/countries.json'
              
         }
     }
+    findIndexCountry(arr){
+        if(arr.length<=0) return -1;
+        
+    }
     componentDidMount(){
         // console.log(countries)
+        document.getElementById("selectCountries").selectedIndex = "97"; 
+        // var indexLoc= countries.indexOf('israel')
+        // console.log(indexLoc, 'index location')
+        // myArray.find(x => x.id === '45').foo;
+        // var indexLoc = countries.findIndex( x=> x.code=="+972")
+        // console.log(indexLoc, 'index location')
+        // console.log(countries)
+
     }
     
     //takes the phone number from the user, reduce the "0", add 972 and return object for axios
@@ -28,6 +41,7 @@ import countries from '../countries/countries.json'
             phone:newstr
         }
     }
+    // validation check for the phone number
     checkPhoneNumber(num){
         if(num.length!=10 || num[0]!=0){
             return false;
@@ -35,24 +49,31 @@ import countries from '../countries/countries.json'
         return true;
 
     }
-    buttonNext(){
-        document.getElementById('questionBox').style.display="inline-block"
-        document.getElementById('inputBox').value=""
-    }
-    noBtn(){
-        document.getElementById('questionBox').style.display="none"
-
-    }
-    getUsers = async() => {
-        var phone= this.objectTransfer(this.state.phone)
+    buttonNext=()=>{
         if(this.checkPhoneNumber(this.state.phone)){
             localStorage.setItem('phoneStatus', true)
             // alert('are you sure?')
+            console.log('good phone number')
+            document.getElementById('questionBox').style.display="inline-block"
+            // document.getElementById('inputBox').value=""
+            localStorage.setItem('phoneStatus', true)
+
         }
         else{
             localStorage.setItem('phoneStatus', false)
             alert('Please Enter a valid phone number')
+            document.getElementById('inputBox').value=""
+
         }
+    }
+    noBtn(){
+        document.getElementById('questionBox').style.display="none"
+        document.getElementById('inputBox').value=""
+
+    }
+    getUsers = async() => {
+        var phone= this.objectTransfer(this.state.phone)
+        
         // localStorage.setItem('myPhone', this.state.phone)
         const connectionCheck= navigator.onLine;
         if (!connectionCheck){
@@ -86,11 +107,17 @@ import countries from '../countries/countries.json'
     countrySelect=(e)=>{
         this.setState({countryNum:e.target.value})
     }
+    handleChange=(event)=>{
+        this.setState({phone: event.target.value})
+        // console.log(this.state.phone)
+
+    }
     render() {
         const countriesList = countries
-        const handleChange=(event)=>{
-            this.setState({phone: event.target.value})
-        }
+        // const handleChange=(event)=>{
+        //     this.setState({phone: event.target.value})
+        //     console.log(this.state.phone)
+        // }
         return (
             <div style={{position:"relative", height:"100vh", width:"100%",}}>
                 
@@ -102,13 +129,14 @@ import countries from '../countries/countries.json'
                     {/* <img style={{objectFit:"cover", margin:"auto",width:"100%", height:"100%", objectPosition:"center"}} src={willing} alt="topPic"></img> */}
                     <img style={{margin:"auto"}} alt="smsPic" src={smsPic}></img>
                 </div>
-                <div id="questionBox" style={{display:"none",position:"fixed", top:"30%",width:"100%", textAlign:"center", height:"120px", zIndex:5}}>
-                    <div style={{width:"80%",backgroundColor:"grey", margin:"auto"}}>
-                    <h5 style={{paddingTop:"20px"}}>Are you sure this is the number?</h5>
-                    <p>{this.state.phone}</p>
+                {/* question box for the phone number */}
+                <div style={{position:"fixed", top:"25%",width:"100%", textAlign:"center", height:"120px", zIndex:6}}>
+                    <div id="questionBox" style={{display:"none",width:"80%",backgroundColor:"#fff", margin:"auto", borderRadius:"10px"}}>
+                    <h4 style={{paddingTop:"20px"}}>Are you sure? Please check</h4>
+                    <p style={{fontSize:"18px"}}>{this.state.phone}</p>
                     <div style={{justifyContent:"space-around",display:"flex", marginTop:"30px", paddingBottom:"20px"}}>
-                    <Link to='/verify'><button onClick={this.getUsers} >Yes</button></Link>
-                        <button onClick={this.noBtn}>No</button>
+                    <Link to='/verify'><span onClick={this.getUsers} >OK</span></Link>
+                        <span onClick={this.noBtn}>Edit</span>
                     </div>
                     </div>
                 </div>
@@ -119,21 +147,23 @@ import countries from '../countries/countries.json'
                     <div style={{width:"90%", textAlign:"center", fontSize:"15pt",margin:"auto" }}>
                         <div>
                         {/* select input with all the countris numbers */}
-                        <select style={{width:"100%",border:"none",borderBottom:"solid 2px", borderColor:"rgb(185, 185, 185)", height:"24pt", backgroundColor:"none"}}>
+                        <select id="selectCountries" style={{width:"100%",border:"none",borderBottom:"solid 2px", borderColor:"rgb(185, 185, 185)", height:"24pt", backgroundColor:"none"}}>
                             {countriesList.countries.map(country=>{
-                            return <option key={country.name} onChange={this.countrySelect} value={country.code}>{country.code + "   " + "(" + country.name + ")"}</option> 
+                            return <option  key={country.name} onChange={this.countrySelect} value={country.code}>{country.code + "   " + "(" + country.name + ")"}</option> 
                         })}
                         </select>
 
                         </div>
                         <br/>
-                        <input id="inputBox" style={{width:"100%",border:"none",borderBottom:"solid 2px", height:"24pt", borderColor:"rgb(185, 185, 185)"}} onChange={handleChange} type="number" placeholder="Phone Number"></input>
+                        <input id="inputBox" style={{width:"100%",border:"none",borderBottom:"solid 2px", height:"24pt", borderColor:"rgb(185, 185, 185)"}} onChange={this.handleChange} type="number" placeholder="Phone Number"></input>
                     </div>
                 </div>
                 {/* button Link */}
                 <div style={{position:"fixed", bottom:"5%", width:"100%", textAlign:"center"}}>
                     {/* <Link to='/verify'><button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button></Link> */}
-                    <button onClick={this.buttonNext} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button>
+                    <button onClick={this.buttonNext} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>
+                        <Translate style={{fontSize:"18px"}} content="next" component="span" unsafe={true}/>
+                    </button>
 
                     {/* <button onClick={this.getUsers} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white"}}>NEXT</button> */}
                 </div>

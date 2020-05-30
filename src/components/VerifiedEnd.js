@@ -14,6 +14,10 @@ import RoadAssist from '../pics/Category Icons/Road assist.svg'
 import Social from '../pics/Category Icons/Social.svg'
 import cities_data from './israel-cities'
 // import VerifyCode from './VerifyCode';
+import jsonImport from 'jsonfile'
+// import fs from 'fs'
+// import writeJsonFile from 'write-json-file'
+
 
 export default class VerifiedEnd extends Component {
   _isMounted=false
@@ -108,6 +112,9 @@ export default class VerifiedEnd extends Component {
    componentDidMount= async()=>{
       // flag to check if the component is mounted to prevent errors
       this._isMounted=true;
+
+
+      // console.log('status is', this.props.status)
       var valid= localStorage.getItem('valid')
       const tokenLocalStorage= this.props.token
       // tokenLocalStorage.length>0
@@ -161,7 +168,37 @@ export default class VerifiedEnd extends Component {
         if(this._isMounted){
           this.setState({recentPosts:data})
           console.log('fetching recentPosts')
-        }
+          // const jsonfile = require('jsonfile')
+ 
+          // const file = '../utils/posts.json'
+          // const obj = { name: 'JP' }
+ 
+          // jsonfile.writeFile(file, obj)
+          //   .then(res => {
+          //     console.log('Write complete')
+          //  })
+          //   .catch(error => console.error(error, 'over hre'))
+          // const jsonfile = require('jsonfile')
+ 
+          // const file = '../utils/posts.json'
+          // const obj = { name: 'JP' }
+ 
+          // jsonfile.writeFile(file, obj, function (err) {
+          //   if (err) console.error(err,'11111')
+          // })
+          // const jsonfile = require('jsonfile')
+          // const writeJsonFile = require('write-json-file');
+          // const file = '../utils/posts.json'
+          // const obj = { name: 'JP' }
+          // writeJsonFile(file, obj)
+          // .then(res => {
+          //   console.log('Write complete')
+          // })
+          // .catch(error => console.error('new balagan',error))
+           
+
+
+          }
     }catch (e){
         console.log(`😱 Axios requestRegister failed: ${e}`);
         alert(`${e}`)
@@ -217,6 +254,7 @@ export default class VerifiedEnd extends Component {
 else{
   document.getElementById('mainDiv').innerHTML='<h1>wo wow wo</h1>'
 }
+
     }//end of componentDidMount
 
     componentWillUnmount(){

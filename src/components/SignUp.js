@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import willing from '../pics/willing.png'
 import { Link } from "react-router-dom";
+import Translate from 'react-translate-component';
 
 export default class SignUp extends Component {
     render() {
@@ -14,7 +15,9 @@ export default class SignUp extends Component {
            </div>
            <div style={{width:"100%", textAlign:"center", marginTop:"50px"}}>
                
-               <Link to='/register'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"250pt", height:"35pt", borderRadius:"50pt", color:"white"}}>SIGN UP</button></Link>
+               <Link to='/register'><button style={{backgroundColor:"rgb(80, 210, 194)", width:"250pt", height:"35pt", borderRadius:"50pt", color:"white"}}>
+               <Translate style={{fontSize:"18px"}} content="signUp" component="span" unsafe={true}/>
+               </button></Link>
            </div>
            <div style={{textAlign:"center", marginTop:"30px", }}>
                <p style={{margin:"auto"}}>By clicking on this button you agree to </p>

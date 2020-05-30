@@ -57,14 +57,7 @@ export default class App extends Component {
    }
 
   render() {
-    var validStatus= localStorage.getItem('valid')
-    var phoneStatus= localStorage.getItem('phoneStatus')
-    if(phoneStatus=="true"){
-      phoneStatus=true;
-    }    
-    else{
-      phoneStatus=false
-    }
+   
     return (
       <div>
        <Router>
@@ -77,12 +70,15 @@ export default class App extends Component {
           <Route exact path='/verify' component={()=>{return <div><VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token}/></div>}} />
           {/* <Route exact path='/verify'> */}
             {/* {phoneStatus ?  <VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token} /> :<Redirect to="/register" />} */}
-            {/* {phoneStatus ? <Redirect to="/register" /> : <VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token} />} */}
+            {/* {this.state.verify ? <Redirect to="/verifiedEnd" /> : <VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token} />} */}
 
           {/* </Route> */}
 
 
           <Route exact path='/verifiedEnd' component={()=>{return <div><VerifiedEnd uploadPosts={this.uploadPosts} status={this.state.verify} token={this.state.token} /></div>}} />
+         {/* <Route exact path='/verifiedEnd'>
+            {validStatus ?  <VerifiedEnd uploadPosts={this.uploadPosts} status={this.state.verify} token={this.state.token} /> :<Redirect to="/register" />}
+          </Route> */}
           {/* <Route exact path='/homePage' component={()=>{return <div><HomeScreen uploadPosts={this.uploadPosts} verify={this.state.verify} token={this.state.token} updateUser={this.updateUser} /></div>}} /> */}
           <Route exact path='/requestD' component={()=>{return <div><RequestDetails_01 user={this.state}/></div>}} />
           <Route exact path='/postsPage' component={()=>{return <div><PostsPage myPosts={this.state.myPosts} location={this.state.localPosts} user={this.state.recentPosts} updateUser={this.updateUser}/></div>}} />

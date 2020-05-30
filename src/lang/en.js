@@ -23,6 +23,7 @@ export default {
     location:"LOCATION",
     skip: "SKIP",
     distance:"DISTANCE",
-
+    signUp:"SIGN UP",
+    next:"NEXT",
 
   }

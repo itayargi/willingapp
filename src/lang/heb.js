@@ -10,5 +10,8 @@ export default {
     phone:"טלפון",
     location:"מיקום",
     distance:"מרחק",
+    signUp:"הרשם",
+    next:"הבא",
+
 
   }

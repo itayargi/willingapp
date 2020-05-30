@@ -3,6 +3,7 @@ import countdown from '../pics/countdown.svg'
 import { Link } from "react-router-dom";
 import axios from 'axios'
 import '../App.css'
+// import Alert from '@material-ui/lab';
 
 export default class VerifyCode extends Component {
   _isMounted=false
@@ -37,9 +38,9 @@ export default class VerifyCode extends Component {
           }
           else{
             console.log('the code is NOT correct')
-            alert('The code is Not correct, please try again')
             localStorage.setItem('valid', false)
-            
+            alert('The code is Not correct, please try again')
+            // put the stop alert
           }
     }catch (e){
         console.log(`😱 Axios verification code failed: ${e}`);

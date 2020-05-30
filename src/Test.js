@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import counterpart from 'counterpart';
-import Translate from 'react-translate-component';
+import Translate from '../node_modules/react-translate-component';
 import en from './lang/en';
 import heb from './lang/heb'
 
 counterpart.registerTranslations('en', en);
 counterpart.registerTranslations('heb', heb);
-counterpart.setLocale('en');
+counterpart.setLocale('heb');
 
 const Link = (props) => {
   return (

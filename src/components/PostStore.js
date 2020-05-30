@@ -1,23 +1,19 @@
-import { decorate, observable } from "mobx"
-import { serializable, primitive } from "serializr"
-import persist from "mobx-persist"
+import { observable, action } from 'mobx'
 
-class Post {
-    id = Math.random()
-    title = ""
-    finished = false
-}
-
-decorate(Post, {
-    title: [serializable(primitive), persist("object"), observable],
-    finished: [serializable(primitive), observable]
+const cart= observable({
+  item:[],
+  modified:new Date(),
 })
 
-export var Store= observable({
-  posts = [],
-  addPost: mobx.action(function addPost(post) {
-    store.posts.push(post);
-  }),
-})
+// create the actions
+const addItem = action((name, quantity)=>{
+  const item= cart.item.find(x=>x.name==name)
+  if(item){
+    item.quantity+=1;
+  }
+  else{
+    cart.item.push({name,quantity})
+  }
+  cart.modified=new Date()
 
-  
+})
