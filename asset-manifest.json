@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/willingapp/static/css/main.6933b1ed.chunk.css",
-    "main.js": "/willingapp/static/js/main.1c885731.chunk.js",
-    "main.js.map": "/willingapp/static/js/main.1c885731.chunk.js.map",
+    "main.css": "/willingapp/static/css/main.ef5152f5.chunk.css",
+    "main.js": "/willingapp/static/js/main.bc389d94.chunk.js",
+    "main.js.map": "/willingapp/static/js/main.bc389d94.chunk.js.map",
     "runtime-main.js": "/willingapp/static/js/runtime-main.6747bbdb.js",
     "runtime-main.js.map": "/willingapp/static/js/runtime-main.6747bbdb.js.map",
     "static/css/2.9e1808b7.chunk.css": "/willingapp/static/css/2.9e1808b7.chunk.css",
-    "static/js/2.6c76b474.chunk.js": "/willingapp/static/js/2.6c76b474.chunk.js",
-    "static/js/2.6c76b474.chunk.js.map": "/willingapp/static/js/2.6c76b474.chunk.js.map",
+    "static/js/2.6f484ffd.chunk.js": "/willingapp/static/js/2.6f484ffd.chunk.js",
+    "static/js/2.6f484ffd.chunk.js.map": "/willingapp/static/js/2.6f484ffd.chunk.js.map",
     "index.html": "/willingapp/index.html",
-    "precache-manifest.768d6606ea7c5a98e00717be26f51267.js": "/willingapp/precache-manifest.768d6606ea7c5a98e00717be26f51267.js",
+    "precache-manifest.59fdc435c3ffbbb167209513034d70df.js": "/willingapp/precache-manifest.59fdc435c3ffbbb167209513034d70df.js",
     "service-worker.js": "/willingapp/service-worker.js",
     "static/css/2.9e1808b7.chunk.css.map": "/willingapp/static/css/2.9e1808b7.chunk.css.map",
-    "static/css/main.6933b1ed.chunk.css.map": "/willingapp/static/css/main.6933b1ed.chunk.css.map",
-    "static/js/2.6c76b474.chunk.js.LICENSE.txt": "/willingapp/static/js/2.6c76b474.chunk.js.LICENSE.txt",
+    "static/css/main.ef5152f5.chunk.css.map": "/willingapp/static/css/main.ef5152f5.chunk.css.map",
+    "static/js/2.6f484ffd.chunk.js.LICENSE.txt": "/willingapp/static/js/2.6f484ffd.chunk.js.LICENSE.txt",
     "static/media/Case.svg": "/willingapp/static/media/Case.b3d7e8ad.svg",
     "static/media/Emergency.svg": "/willingapp/static/media/Emergency.dc117eee.svg",
     "static/media/General.svg": "/willingapp/static/media/General.e870928e.svg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.6747bbdb.js",
     "static/css/2.9e1808b7.chunk.css",
-    "static/js/2.6c76b474.chunk.js",
-    "static/css/main.6933b1ed.chunk.css",
-    "static/js/main.1c885731.chunk.js"
+    "static/js/2.6f484ffd.chunk.js",
+    "static/css/main.ef5152f5.chunk.css",
+    "static/js/main.bc389d94.chunk.js"
   ]
 }
