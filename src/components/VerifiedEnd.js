@@ -28,7 +28,8 @@ export default class VerifiedEnd extends Component {
         this.state = {
             recentPosts:[],
             locationPosts:[], 
-            myPosts:[] 
+            myPosts:[],
+            newPosts:[],
          }
     }
     // translate which city by number
@@ -108,6 +109,19 @@ export default class VerifiedEnd extends Component {
         return General
     }
    }
+   orginizePosts(obj){
+     let recentPosts=obj
+     if(recentPosts){
+      recentPosts.map(user=>{
+         user.logo=this.categoryPic(user.categoryId)
+         user.city=this.findCity(user.city)
+         user.createDate=this.findTime(user.createDate)
+         user.categoryId=this.findCategory(user.categoryId)
+       })
+     }
+     return recentPosts;
+
+   }
 
    componentDidMount= async()=>{
       // flag to check if the component is mounted to prevent errors
@@ -168,36 +182,9 @@ export default class VerifiedEnd extends Component {
         if(this._isMounted){
           this.setState({recentPosts:data})
           console.log('fetching recentPosts')
-          // const jsonfile = require('jsonfile')
- 
-          // const file = '../utils/posts.json'
-          // const obj = { name: 'JP' }
- 
-          // jsonfile.writeFile(file, obj)
-          //   .then(res => {
-          //     console.log('Write complete')
-          //  })
-          //   .catch(error => console.error(error, 'over hre'))
-          // const jsonfile = require('jsonfile')
- 
-          // const file = '../utils/posts.json'
-          // const obj = { name: 'JP' }
- 
-          // jsonfile.writeFile(file, obj, function (err) {
-          //   if (err) console.error(err,'11111')
-          // })
-          // const jsonfile = require('jsonfile')
-          // const writeJsonFile = require('write-json-file');
-          // const file = '../utils/posts.json'
-          // const obj = { name: 'JP' }
-          // writeJsonFile(file, obj)
-          // .then(res => {
-          //   console.log('Write complete')
-          // })
-          // .catch(error => console.error('new balagan',error))
-           
-
-
+          let simlev= this.orginizePosts(data)
+          console.log("sim lev", simlev)
+          this.setState({newPosts:simlev})
           }
     }catch (e){
         console.log(`😱 Axios requestRegister failed: ${e}`);
@@ -272,7 +259,7 @@ else{
     // check verication and return the acording screen
   
     render() {
-
+      var recentPosts=[]
         return (
             <div style={{height:"100vh", position:"relative", }}>
                 <div style={{paddingBottom:0, marginBottom:0, maxHeight:"50vh"}} id="picUp">

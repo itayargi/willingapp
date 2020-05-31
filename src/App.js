@@ -16,6 +16,7 @@ import TermsOfUse from './components/TermsOfUse'
 import VerifiedEnd from './components/VerifiedEnd'
 import PostsPage from './components/PostsPage'
 import { Redirect } from "react-router-dom";
+import VerifyCodeNew from './components/VerifyCodeNew';
 
 export default class App extends Component {
 
@@ -67,26 +68,13 @@ export default class App extends Component {
           <Route exact path='/newRequest' component={()=>{return <div><NewRequestFinal01/></div>}} />
           <Route exact path='/termsOfUse' component={()=>{return <div><TermsOfUse/></div>}} />
           <Route exact path='/register' component={()=>{return <div><Register addToken={this.addToken}/></div>}} />
-          <Route exact path='/verify' component={()=>{return <div><VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token}/></div>}} />
-          {/* <Route exact path='/verify'> */}
-            {/* {phoneStatus ?  <VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token} /> :<Redirect to="/register" />} */}
-            {/* {this.state.verify ? <Redirect to="/verifiedEnd" /> : <VerifyCode status={this.state.verify} addVerify={this.addVerify} token={this.state.token} />} */}
-
-          {/* </Route> */}
-
-
+          <Route exact path='/verify' component={()=>{return <div><VerifyCodeNew status={this.state.verify} addVerify={this.addVerify} token={this.state.token}/></div>}} />
           <Route exact path='/verifiedEnd' component={()=>{return <div><VerifiedEnd uploadPosts={this.uploadPosts} status={this.state.verify} token={this.state.token} /></div>}} />
-         {/* <Route exact path='/verifiedEnd'>
-            {validStatus ?  <VerifiedEnd uploadPosts={this.uploadPosts} status={this.state.verify} token={this.state.token} /> :<Redirect to="/register" />}
-          </Route> */}
-          {/* <Route exact path='/homePage' component={()=>{return <div><HomeScreen uploadPosts={this.uploadPosts} verify={this.state.verify} token={this.state.token} updateUser={this.updateUser} /></div>}} /> */}
           <Route exact path='/requestD' component={()=>{return <div><RequestDetails_01 user={this.state}/></div>}} />
           <Route exact path='/postsPage' component={()=>{return <div><PostsPage myPosts={this.state.myPosts} location={this.state.localPosts} user={this.state.recentPosts} updateUser={this.updateUser}/></div>}} />
-
-
        </Switch>
       </Router>
-      
+      {/* <VerifyCodeNew/> */}
       </div>
     )
   }

@@ -80,8 +80,8 @@ export default class RequestDetails_01 extends Component {
             <div style={{textAlign:"center", }}>
             <hr></hr>
             <p style={{lineHeight:0,display:"block"}} id="showP">show more</p>
-            <button id="moreBtn" onClick={showMore} style={{border:"none", backgroundColor:"white", }}><Icon style={{}} name="angle down"></Icon></button>
-            <button id="upBtn" onClick={showMore} style={{border:"none", backgroundColor:"white", display:"none"}}><Icon name="angle up"></Icon></button>
+            <button id="moreBtn" onClick={showMore} style={{border:"none", backgroundColor:"white", }}><Icon style={{color:"rgb(38, 153, 251)"}} name="angle down"></Icon></button>
+            <button id="upBtn" onClick={showMore} style={{border:"none", backgroundColor:"white", display:"none",color:"rgb(38, 153, 251)"}}><Icon name="angle up"></Icon></button>
 
             </div>
 
@@ -92,9 +92,9 @@ export default class RequestDetails_01 extends Component {
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
         {/* <p>LOCATION</p> */}
-        <div><Translate content="location" component="h4" unsafe={true}/></div>
+        <div className="propsHeaders"><Translate content="location" component="h4" unsafe={true}/></div>
 
-        <p className="propsTags">{this.props.user.location}</p>
+        <p  style={{color:"rgb(0, 130, 242)"}} className="propsTags">{this.props.user.location}</p>
         {/* <Translate content="copy.p1" component="p" unsafe={true}/> */}
 
         </div>
@@ -103,7 +103,7 @@ export default class RequestDetails_01 extends Component {
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
         <div style={{display:"inline-block"}}>
         {/* <p>DISTANCE</p> */}
-        <div><Translate content="distance" component="h4" unsafe={true}/></div>
+        <div className="propsHeaders"><Translate content="distance" component="h4" unsafe={true}/></div>
 
         <p className="propsTags">{this.props.user.distance}</p>
         </div>
@@ -113,14 +113,14 @@ export default class RequestDetails_01 extends Component {
     <Grid.Row>
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
-        <div style={{display:"inline-block"}}>
+        <div className="propsHeaders" style={{display:"inline-block"}}>
         <p>DUE DATE</p>
         <p className="propsTags">{this.props.user.date}</p>
         </div>
       </Grid.Column>
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
-        <div style={{display:"inline-block"}}>
+        <div className="propsHeaders" style={{display:"inline-block"}}>
         <p>URGENCY LEVEL</p>
         <p className="propsTags">Urgent</p>
         </div>
@@ -132,14 +132,14 @@ export default class RequestDetails_01 extends Component {
     <Grid.Row>
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
-        <div style={{display:"inline-block"}}>
+        <div className="propsHeaders" style={{display:"inline-block"}}>
         <Translate content="phone" component="p" />
         <p className="propsTags">{this.props.user.phone}</p>
         </div>
       </Grid.Column>
       <Grid.Column width={8}>
         <img alt='img' src={location} width="10px" style={{float:"left"}}></img>
-        <div style={{display:"inline-block"}}>
+        <div className="propsHeaders" style={{display:"inline-block"}}>
         <p>POSTER NAME</p>
         <p className="propsTags">{this.props.user.userName}</p>
         </div>
