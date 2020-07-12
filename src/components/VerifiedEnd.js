@@ -154,7 +154,7 @@ export default class VerifiedEnd extends Component {
               })
               .catch(error=>{
                   console.log('Error sending location to server' , error)
-                  alert('not getting location')
+                  // alert('not getting location')
   
               })
         }
@@ -205,7 +205,7 @@ export default class VerifiedEnd extends Component {
       }
   }catch (e){
       console.log(`😱 Axios LocationPosts failed: ${e}`);
-      alert(`${e}`)
+      // alert(`${e}`)
   }
 
   //fetching my posts
@@ -257,22 +257,27 @@ else{
       }
     }
     // check verication and return the acording screen
-  
+  verificationAlert(){
+    if(!this.props.status){
+
+    }
+  }
     render() {
-      var recentPosts=[]
+
         return (
             <div style={{height:"100vh", position:"relative", }}>
+            
                 <div style={{paddingBottom:0, marginBottom:0, maxHeight:"50vh"}} id="picUp">
                     <h2 style={{paddingTop:"30px", color:"rgb(253, 253, 253)", marginBottom:0, paddingBottom:0}}>Verified!</h2>
                     <img style={{margin:"auto", marginTop:0}} src={verified} alt="verified"></img>
                 </div>
-                <div style={{borderRadius:"50px", backgroundColor:"white", position:"relative", top:"-40px"}} id="mainDiv">
+                <div style={{borderRadius:"50px", backgroundColor:"white",  top:"-40px",position:"relative"}} id="mainDiv">
                 <div style={{height:"150pt", display:"grid"}}>
                     <p style={{color:"rgb(74, 75, 75)", margin:"auto", fontSize:"40pt", paddingLeft:"40px"}}>Welcome to Willing!</p>
                 </div>
                 
                 </div>
-                <div style={{position:"absolute", bottom:"10%", width:"100%", display:"grid"}}>
+                <div style={{position:"absolute", bottom:"10%", width:"100%", display:"grid", }}>
                 
                <Link style={{margin:"auto"}} to='/PostsPage'><button onClick={this.sendPostToState} style={{backgroundColor:"rgb(80, 210, 194)", width:"200pt", height:"35pt", borderRadius:"50pt", color:"white", margin:"auto"}}>START</button></Link>
 

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 import postJson from './postsJson.json'
-import RecentPosts from './RecentPosts'
+// import RecentPosts from './old comp/RecentPosts'
 
 export default class PostsPage extends Component {
   constructor(props) {

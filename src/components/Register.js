@@ -92,8 +92,9 @@ import Translate from 'react-translate-component';
             let data = res.data.token;
             localStorage.setItem('valid', false)
             console.log(data)
-            //saving the token in local storage
-            // localStorage.setItem('token', data)
+            // saving the token in local storage and the phone number
+            localStorage.setItem('token', data)
+            localStorage.setItem('myPhone', JSON.stringify(phone))
             this.props.addToken(data)
         }catch (e){
             console.log(`😱 Axios requestRegister failed: ${e}`);

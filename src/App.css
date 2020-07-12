@@ -6,9 +6,9 @@
     height: 50vh;
     width: 100%;
     height: 100vh;
-    z-index: 1;
+    z-index: 0;
 }
-.allScreen{
+/* .allScreen{
     display: flex;
     position: fixed;
     top: 0;
@@ -20,8 +20,8 @@
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
-}
-.popWindow{
+} */
+/* .popWindow{
     width: 35%;
     height: 25%;
     display: flex;
@@ -29,7 +29,7 @@
     justify-content: space-around;
     flex-direction: column;
     background-color: rgb(175, 202, 236);
-}
+} */
 .btnYesNo{
     display: flex;
     flex-direction: row;
@@ -37,14 +37,15 @@
     width: 80%;
     margin: auto;
     padding-top: 20px;
+    font-size: 18px;
 }
-.popActivat{
+/* .popActivat{
     visibility: visible;
     opacity: 1;
-}
-.deleteDiv{
+} */
+/* .deleteDiv{
     display: none;
-}
+} */
 .btnQues{
     background-color: rgb(105, 176, 247);
     border-radius: 5px;
@@ -79,4 +80,24 @@
 }
 .propsHeaders{
     font-size: 14px;
+}
+/* VerifyCodeNew */
+.verifyPic{
+    z-index: -5;
+}
+.blackZone{
+    z-index: 7;
+}
+.fullContainer{
+    z-index: 1;
+}
+.squereBox{
+    text-align: center;
+    z-index: 7;
+}
+.sendAgain{
+    z-index: -1;
+}
+.sendAgainLink{
+    z-index: -1;
 }

@@ -5,7 +5,9 @@ import Translate from 'react-translate-component';
 
 export default class SignUp extends Component {
     render() {
-
+        const newfunc=()=>{
+        
+        }
 
         return (
            

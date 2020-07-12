@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import onboarding1 from '../pics/Onboarding_01.png'
 import "./Onboarding.css";
-import Translate from 'react-translate-component';
+import Translate from '../../node_modules/react-translate-component';
 
 export default class Onboarding_01 extends Component {
     constructor(props) {

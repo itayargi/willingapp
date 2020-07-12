@@ -10,7 +10,7 @@ import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import Test from './Test'
 // import Translate from 'react-translate-component';
 import Register from './components/Register'
-import VerifyCode from './components/VerifyCode';
+import VerifyCode from './components/old comp/VerifyCode';
 import SignUp from './components/SignUp'
 import TermsOfUse from './components/TermsOfUse'
 import VerifiedEnd from './components/VerifiedEnd'
